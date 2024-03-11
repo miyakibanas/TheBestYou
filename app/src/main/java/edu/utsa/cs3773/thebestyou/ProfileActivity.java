@@ -20,7 +20,7 @@ public class ProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-        profileController = new ProfileController(); // Initialize the controller
+        profileController = new ProfileController();
 
         final EditText editTextAge = findViewById(R.id.editTextAge);
         final Spinner spinnerGender = findViewById(R.id.spinnerGender);
