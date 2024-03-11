@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TheBestYou</string>
+
+    <string-array name="gender_options">
+        <item>Female</item>
+        <item>Male</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="frequency_options">
+        <item>1/week</item>
+        <item>2/week</item>
+        <item>3/week</item>
+        <item>4/week</item>
+        <item>5/week</item>
+        <item>6/week</item>
+        <item>Every day</item>
+    </string-array>
+
+    <string-array name="level_options">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+    </string-array>
+</resources>
