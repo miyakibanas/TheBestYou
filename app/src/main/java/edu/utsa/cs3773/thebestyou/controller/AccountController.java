@@ -12,11 +12,10 @@ public class AccountController {
     }
 
     public boolean createAccount(String email, String password, String phoneNumber) {
-        // Basic validation (you can expand this according to your requirements)
         if (email.isEmpty() || password.isEmpty() || phoneNumber.isEmpty()) {
             return false;
         }
-        // Create and add the new account
+
         CreateAccount newAccount = new CreateAccount(email, password, phoneNumber);
         accountsList.add(newAccount);
         return true;
