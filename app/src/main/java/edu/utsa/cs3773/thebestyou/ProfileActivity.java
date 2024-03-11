@@ -8,8 +8,8 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
-import edu.utsa.cs3773.thebestyou.model.UserProfile; // Update this import based on your UserProfile model location
-import edu.utsa.cs3773.thebestyou.controller.ProfileController; // Update this import based on your ProfileController location
+import edu.utsa.cs3773.thebestyou.model.UserProfile;
+import edu.utsa.cs3773.thebestyou.controller.ProfileController;
 
 public class ProfileActivity extends AppCompatActivity {
 
