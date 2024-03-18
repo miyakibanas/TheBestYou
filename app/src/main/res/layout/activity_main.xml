@@ -16,8 +16,8 @@
 
     <ImageView
         android:id="@+id/imgView"
-        android:layout_width="384dp"
-        android:layout_height="378dp"
+        android:layout_width="374dp"
+        android:layout_height="340dp"
         android:layout_below="@id/Title"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="103dp"
