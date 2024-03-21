@@ -13,16 +13,18 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/gugi"
             android:text="Profile"
             android:textAlignment="center"
-            android:textSize="24sp"
-            android:layout_marginBottom="24dp"/>
+            android:textSize="34sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gugi"
             android:text="AGE"
-            android:textSize="18sp"/>
+            android:textSize="24sp" />
 
         <EditText
             android:id="@+id/editTextAge"
@@ -35,9 +37,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/gugi"
             android:text="GENDER"
-            android:textSize="18sp"
-            android:layout_marginTop="16dp"/>
+            android:textSize="24sp" />
 
         <Spinner
             android:id="@+id/spinnerGender"
@@ -48,8 +51,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gugi"
             android:text="HEIGHT"
-            android:textSize="18sp"/>
+            android:textSize="24sp" />
 
         <EditText
             android:id="@+id/editTextHeight"
@@ -62,8 +66,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gugi"
             android:text="WEIGHT"
-            android:textSize="18sp"/>
+            android:textSize="24sp" />
 
         <EditText
             android:id="@+id/editTextWeight"
@@ -76,8 +81,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gugi"
             android:text="TARGET WEIGHT"
-            android:textSize="18sp"/>
+            android:textSize="24sp" />
 
         <EditText
             android:id="@+id/editTextTargetWeight"
@@ -90,8 +96,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gugi"
             android:text="FREQUENCY"
-            android:textSize="18sp"/>
+            android:textSize="24sp" />
 
         <Spinner
             android:id="@+id/spinnerFrequency"
@@ -102,8 +109,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/gugi"
             android:text="LEVEL"
-            android:textSize="18sp"/>
+            android:textSize="24sp" />
 
         <Spinner
             android:id="@+id/spinnerLevel"
@@ -116,7 +124,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:background="#2196F3"
+            android:backgroundTint="#092D5D"
+            android:fontFamily="@font/gugi"
             android:text="Next"
             android:textColor="@color/white" />
     </LinearLayout>

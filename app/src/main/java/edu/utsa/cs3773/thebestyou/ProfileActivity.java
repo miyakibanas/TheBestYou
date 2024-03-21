@@ -1,5 +1,6 @@
 package edu.utsa.cs3773.thebestyou;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -8,6 +9,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
+import edu.utsa.cs3773.thebestyou.FitnessGoalActivity;
 import edu.utsa.cs3773.thebestyou.model.UserProfile;
 import edu.utsa.cs3773.thebestyou.controller.ProfileController;
 
@@ -59,6 +61,8 @@ public class ProfileActivity extends AppCompatActivity {
 
 
                     Toast.makeText(ProfileActivity.this, "Profile updated successfully", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(ProfileActivity.this, FitnessGoalActivity.class);
+                    startActivity(intent);
                 } catch (NumberFormatException e) {
                     Toast.makeText(ProfileActivity.this, "Please fill in all fields correctly.", Toast.LENGTH_SHORT).show();
                 }
