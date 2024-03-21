@@ -13,7 +13,7 @@
         android:layout_marginTop="50dp"
         android:fontFamily="@font/gugi"
         android:text="Create new account"
-        android:textSize="20sp" />
+        android:textSize="34sp" />
 
     <EditText
         android:id="@+id/Email"

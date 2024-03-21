@@ -1,5 +1,6 @@
 package edu.utsa.cs3773.thebestyou;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.GridView;
@@ -50,6 +51,8 @@ public class FitnessGoalActivity extends AppCompatActivity {
                 selectedGoalsNames.append(fitnessGoals.get(position).getName()).append(", ");
             }
             Toast.makeText(this, selectedGoalsNames.toString(), Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(FitnessGoalActivity.this, LoadingActivity.class);
+            startActivity(intent);
 
         });
     }
