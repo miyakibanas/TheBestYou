@@ -46,14 +46,14 @@ public class FitnessGoalActivity extends AppCompatActivity {
 
         findViewById(R.id.btnFinishSelection).setOnClickListener(v -> {
             List<Integer> selectedPositions = adapter.getSelectedPositions();
-            StringBuilder selectedGoalsNames = new StringBuilder("Selected Goals: ");
+            ArrayList<String> selectedGoalsNames = new ArrayList<>();
             for (Integer position : selectedPositions) {
-                selectedGoalsNames.append(fitnessGoals.get(position).getName()).append(", ");
+                selectedGoalsNames.add(fitnessGoals.get(position).getName());
             }
             Toast.makeText(this, selectedGoalsNames.toString(), Toast.LENGTH_LONG).show();
             Intent intent = new Intent(FitnessGoalActivity.this, LoadingActivity.class);
+            intent.putStringArrayListExtra("selectedGoals", selectedGoalsNames);
             startActivity(intent);
-
         });
     }
 }
