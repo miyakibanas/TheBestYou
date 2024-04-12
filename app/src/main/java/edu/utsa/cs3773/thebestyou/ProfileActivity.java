@@ -37,35 +37,28 @@ public class ProfileActivity extends AppCompatActivity {
         setupSpinner(spinnerFrequency, R.array.frequency_options);
         setupSpinner(spinnerLevel, R.array.level_options);
 
-        btnNextToGoals.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                try {
-                    int age = Integer.parseInt(editTextAge.getText().toString());
-                    String gender = spinnerGender.getSelectedItem().toString();
-                    String heightInput = editTextHeight.getText().toString().trim();
-                    int feet = 0;
-                    int inches = 0;
-                    if (!heightInput.isEmpty() && heightInput.contains("'") && heightInput.contains("\"")) {
-                        feet = Integer.parseInt(heightInput.split("'")[0]);
-                        inches = Integer.parseInt(heightInput.split("'")[1].replace("\"", ""));
-                    }
-                    int totalInches = feet * 12 + inches;
+        btnNextToGoals.setOnClickListener(view -> {
+            try {
+                int age = Integer.parseInt(editTextAge.getText().toString());
+                String gender = spinnerGender.getSelectedItem().toString();
+                String heightInput = editTextHeight.getText().toString().trim();
+                float weight = Float.parseFloat(editTextWeight.getText().toString());
+                float targetWeight = Float.parseFloat(editTextTargetWeight.getText().toString());
+                String frequency = spinnerFrequency.getSelectedItem().toString();
+                String level = spinnerLevel.getSelectedItem().toString();
 
-                    float weight = Float.parseFloat(editTextWeight.getText().toString());
-                    float targetWeight = Float.parseFloat(editTextTargetWeight.getText().toString());
-                    String frequency = spinnerFrequency.getSelectedItem().toString();
-                    String level = spinnerLevel.getSelectedItem().toString();
+                boolean success = profileController.updateProfile(age, gender, heightInput, weight, targetWeight, frequency, level);
 
-                    profileController.updateProfile(age, gender, totalInches, weight, targetWeight, frequency, level);
-
-
-                    Toast.makeText(ProfileActivity.this, "Profile updated successfully", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(ProfileActivity.this, FitnessGoalActivity.class);
-                    startActivity(intent);
-                } catch (NumberFormatException e) {
+                if (!success) {
                     Toast.makeText(ProfileActivity.this, "Please fill in all fields correctly.", Toast.LENGTH_SHORT).show();
+                    return;
                 }
+
+                Toast.makeText(ProfileActivity.this, "Profile updated successfully", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(ProfileActivity.this, FitnessGoalActivity.class);
+                startActivity(intent);
+            } catch (NumberFormatException e) {
+                Toast.makeText(ProfileActivity.this, "Please fill in all fields correctly.", Toast.LENGTH_SHORT).show();
             }
         });
     }

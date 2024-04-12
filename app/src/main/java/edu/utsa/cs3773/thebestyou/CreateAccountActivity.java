@@ -35,14 +35,12 @@ public class CreateAccountActivity extends AppCompatActivity {
                 String reenteredPassword = ReenterPassword.getText().toString().trim();
                 String phoneNumber = PhoneNumber.getText().toString().trim();
 
-                if (email.isEmpty() || password.isEmpty() || phoneNumber.isEmpty() || !password.equals(reenteredPassword)) {
+                if (!accountController.createAccount(email, password, reenteredPassword, phoneNumber)) {
                     Toast.makeText(CreateAccountActivity.this, "Please enter all details correctly.", Toast.LENGTH_SHORT).show();
-                } else if (accountController.createAccount(email, password, phoneNumber)) {
+                } else {
                     Toast.makeText(CreateAccountActivity.this, "Account created successfully!", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(CreateAccountActivity.this, ProfileActivity.class);
                     startActivity(intent);
-                } else {
-                    Toast.makeText(CreateAccountActivity.this, "Account creation failed. Please try again.", Toast.LENGTH_SHORT).show();
                 }
             }
         });

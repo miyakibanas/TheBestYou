@@ -15,26 +15,21 @@ import androidx.core.view.WindowInsetsCompat;
 import java.util.ArrayList;
 import java.util.List;
 
+import edu.utsa.cs3773.thebestyou.controller.FitnessGoalController;
 import edu.utsa.cs3773.thebestyou.model.FitnessGoal;
 import edu.utsa.cs3773.thebestyou.model.FitnessGoalAdapter;
 
 public class FitnessGoalActivity extends AppCompatActivity {
+
+    private FitnessGoalController fitnessGoalController;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fitness_goal);
 
-        List<FitnessGoal> fitnessGoals = new ArrayList<>();
-        fitnessGoals.add(new FitnessGoal(R.drawable.increase_strength, "Increase Strength"));
-        fitnessGoals.add(new FitnessGoal(R.drawable.tone_up, "Tone Up"));
-        fitnessGoals.add(new FitnessGoal(R.drawable.build_stamina, "Build Stamina"));
-        fitnessGoals.add(new FitnessGoal(R.drawable.lose_weight, "Lose Weight"));
-        fitnessGoals.add(new FitnessGoal(R.drawable.build_lower_body, "Build Lower Body"));
-        fitnessGoals.add(new FitnessGoal(R.drawable.flatten_stomach, "Flatten Stomach"));
-        fitnessGoals.add(new FitnessGoal(R.drawable.improve_balance, "Improve Balance"));
-        fitnessGoals.add(new FitnessGoal(R.drawable.bulk_up, "Bulk Up"));
-        fitnessGoals.add(new FitnessGoal(R.drawable.increase_speed, "Increase Speed"));
+        fitnessGoalController = new FitnessGoalController();
+        List<FitnessGoal> fitnessGoals = fitnessGoalController.getFitnessGoals();
 
         FitnessGoalAdapter adapter = new FitnessGoalAdapter(this, fitnessGoals);
         GridView gridViewFitnessGoals = findViewById(R.id.gridViewFitnessGoals);
@@ -46,14 +41,19 @@ public class FitnessGoalActivity extends AppCompatActivity {
 
         findViewById(R.id.btnFinishSelection).setOnClickListener(v -> {
             List<Integer> selectedPositions = adapter.getSelectedPositions();
-            StringBuilder selectedGoalsNames = new StringBuilder("Selected Goals: ");
-            for (Integer position : selectedPositions) {
-                selectedGoalsNames.append(fitnessGoals.get(position).getName()).append(", ");
-            }
-            Toast.makeText(this, selectedGoalsNames.toString(), Toast.LENGTH_LONG).show();
-            Intent intent = new Intent(FitnessGoalActivity.this, LoadingActivity.class);
-            startActivity(intent);
 
+            // Check if any goals have been selected
+            if (selectedPositions.isEmpty()) {
+                // No goals selected, show an error message
+                Toast.makeText(FitnessGoalActivity.this, "Please select at least one fitness goal before proceeding.", Toast.LENGTH_LONG).show();
+            } else {
+                // Goals have been selected, proceed with navigation
+                ArrayList<String> selectedGoalsNames = fitnessGoalController.getSelectedGoalsNames(selectedPositions);
+                Toast.makeText(this, "Selected Goals: " + selectedGoalsNames.toString(), Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(FitnessGoalActivity.this, LoadingActivity.class);
+                intent.putStringArrayListExtra("selectedGoals", selectedGoalsNames);
+                startActivity(intent);
+            }
         });
     }
 }

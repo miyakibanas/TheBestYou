@@ -7,6 +7,8 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 import com.bumptech.glide.Glide;
 
+import java.util.ArrayList;
+
 
 public class LoadingActivity extends AppCompatActivity {
 
@@ -14,11 +16,15 @@ public class LoadingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loading);
-        ImageView gifImageView1 = findViewById(R.id.gifImageView1);
 
+        ImageView gifImageView1 = findViewById(R.id.gifImageView1);
         Glide.with(this).asGif().load("file:///android_asset/run_loading.gif").into(gifImageView1);
+
+        ArrayList<String> selectedGoals = getIntent().getStringArrayListExtra("selectedGoals");
+
         gifImageView1.postDelayed(() -> {
             Intent intent = new Intent(LoadingActivity.this, ChallengesActivity.class);
+            intent.putStringArrayListExtra("selectedGoals", selectedGoals);
             startActivity(intent);
             finish();
         }, 6000);
