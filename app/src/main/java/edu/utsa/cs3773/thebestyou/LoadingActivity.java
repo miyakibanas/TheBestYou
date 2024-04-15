@@ -9,6 +9,8 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
+import edu.utsa.cs3773.thebestyou.model.FitnessGoal;
+
 
 public class LoadingActivity extends AppCompatActivity {
 
@@ -20,11 +22,11 @@ public class LoadingActivity extends AppCompatActivity {
         ImageView gifImageView1 = findViewById(R.id.gifImageView1);
         Glide.with(this).asGif().load("file:///android_asset/run_loading.gif").into(gifImageView1);
 
-        ArrayList<String> selectedGoals = getIntent().getStringArrayListExtra("selectedGoals");
+        ArrayList<FitnessGoal> selectedGoals = getIntent().getParcelableArrayListExtra("selectedGoals");
 
         gifImageView1.postDelayed(() -> {
             Intent intent = new Intent(LoadingActivity.this, ChallengesActivity.class);
-            intent.putStringArrayListExtra("selectedGoals", selectedGoals);
+            intent.putParcelableArrayListExtra("selectedGoals", selectedGoals);
             startActivity(intent);
             finish();
         }, 6000);

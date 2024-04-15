@@ -30,11 +30,13 @@ public class FitnessGoalController {
         return fitnessGoals;
     }
 
-    public ArrayList<String> getSelectedGoalsNames(List<Integer> selectedPositions) {
-        ArrayList<String> selectedGoalsNames = new ArrayList<>();
-        for (Integer position : selectedPositions) {
-            selectedGoalsNames.add(fitnessGoals.get(position).getName());
+    public List<FitnessGoal> getSelectedFitnessGoals() {
+        List<FitnessGoal> selectedGoals = new ArrayList<>();
+        for (FitnessGoal goal : fitnessGoals) {
+            if (goal.isSelected()) {
+                selectedGoals.add(goal);
+            }
         }
-        return selectedGoalsNames;
+        return selectedGoals;
     }
 }

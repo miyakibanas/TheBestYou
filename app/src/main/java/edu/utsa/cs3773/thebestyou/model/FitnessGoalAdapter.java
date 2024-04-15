@@ -9,6 +9,8 @@ import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.core.content.ContextCompat;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,7 +19,6 @@ import edu.utsa.cs3773.thebestyou.R;
 public class FitnessGoalAdapter extends BaseAdapter {
     private Context context;
     private List<FitnessGoal> fitnessGoals;
-    private List<Integer> selectedPositions = new ArrayList<>();
 
     public FitnessGoalAdapter(Context context, List<FitnessGoal> fitnessGoals) {
         this.context = context;
@@ -41,31 +42,38 @@ public class FitnessGoalAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+        ViewHolder holder;
         if (convertView == null) {
             convertView = LayoutInflater.from(context).inflate(R.layout.item_fitness_goal, parent, false);
+            holder = new ViewHolder();
+            holder.imageView = convertView.findViewById(R.id.imageViewGoal);
+            holder.textView = convertView.findViewById(R.id.textViewGoalName);
+            convertView.setTag(holder);
+        } else {
+            holder = (ViewHolder) convertView.getTag();
         }
+
         FitnessGoal goal = fitnessGoals.get(position);
-
-        ImageView imageView = convertView.findViewById(R.id.imageViewGoal);
-        TextView textView = convertView.findViewById(R.id.textViewGoalName);
-
-        imageView.setImageResource(goal.getImageResId());
-        textView.setText(goal.getName());
-        convertView.setAlpha(selectedPositions.contains(position) ? 0.5f : 1.0f);
+        holder.imageView.setImageResource(goal.getImageResId());
+        holder.textView.setText(goal.getName());
+        if (goal.isSelected()) {
+            convertView.setBackgroundColor(ContextCompat.getColor(context, R.color.selected_item_background));
+        } else {
+            convertView.setBackgroundColor(ContextCompat.getColor(context, R.color.normal_item_background));
+        }
 
         return convertView;
     }
 
+    static class ViewHolder {
+        ImageView imageView;
+        TextView textView;
+    }
+
     public void toggleItemSelection(int position) {
-        if (selectedPositions.contains(position)) {
-            selectedPositions.remove(Integer.valueOf(position));
-        } else {
-            selectedPositions.add(position);
-        }
+        FitnessGoal goal = fitnessGoals.get(position);
+        goal.setSelected(!goal.isSelected());
         notifyDataSetChanged();
     }
 
-    public List<Integer> getSelectedPositions() {
-        return selectedPositions;
-    }
 }

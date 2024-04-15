@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Title Bar -->
+    <TextView
+        android:id="@+id/titleBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME WORKOUT"
+        android:textSize="24sp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <!-- RecyclerView for Challenges -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/challengesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleBar"
+        android:scrollbars="vertical" />
+
+    <!-- Calendar View for Progress -->
+    <GridView
+        android:id="@+id/calendarGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="7"
+        android:gravity="center"
+        android:verticalSpacing="8dp"
+        android:horizontalSpacing="8dp"
+        android:layout_below="@id/challengesRecyclerView" />
+
+
+</RelativeLayout>

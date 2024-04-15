@@ -40,18 +40,16 @@ public class FitnessGoalActivity extends AppCompatActivity {
         });
 
         findViewById(R.id.btnFinishSelection).setOnClickListener(v -> {
-            List<Integer> selectedPositions = adapter.getSelectedPositions();
+            List<FitnessGoal> selectedGoals = fitnessGoalController.getSelectedFitnessGoals();
 
             // Check if any goals have been selected
-            if (selectedPositions.isEmpty()) {
+            if (selectedGoals.isEmpty()) {
                 // No goals selected, show an error message
                 Toast.makeText(FitnessGoalActivity.this, "Please select at least one fitness goal before proceeding.", Toast.LENGTH_LONG).show();
             } else {
                 // Goals have been selected, proceed with navigation
-                ArrayList<String> selectedGoalsNames = fitnessGoalController.getSelectedGoalsNames(selectedPositions);
-                Toast.makeText(this, "Selected Goals: " + selectedGoalsNames.toString(), Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(FitnessGoalActivity.this, LoadingActivity.class);
-                intent.putStringArrayListExtra("selectedGoals", selectedGoalsNames);
+                intent.putParcelableArrayListExtra("selectedGoals", new ArrayList<>(selectedGoals));
                 startActivity(intent);
             }
         });

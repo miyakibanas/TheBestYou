@@ -1,0 +1,166 @@
+{
+  "workouts": [
+    {
+      "goal": "Lose Weight",
+      "level": "Beginner",
+      "exercises": [
+        {
+          "name": "Cardio Blast",
+          "description": "A high-intensity cardio workout to burn calories.",
+          "imageResId": "cardio_blast",
+          "duration": 30
+        },
+        {
+          "name": "HIIT Session",
+          "description": "Quick and intense bursts with rest periods.",
+          "imageResId": "hiit",
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "goal": "Improve Balance",
+      "level": "Intermediate",
+      "exercises": [
+        {
+          "name": "Yoga Basics",
+          "description": "Yoga poses that enhance core strength and balance.",
+          "imageResId": "yoga_balance",
+          "duration": 45
+        },
+        {
+          "name": "Stability Ball Exercises",
+          "description": "Workouts using a stability ball to improve balance.",
+          "imageResId": "stability_ball",
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "goal": "Build Lower Body",
+      "level": "Intermediate",
+      "exercises": [
+        {
+          "name": "Squat Mastery",
+          "description": "Master various squat variations to build strength in your quads, glutes, and hamstrings.",
+          "imageResId": "squat_mastery",
+          "duration": 45
+        },
+        {
+          "name": "Glute Gains",
+          "description": "Target your glutes with exercises like hip thrusts and glute bridges for maximum activation.",
+          "imageResId": "glute_gains",
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "goal": "Build Stamina",
+      "level": "Intermediate",
+      "exercises": [
+        {
+          "name": "Endurance Runs",
+          "description": "Gradually increase your running distance to improve cardiovascular health and endurance.",
+          "imageResId": "endurance_runs",
+          "duration": 45
+        },
+        {
+          "name": "Stair Climbing",
+          "description": "Stair climbing is an effective way to build leg strength and cardiovascular endurance.",
+          "imageResId": "stair_climbing",
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "goal": "Flatten Stomach",
+      "level": "Intermediate",
+      "exercises": [
+        {
+          "name": "Core Conditioning",
+          "description": "Strengthen your core with a mix of planks, Russian twists, and leg raises.",
+          "imageResId": "core_conditioning",
+          "duration": 45
+        },
+        {
+          "name": "Ab Blast",
+          "description": "Incorporate high-intensity interval training focused on the abdominal area to burn fat and tone the core.",
+          "imageResId": "ab_blast",
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "goal": "Increase Speed",
+      "level": "Intermediate",
+      "exercises": [
+        {
+          "name": "Sprint Intervals",
+          "description": "Boost your speed with short, high-intensity sprint intervals.",
+          "imageResId": "sprint_intervals",
+          "duration": 45
+        },
+        {
+          "name": "Resistance Running",
+          "description": "Use resistance bands or parachutes to increase running resistance, improving stride power and speed.",
+          "imageResId": "resistance_running",
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "goal": "Increase Strength",
+      "level": "Intermediate",
+      "exercises": [
+        {
+          "name": "Bodyweight Mastery",
+          "description": "Advance through progressively challenging bodyweight exercises such as pull-ups, push-ups, and dips to increase muscle strength.",
+          "imageResId": "bodyweight_mastery",
+          "duration": 45
+        },
+        {
+          "name": "Weightlifting Power",
+          "description": "Master weightlifting with exercises like squats, deadlifts, and bench presses to build foundational strength.",
+          "imageResId": "weightlifting_power",
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "goal": "Tone Up",
+      "level": "Intermediate",
+      "exercises": [
+        {
+          "name": "Circuit Training",
+          "description": "Engage in high-repetition circuit training to tone muscles and improve cardiovascular health.",
+          "imageResId": "pilates_core_and_more",
+          "duration": 45
+        },
+        {
+          "name": "Pilates Core and More",
+          "description": "Focus on Pilates exercises that target the core while also toning the arms and legs for a full-body effect.",
+          "imageResId": "weightlifting_power",
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "goal": "Bulk Up",
+      "level": "Intermediate",
+      "exercises": [
+        {
+          "name": "Progressive Overload",
+          "description": "Focus on progressively increasing the weight you lift to continually challenge your muscles and stimulate growth.",
+          "imageResId": "progressive_overload",
+          "duration": 45
+        },
+        {
+          "name": "Hypertrophy-Specific Training",
+          "description": "Engage in workouts specifically designed for muscle growth, targeting different muscle groups with high volume and moderate weight.",
+          "imageResId": "hypertrophy_specific_training",
+          "duration": 20
+        }
+      ]
+    }
+  ]
+}
