@@ -34,7 +34,7 @@ public class ChallengesActivity extends AppCompatActivity {
 
         recyclerView = findViewById(R.id.challengesRecyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        adapter = new ChallengeAdapter(this, challenges, this::onChallengeClick);
+        adapter = new ChallengeAdapter(this, challenges, challenges -> {});
         recyclerView.setAdapter(adapter);
 
         Button btnProceed = findViewById(R.id.btnProceedToDashboard);
@@ -42,7 +42,6 @@ public class ChallengesActivity extends AppCompatActivity {
     }
 
     private UserPreferences getUserPreferences() {
-        // Stub for fetching user preferences
         return new UserPreferences("Lose Weight", "Beginner", "Any", 5, 30, "None");
     }
 
@@ -63,7 +62,4 @@ public class ChallengesActivity extends AppCompatActivity {
         }
     }
 
-    private void onChallengeClick(Challenge challenge) {
-        // Optional: Open challenge details or mark as selected
-    }
 }

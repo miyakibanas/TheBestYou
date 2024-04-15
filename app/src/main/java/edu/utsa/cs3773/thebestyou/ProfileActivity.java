@@ -50,7 +50,6 @@ public class ProfileActivity extends AppCompatActivity {
                 boolean success = profileController.updateProfile(age, gender, heightInput, weight, targetWeight, frequency, level);
 
                 if (!success) {
-                    preferenceManager.saveFitnessPreferences(level);
                     Toast.makeText(ProfileActivity.this, "Please fill in all fields correctly.", Toast.LENGTH_SHORT).show();
                     return;
                 }

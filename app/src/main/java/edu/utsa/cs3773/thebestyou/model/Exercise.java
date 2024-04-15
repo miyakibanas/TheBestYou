@@ -3,7 +3,7 @@ package edu.utsa.cs3773.thebestyou.model;
 public class Exercise {
     private String name;
     private String description;
-    private String imageResId;  // Use string to match JSON
+    private String imageResId;
     private int duration;
 
     public String getName() {
