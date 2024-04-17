@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">TheBestYou</string>
+    <string name="profile">Profile</string>
+    <string name="challenges">Challenges</string>
 
     <string-array name="gender_options">
         <item>Female</item>

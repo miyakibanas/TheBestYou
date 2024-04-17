@@ -4,19 +4,18 @@ import java.util.List;
 
 public class WorkoutTemplate {
     private String goal;
-    private String level;
+    private List<String> level;
     private List<Exercise> exercises;
 
+    // Getters and Setters
     public String getGoal() {
         return goal;
     }
 
-    public String getLevel() {
-        return level;
-    }
+    public List<String> getLevel() {
+        return level;  }
 
     public List<Exercise> getExercises() {
         return exercises;
     }
 }
-

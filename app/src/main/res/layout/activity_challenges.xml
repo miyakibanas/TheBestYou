@@ -21,12 +21,12 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/challengesRecyclerView"
-        android:layout_width="379dp"
-        android:layout_height="532dp"
+        android:layout_width="373dp"
+        android:layout_height="589dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="4dp"
-        android:layout_marginBottom="14dp"
+        android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toTopOf="@+id/btnProceedToDashboard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,8 +37,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="42dp"
-        android:text="Continue"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#092D5D"
+        android:fontFamily="@font/gugi"
+        android:text="GET STARTED"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="0dp" />
 

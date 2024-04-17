@@ -1,18 +1,28 @@
 package edu.utsa.cs3773.thebestyou.controller;
 
+import android.content.Context;
+
 import java.util.ArrayList;
 import java.util.List;
 
 import edu.utsa.cs3773.thebestyou.R;
 import edu.utsa.cs3773.thebestyou.model.FitnessGoal;
+import edu.utsa.cs3773.thebestyou.utils.PreferenceManager;
+
+import java.util.HashSet;
+import java.util.Set;
 
 public class FitnessGoalController {
     private List<FitnessGoal> fitnessGoals;
+    private PreferenceManager preferenceManager;
+    private boolean isLoaded = false;
 
-    public FitnessGoalController() {
-        fitnessGoals = new ArrayList<>();
+    public FitnessGoalController(Context context) {
+        this.preferenceManager = new PreferenceManager(context);
+        this.fitnessGoals = new ArrayList<>();
         initializeGoals();
     }
+
 
     private void initializeGoals() {
         fitnessGoals.add(new FitnessGoal(R.drawable.increase_strength, "Increase Strength"));
@@ -27,16 +37,29 @@ public class FitnessGoalController {
     }
 
     public List<FitnessGoal> getFitnessGoals() {
+        if (!isLoaded) {
+            loadSelectedGoals();
+            isLoaded = true;
+        }
         return fitnessGoals;
     }
 
-    public List<FitnessGoal> getSelectedFitnessGoals() {
-        List<FitnessGoal> selectedGoals = new ArrayList<>();
+    private void loadSelectedGoals() {
+        Set<String> selectedGoals = preferenceManager.loadFitnessGoals();
         for (FitnessGoal goal : fitnessGoals) {
-            if (goal.isSelected()) {
-                selectedGoals.add(goal);
+            if (selectedGoals.contains(goal.getName())) {
+                goal.setSelected(true);
             }
         }
-        return selectedGoals;
+    }
+
+    public void saveSelectedGoals() {
+        Set<String> selectedGoals = new HashSet<>();
+        for (FitnessGoal goal : fitnessGoals) {
+            if (goal.isSelected()) {
+                selectedGoals.add(goal.getName());
+            }
+        }
+        preferenceManager.saveFitnessGoals(selectedGoals);
     }
 }

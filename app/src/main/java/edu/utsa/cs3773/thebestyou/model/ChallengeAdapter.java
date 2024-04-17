@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import edu.utsa.cs3773.thebestyou.R;
@@ -61,6 +62,10 @@ public class ChallengeAdapter extends RecyclerView.Adapter<ChallengeAdapter.Chal
         Challenge challenge = challengeList.get(position);
         challenge.setSelected(!challenge.isSelected());
         notifyItemChanged(position);
+    }
+
+    public List<Challenge> getAllChallenges() {
+        return new ArrayList<>(challengeList); 
     }
 
     private int getDrawableResourceId(String imageName) {

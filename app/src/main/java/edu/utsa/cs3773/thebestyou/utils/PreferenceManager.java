@@ -2,30 +2,61 @@ package edu.utsa.cs3773.thebestyou.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+
 import edu.utsa.cs3773.thebestyou.model.UserPreferences;
+import edu.utsa.cs3773.thebestyou.model.UserProfile;
 
 public class PreferenceManager {
     private static final String PREF_NAME = "FitnessAppPreferences";
-    private static final String KEY_FITNESS_GOAL = "fitness_goal";
-    private static final String KEY_FITNESS_LEVEL = "fitness_level";
-
     private SharedPreferences sharedPreferences;
 
     public PreferenceManager(Context context) {
         this.sharedPreferences = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);
     }
 
-    public void saveFitnessPreferences(String goal, String level) {
+    public void saveUserSettings(UserPreferences preferences, UserProfile profile) {
         SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putString(KEY_FITNESS_GOAL, goal);
-        editor.putString(KEY_FITNESS_LEVEL, level);
+        editor.putStringSet("fitness_goals", new HashSet<>(preferences.getFitnessGoals()));
+        editor.putString("fitness_level", preferences.getFitnessLevel());
+        editor.putInt("age", profile.getAge());
+        editor.putString("gender", profile.getGender());
+        editor.putInt("heightInches", profile.getHeightInches());
+        editor.putFloat("weight", profile.getWeight());
+        editor.putFloat("targetWeight", profile.getTargetWeight());
+        editor.putString("frequency", profile.getFrequency());
+        editor.putString("level", profile.getLevel());
         editor.apply();
     }
 
-    public UserPreferences loadFitnessPreferences() {
-        String goal = sharedPreferences.getString(KEY_FITNESS_GOAL, null);
-        String level = sharedPreferences.getString(KEY_FITNESS_LEVEL, null);
-        return new UserPreferences(goal, level);
+    public void saveFitnessGoals(Set<String> goals) {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putStringSet("fitness_goals", goals);
+        editor.apply();
+    }
+
+    public Set<String> loadFitnessGoals() {
+        return sharedPreferences.getStringSet("fitness_goals", new HashSet<>());
+    }
+
+    public UserPreferences loadUserPreferences() {
+        Set<String> goals = sharedPreferences.getStringSet("fitness_goals", new HashSet<>());
+        String level = sharedPreferences.getString("fitness_level", "default_level");
+        return new UserPreferences(new ArrayList<>(goals), level);
+    }
+
+    public UserProfile loadUserProfile() {
+        int age = sharedPreferences.getInt("age", 0);
+        String gender = sharedPreferences.getString("gender", "Not Specified");
+        int heightInches = sharedPreferences.getInt("heightInches", 0);
+        float weight = sharedPreferences.getFloat("weight", 0);
+        float targetWeight = sharedPreferences.getFloat("targetWeight", 0);
+        String frequency = sharedPreferences.getString("frequency", "Not Specified");
+        String level = sharedPreferences.getString("level", "Not Specified");
+        return new UserProfile(age, gender, heightInches, weight, targetWeight, frequency, level);
     }
 }
 

@@ -2,7 +2,7 @@
   "workouts": [
     {
       "goal": "Lose Weight",
-      "level": "Beginner",
+      "level": ["Beginner", "Intermediate"],
       "exercises": [
         {
           "name": "Cardio Blast",
@@ -20,7 +20,7 @@
     },
     {
       "goal": "Improve Balance",
-      "level": "Intermediate",
+      "level": ["Beginner", "Intermediate"],
       "exercises": [
         {
           "name": "Yoga Basics",
@@ -38,7 +38,7 @@
     },
     {
       "goal": "Build Lower Body",
-      "level": "Intermediate",
+      "level": ["Beginner", "Intermediate"],
       "exercises": [
         {
           "name": "Squat Mastery",
@@ -56,7 +56,7 @@
     },
     {
       "goal": "Build Stamina",
-      "level": "Intermediate",
+      "level": ["Beginner", "Intermediate"],
       "exercises": [
         {
           "name": "Endurance Runs",
@@ -74,7 +74,7 @@
     },
     {
       "goal": "Flatten Stomach",
-      "level": "Intermediate",
+      "level": ["Beginner", "Intermediate"],
       "exercises": [
         {
           "name": "Core Conditioning",
@@ -92,7 +92,7 @@
     },
     {
       "goal": "Increase Speed",
-      "level": "Intermediate",
+      "level": ["Beginner", "Intermediate"],
       "exercises": [
         {
           "name": "Sprint Intervals",
@@ -110,7 +110,7 @@
     },
     {
       "goal": "Increase Strength",
-      "level": "Intermediate",
+      "level": ["Beginner", "Intermediate"],
       "exercises": [
         {
           "name": "Bodyweight Mastery",
@@ -128,7 +128,7 @@
     },
     {
       "goal": "Tone Up",
-      "level": "Intermediate",
+      "level": ["Beginner", "Intermediate"],
       "exercises": [
         {
           "name": "Circuit Training",
@@ -146,7 +146,7 @@
     },
     {
       "goal": "Bulk Up",
-      "level": "Intermediate",
+      "level": ["Beginner", "Intermediate"],
       "exercises": [
         {
           "name": "Progressive Overload",

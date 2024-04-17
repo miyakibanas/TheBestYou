@@ -12,17 +12,20 @@ import androidx.appcompat.app.AppCompatActivity;
 import edu.utsa.cs3773.thebestyou.FitnessGoalActivity;
 import edu.utsa.cs3773.thebestyou.model.UserProfile;
 import edu.utsa.cs3773.thebestyou.controller.ProfileController;
+import edu.utsa.cs3773.thebestyou.utils.PreferenceManager;
 
 public class ProfileActivity extends AppCompatActivity {
 
     private ProfileController profileController;
+    private PreferenceManager preferenceManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-        profileController = new ProfileController();
+        profileController = new ProfileController(this);
+        preferenceManager = new PreferenceManager(this);
 
         final EditText editTextAge = findViewById(R.id.editTextAge);
         final Spinner spinnerGender = findViewById(R.id.spinnerGender);
@@ -53,9 +56,9 @@ public class ProfileActivity extends AppCompatActivity {
                     Toast.makeText(ProfileActivity.this, "Please fill in all fields correctly.", Toast.LENGTH_SHORT).show();
                     return;
                 }
-
                 Toast.makeText(ProfileActivity.this, "Profile updated successfully", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(ProfileActivity.this, FitnessGoalActivity.class);
+                intent.putExtra("selectedLevel", level);
                 startActivity(intent);
             } catch (NumberFormatException e) {
                 Toast.makeText(ProfileActivity.this, "Please fill in all fields correctly.", Toast.LENGTH_SHORT).show();
@@ -70,3 +73,4 @@ public class ProfileActivity extends AppCompatActivity {
         spinner.setAdapter(adapter);
     }
 }
+

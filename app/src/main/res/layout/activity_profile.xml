@@ -29,7 +29,7 @@
         <EditText
             android:id="@+id/editTextAge"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:inputType="number"
             android:textColorHint="#000000" />
 
@@ -44,7 +44,7 @@
         <Spinner
             android:id="@+id/spinnerGender"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="48dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -56,7 +56,7 @@
         <EditText
             android:id="@+id/editTextHeight"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:inputType="text"
             android:textColorHint="#000000" />
 
@@ -70,7 +70,7 @@
         <EditText
             android:id="@+id/editTextWeight"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:inputType="number"
             android:textColorHint="#000000" />
 
@@ -84,7 +84,7 @@
         <EditText
             android:id="@+id/editTextTargetWeight"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:inputType="number"
             android:textColorHint="#000000" />
 
@@ -98,7 +98,7 @@
         <Spinner
             android:id="@+id/spinnerFrequency"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="48dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -110,7 +110,7 @@
         <Spinner
             android:id="@+id/spinnerLevel"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="48dp" />
 
         <Button
             android:id="@+id/btnNextToGoals"

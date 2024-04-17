@@ -3,6 +3,7 @@ package edu.utsa.cs3773.thebestyou;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.GridView;
+import android.widget.ImageView;
 
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
@@ -18,67 +19,50 @@ import java.util.List;
 import edu.utsa.cs3773.thebestyou.model.CalendarAdapter;
 import edu.utsa.cs3773.thebestyou.model.Challenge;
 import edu.utsa.cs3773.thebestyou.model.ChallengeAdapter;
+import edu.utsa.cs3773.thebestyou.model.DashboardAdapter;
+import edu.utsa.cs3773.thebestyou.model.DashboardItem;
 
 public class DashboardActivity extends AppCompatActivity {
-
-    private ChallengeAdapter challengeAdapter;
-    private CalendarAdapter calendarAdapter;
-    private List<Challenge> selectedChallenges;
-    private List<Boolean> completionStatus;
-    private RecyclerView challengesRecyclerView;
-    private GridView calendarGridView;
-    private static final int REQUEST_CODE_CHALLENGE_DETAIL = 1;
-
-    private ActivityResultLauncher<Intent> challengeDetailLauncher;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-        selectedChallenges = getIntent().getParcelableArrayListExtra("selectedChallenges");
-        initializeCompletionStatus(30);
+        GridView gridView = findViewById(R.id.gridViewDashboard);
+        List<DashboardItem> items = getDashboardItems();
+        DashboardAdapter adapter = new DashboardAdapter(this, items);
+        gridView.setAdapter(adapter);
 
-        setupChallengesRecyclerView();
-        setupCalendarGridView();
-        setupActivityResultLauncher();
+        gridView.setOnItemClickListener((parent, view, position, id) -> {
+            DashboardItem item = items.get(position);
+            navigateToActivity(item.getTitle());
+        });
     }
 
-    private void setupActivityResultLauncher() {
-        challengeDetailLauncher = registerForActivityResult(
-                new ActivityResultContracts.StartActivityForResult(),
-                result -> {
-                    if (result.getResultCode() == RESULT_OK && result.getData() != null) {
-                        int dayCompleted = result.getData().getIntExtra("dayCompleted", -1);
-                        if (dayCompleted >= 0) {
-                            completionStatus.set(dayCompleted, true);
-                            calendarAdapter.notifyDataSetChanged();
-                        }
-                    }
-                });
+    private List<DashboardItem> getDashboardItems() {
+        List<DashboardItem> items = new ArrayList<>();
+        items.add(new DashboardItem(R.drawable.ic_challenges, "CHALLENGES"));
+        items.add(new DashboardItem(R.drawable.ic_progress, "PROGRESS"));
+        items.add(new DashboardItem(R.drawable.ic_rewards, "REWARDS"));
+        items.add(new DashboardItem(R.drawable.ic_profile, "PROFILE"));
+        return items;
     }
 
-    private void setupChallengesRecyclerView() {
-        challengesRecyclerView = findViewById(R.id.challengesRecyclerView);
-        challengeAdapter = new ChallengeAdapter(this, selectedChallenges, this::onChallengeClick);
-        challengesRecyclerView.setAdapter(challengeAdapter);
-        challengesRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+    private void navigateToActivity(String title) {
+        // Based on the title, decide which activity to navigate to.
+        if (title.equals("CHALLENGES")) {
+            ArrayList<Challenge> selectedChallenges = getIntent().getParcelableArrayListExtra("selectedChallenges");
+            Intent intent = new Intent(DashboardActivity.this, SelectedChallengesActivity.class);
+            intent.putParcelableArrayListExtra("selectedChallenges", selectedChallenges);
+            startActivity(intent);
+        } else if (title.equals("PROGRESS")) {
+            // Navigate to Progress Activity
+        } else if (title.equals("REWARDS")) {
+            // Navigate to Rewards Activity
+        } else if (title.equals("PROFILE")) {
+            // Navigate to Profile Activity
+        }
     }
-
-    private void onChallengeClick(Challenge challenge) {
-        Intent intent = new Intent(DashboardActivity.this, ChallengeDetailActivity.class);
-        intent.putExtra("Challenge", challenge);
-        challengeDetailLauncher.launch(intent);
-    }
-
-    private void setupCalendarGridView() {
-        calendarGridView = findViewById(R.id.calendarGridView);
-        calendarAdapter = new CalendarAdapter(this, 30, completionStatus);
-        calendarGridView.setAdapter(calendarAdapter);
-    }
-
-    private void initializeCompletionStatus(int daysCount) {
-        completionStatus = new ArrayList<>(Collections.nCopies(daysCount, false));
-    }
-
 }
+
