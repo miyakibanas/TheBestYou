@@ -4,8 +4,6 @@ public class Exercise {
     private String name;
     private String description;
     private String imageResId;
-    private int duration;
-
     public String getName() {
         return name;
     }
@@ -16,9 +14,5 @@ public class Exercise {
 
     public String getImageResId() {
         return imageResId;
-    }
-
-    public int getDuration() {
-        return duration;
     }
 }
