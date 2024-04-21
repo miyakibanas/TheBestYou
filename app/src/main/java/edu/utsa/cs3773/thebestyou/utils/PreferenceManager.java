@@ -5,8 +5,11 @@ import android.content.SharedPreferences;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
+import edu.utsa.cs3773.thebestyou.model.Challenge;
 import edu.utsa.cs3773.thebestyou.model.UserPreferences;
 import edu.utsa.cs3773.thebestyou.model.UserProfile;
 
@@ -22,6 +25,7 @@ public class PreferenceManager {
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putStringSet("fitness_goals", new HashSet<>(preferences.getFitnessGoals()));
         editor.putString("fitness_level", preferences.getFitnessLevel());
+        editor.putString("name", profile.getName());
         editor.putInt("age", profile.getAge());
         editor.putString("gender", profile.getGender());
         editor.putInt("heightInches", profile.getHeightInches());
@@ -49,6 +53,7 @@ public class PreferenceManager {
     }
 
     public UserProfile loadUserProfile() {
+        String name = sharedPreferences.getString("name", "No Name");
         int age = sharedPreferences.getInt("age", 0);
         String gender = sharedPreferences.getString("gender", "Not Specified");
         int heightInches = sharedPreferences.getInt("heightInches", 0);
@@ -56,7 +61,8 @@ public class PreferenceManager {
         float targetWeight = sharedPreferences.getFloat("targetWeight", 0);
         String frequency = sharedPreferences.getString("frequency", "Not Specified");
         String level = sharedPreferences.getString("level", "Not Specified");
-        return new UserProfile(age, gender, heightInches, weight, targetWeight, frequency, level);
+        return new UserProfile(name, age, gender, heightInches, weight, targetWeight, frequency, level);
     }
+
 }
 
