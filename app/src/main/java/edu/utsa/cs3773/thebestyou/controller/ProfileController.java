@@ -27,8 +27,8 @@ public class ProfileController {
         }
     }
 
-    public boolean updateProfile(int age, String gender, String heightInput, float weight, float targetWeight, String frequency, String level) {
-        if (age <= 0 || weight <= 0 || targetWeight <= 0 || gender.isEmpty() || frequency.isEmpty() || level.isEmpty() || heightInput.isEmpty()) {
+    public boolean updateProfile(String name, int age, String gender, String heightInput, float weight, float targetWeight, String frequency, String level) {
+        if (name.isEmpty() || age <= 0 || weight <= 0 || targetWeight <= 0 || gender.isEmpty() || frequency.isEmpty() || level.isEmpty() || heightInput.isEmpty()) {
             return false;
         }
 
@@ -41,7 +41,7 @@ public class ProfileController {
         Set<String> existingGoals = preferenceManager.loadFitnessGoals();
         List<String> fitnessGoals = new ArrayList<>(existingGoals);
 
-        UserProfile userProfile = new UserProfile(age, gender, totalInches, weight, targetWeight, frequency, level);
+        UserProfile userProfile = new UserProfile(name, age, gender, totalInches, weight, targetWeight, frequency, level);
         UserPreferences userPreferences = new UserPreferences(fitnessGoals, level);
         preferenceManager.saveUserSettings(userPreferences, userProfile);
         return true;

@@ -9,8 +9,6 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
-import edu.utsa.cs3773.thebestyou.FitnessGoalActivity;
-import edu.utsa.cs3773.thebestyou.model.UserProfile;
 import edu.utsa.cs3773.thebestyou.controller.ProfileController;
 import edu.utsa.cs3773.thebestyou.utils.PreferenceManager;
 
@@ -27,6 +25,7 @@ public class ProfileActivity extends AppCompatActivity {
         profileController = new ProfileController(this);
         preferenceManager = new PreferenceManager(this);
 
+        final EditText editTextName = findViewById(R.id.editTextName);
         final EditText editTextAge = findViewById(R.id.editTextAge);
         final Spinner spinnerGender = findViewById(R.id.spinnerGender);
         final EditText editTextHeight = findViewById(R.id.editTextHeight);
@@ -42,6 +41,7 @@ public class ProfileActivity extends AppCompatActivity {
 
         btnNextToGoals.setOnClickListener(view -> {
             try {
+                String name = editTextName.getText().toString().trim();
                 int age = Integer.parseInt(editTextAge.getText().toString());
                 String gender = spinnerGender.getSelectedItem().toString();
                 String heightInput = editTextHeight.getText().toString().trim();
@@ -50,7 +50,7 @@ public class ProfileActivity extends AppCompatActivity {
                 String frequency = spinnerFrequency.getSelectedItem().toString();
                 String level = spinnerLevel.getSelectedItem().toString();
 
-                boolean success = profileController.updateProfile(age, gender, heightInput, weight, targetWeight, frequency, level);
+                boolean success = profileController.updateProfile(name, age, gender, heightInput, weight, targetWeight, frequency, level);
 
                 if (!success) {
                     Toast.makeText(ProfileActivity.this, "Please fill in all fields correctly.", Toast.LENGTH_SHORT).show();
