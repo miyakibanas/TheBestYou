@@ -1,6 +1,7 @@
 package edu.utsa.cs3773.thebestyou.model;
 
 public class UserProfile {
+    private String name;
     private int age;
     private String gender;
     private int heightInches;
@@ -10,7 +11,8 @@ public class UserProfile {
     private String level;
 
     // Constructor
-    public UserProfile(int age, String gender, int heightInches, float weight, float targetWeight, String frequency, String level) {
+    public UserProfile(String name, int age, String gender, int heightInches, float weight, float targetWeight, String frequency, String level) {
+        this.name = name;
         this.age = age;
         this.gender = gender;
         this.heightInches = heightInches;
@@ -21,6 +23,13 @@ public class UserProfile {
     }
 
     // Getters and Setters
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
     public int getAge() {
         return age;
     }
