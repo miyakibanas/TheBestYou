@@ -24,4 +24,7 @@
         <item>Intermediate</item>
         <item>Advanced</item>
     </string-array>
+    <string name="title_activity_challenge_detail">ChallengeDetailActivity</string>
+    <string name="title_activity_challenge_detail_activity.java">ChallengeDetailActivity.java
+    </string>
 </resources>

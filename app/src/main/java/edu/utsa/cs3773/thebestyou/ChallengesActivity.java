@@ -2,6 +2,7 @@ package edu.utsa.cs3773.thebestyou;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -57,6 +58,7 @@ public class ChallengesActivity extends AppCompatActivity {
         } else {
             Intent intent = new Intent(ChallengesActivity.this, DashboardActivity.class);
             intent.putParcelableArrayListExtra("selectedChallenges", selectedChallenges);
+
             startActivity(intent);
         }
     }

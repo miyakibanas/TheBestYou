@@ -7,7 +7,6 @@ import android.widget.GridView;
 
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -19,6 +18,8 @@ import java.util.List;
 import edu.utsa.cs3773.thebestyou.model.CalendarAdapter;
 import edu.utsa.cs3773.thebestyou.model.Challenge;
 import edu.utsa.cs3773.thebestyou.model.ChallengeAdapter;
+import edu.utsa.cs3773.thebestyou.model.UserPreferences;
+import edu.utsa.cs3773.thebestyou.utils.PreferenceManager;
 
 public class SelectedChallengesActivity extends AppCompatActivity {
 
@@ -29,6 +30,7 @@ public class SelectedChallengesActivity extends AppCompatActivity {
     private RecyclerView challengesRecyclerView;
     private GridView calendarGridView;
     private static final int REQUEST_CODE_CHALLENGE_DETAIL = 1;
+    private PreferenceManager preferenceManager;
 
     private ActivityResultLauncher<Intent> challengeDetailLauncher;
 
@@ -36,6 +38,8 @@ public class SelectedChallengesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_selected_challenges);
+
+        preferenceManager = new PreferenceManager(this);
 
         selectedChallenges = getIntent().getParcelableArrayListExtra("selectedChallenges");
         initializeCompletionStatus(30);
@@ -67,10 +71,20 @@ public class SelectedChallengesActivity extends AppCompatActivity {
     }
 
     private void onChallengeClick(Challenge challenge) {
+        // Retrieve user preferences
+        UserPreferences userPreferences = preferenceManager.loadUserPreferences();
+
+        Log.d("SelectedChallengesActivity", "Selected Challenge: " + challenge);
+        Log.d("SelectedChallengesActivity", "User Preferences: " + userPreferences);
+
+        // Pass user preferences along with the challenge to the ChallengeDetailActivity
         Intent intent = new Intent(SelectedChallengesActivity.this, ChallengeDetailActivity.class);
         intent.putExtra("Challenge", challenge);
+        intent.putExtra("UserPreferences", userPreferences);
+
         challengeDetailLauncher.launch(intent);
     }
+
 
     private void setupCalendarGridView() {
         calendarGridView = findViewById(R.id.calendarGridView);
@@ -81,5 +95,5 @@ public class SelectedChallengesActivity extends AppCompatActivity {
     private void initializeCompletionStatus(int daysCount) {
         completionStatus = new ArrayList<>(Collections.nCopies(daysCount, false));
     }
-
 }
+

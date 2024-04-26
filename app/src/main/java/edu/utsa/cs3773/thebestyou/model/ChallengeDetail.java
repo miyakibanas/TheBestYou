@@ -1,78 +1,119 @@
+// ChallengeDetail.java
 package edu.utsa.cs3773.thebestyou.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ChallengeDetail {
-    private String title;
-    private String description;
-    private String imageResId;
-    private List<Workout> workouts;
+    private String challengeName;
+    private String goalName;
+    private Level level;
 
-    public ChallengeDetail(String title, String description, String imageResId, List<Workout> workouts) {
-        this.title = title;
-        this.description = description;
-        this.imageResId = imageResId;
-        this.workouts = workouts;
+    public ChallengeDetail(String challengeName, String goalName, Level level) {
+        this.challengeName = challengeName;
+        this.goalName = goalName;
+        this.level = level;
     }
 
-    // Getters
-    public String getTitle() {
-        return title;
+    public String getChallengeName() {
+        return challengeName;
     }
 
-    public String getDescription() {
-        return description;
+    public String getGoalName() {
+        return goalName;
     }
 
-    public String getImageResId() {
-        return imageResId;
+    public Level getLevel() {
+        return level;
     }
 
-    public List<Workout> getWorkouts() {
-        return workouts;
+    public static class Level {
+        private String levelName;
+        private List<Week> weeks;
+
+        public Level(String levelName, List<Week> weeks) {
+            this.levelName = levelName;
+            this.weeks = weeks;
+        }
+
+        public String getLevelName() {
+            return levelName;
+        }
+
+        public List<Week> getWeeks() {
+            return weeks;
+        }
+    }
+
+    public static class Week {
+        private int weekNumber;
+        private Workout workout;
+
+        public Week(int weekNumber, Workout workout) {
+            this.weekNumber = weekNumber;
+            this.workout = workout;
+        }
+
+        public int getWeekNumber() {
+            return weekNumber;
+        }
+
+        public Workout getWorkout() {
+            return workout;
+        }
+
+        public List<Exercise> getExercises() {
+            return workout.getExercises();
+        }
+
     }
 
     public static class Workout {
-        private String name;
-        private String duration;
+        private String workoutName;
+        private String workoutDescription;
+        private String overallDuration;
         private List<Exercise> exercises;
 
-        public Workout(String name, String duration, List<Exercise> exercises) {
-            this.name = name;
-            this.duration = duration;
+        public Workout(String workoutName, String workoutDescription, String overallDuration, List<Exercise> exercises) {
+            this.workoutName = workoutName;
+            this.workoutDescription = workoutDescription;
+            this.overallDuration = overallDuration;
             this.exercises = exercises;
         }
 
-        // Getters
-        public String getName() {
-            return name;
+        public String getWorkoutName() {
+            return workoutName;
         }
 
-        public String getDuration() {
-            return duration;
+        public String getWorkoutDescription() {
+            return workoutDescription;
+        }
+
+        public String getOverallDuration() {
+            return overallDuration;
         }
 
         public List<Exercise> getExercises() {
             return exercises;
         }
+    }
 
-        public static class Exercise {
-            private String name;
-            private String description;
+    public static class Exercise {
+        private String exerciseName;
+        private String exerciseDuration;
 
-            public Exercise(String name, String description) {
-                this.name = name;
-                this.description = description;
-            }
+        public Exercise(String exerciseName, String exerciseDuration) {
+            this.exerciseName = exerciseName;
+            this.exerciseDuration = exerciseDuration;
+        }
 
-            // Getters
-            public String getName() {
-                return name;
-            }
+        public String getExerciseName() {
+            return exerciseName;
+        }
 
-            public String getDescription() {
-                return description;
-            }
+        public String getExerciseDuration() {
+            return exerciseDuration;
         }
     }
+
 }

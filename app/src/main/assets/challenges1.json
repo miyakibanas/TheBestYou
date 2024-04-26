@@ -1,0 +1,5852 @@
+{
+  "fitness_goals": [
+    {
+      "goal": "Lose Weight",
+      "challenges": [
+        {
+          "name": "Cardio Blast",
+          "level": [
+            {
+              "name": "Beginner",
+              "workouts": [
+                {
+                  "week": 1,
+                  "workouts": {
+                    "overall_duration": "20 minutes",
+                    "exercises": [
+                      {
+                        "name": "Jumping jacks",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "High knees",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Burpees",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Jump squats",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Mountain climbers",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "4 times"
+                    }
+                    ]
+                  }
+                },
+                {
+                  "week": 2,
+                  "workouts": {
+                    "overall_duration": "25 minutes",
+                    "exercises": [
+                      {
+                        "name": "Jumping lunges",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "High knees with weights",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Plyo push-ups",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Sprint with resistance bands",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Mountain climbers with sliders",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "5 times"
+                    }
+                    ]
+                  }
+                },
+                {
+                  "week": 3,
+                  "workouts": {
+                    "overall_duration": "30 minutes",
+                    "exercises": [
+                      {
+                        "name": "Jump rope",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Tuck jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Plank jacks",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Sprint intervals",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Side-to-side jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "6 times"
+                    }
+                    ]
+                  }
+                },
+                {
+                  "week": 4,
+                  "workouts": {
+                    "overall_duration": "35 minutes",
+                    "exercises": [
+                      {
+                        "name": "Burpee tuck jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Jumping lunges with weights",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Plyo lunges",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Sprint with weighted vest",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Mountain climbers with medicine ball",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "7 times"
+                    }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Intermediate",
+              "workouts": [
+                {
+                  "week": 1,
+                  "workout": {
+                    "overall_duration": "25 minutes",
+                    "exercises": [
+                      {
+                        "name": "Jumping jacks",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "High knees",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Burpees",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Jump squats",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Mountain climbers",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "5 times"
+                    }
+                    ]
+                  }
+                },
+                {
+                  "week": 2,
+                  "workouts": {
+                    "overall_duration": "30 minutes",
+                    "exercises": [
+                      {
+                        "name": "Jumping lunges",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "High knees with weights",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Plyo push-ups",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Sprint with resistance bands",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Mountain climbers with sliders",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "6 times"
+                    }
+
+                    ]
+                  }
+                },
+                {
+                  "week": 3,
+                  "workouts": {
+                    "overall_duration": "35 minutes",
+                    "exercises": [
+                      {
+                        "name": "Jump rope",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Tuck jumps",
+                        "duration": "1 minute"
+
+                      },
+                      {
+                        "name": "Plank jacks",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Sprint intervals",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Side-to-side jumps",
+                        "duration": "1 minute"
+
+                      },
+                      {
+                        "name":"Repeat",
+
+                      "duration": "7 times"
+                    }
+                    ]
+                  }
+                },
+                {
+                  "week": 4,
+                  "workouts": {
+
+                    "overall_duration": "40 minutes",
+                    "exercises": [
+                      {
+                        "name": "Burpee tuck jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Jumping lunges with weights",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Plyo lunges",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Sprint with weighted vest",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Mountain climbers with medicine ball",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "8 times"
+                    }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Advanced",
+              "workouts": [
+                {
+                  "week": 1,
+                  "workouts": {
+                    "overall_duration": "30 minutes",
+                    "exercises": [
+                      {
+                        "name": "Jumping jacks",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "High knees",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Burpees",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Jump squats",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Mountain climbers",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "6 times"
+                    }
+                    ]
+                  }
+                },
+                {
+                  "week": 2,
+                  "workouts": {
+                  "overall_duration": "35 minutes",
+                  "exercises": [
+                    {
+                      "name": "Jumping lunges",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "High knees with weights",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Plyo push-ups",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Sprint with resistance bands",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Mountain climbers with sliders",
+                      "duration": "1 minute"
+                    },
+
+                    {
+                      "name":"Repeat",
+
+                    "duration": "7 times"
+                  }
+                  ]
+                }
+              },
+                {
+                  "week": 3,
+                  "workouts": {
+                    "overall_duration": "40 minutes",
+                    "exercises": [
+                      {
+                        "name": "Jump rope",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Tuck jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Plank jacks",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Sprint intervals",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Side-to-side jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "8 times"
+                    }
+                    ]
+                  }
+                },
+                {
+                  "week": 4,
+                  "workouts": {
+                    "overall_duration": "45 minutes",
+                    "exercises": [
+                      {
+                        "name": "Burpee tuck jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Jumping lunges with weights",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Plyo lunges",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Sprint with weighted vest",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Mountain climbers with medicine ball",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "9 times"
+                    }
+
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HIIT Session",
+          "level": [
+            {
+              "name": "Beginner",
+              "workouts": [
+                {
+                  "week": 1,
+                  "workouts": {
+                    "overall_duration": "30 minutes",
+                    "exercises": [
+                      {
+                        "name": "Sprint",
+                        "duration": "30 secs"
+                      },
+                      {
+                        "name": "Rest",
+                        "duration": "30 secs"
+                      },
+                      {
+                        "name": "Jump lunges",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Bicycle crunches",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Box jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Plank jacks",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+
+                      "duration": "6 times"
+                    }
+                    ]
+                  }
+                },
+                {
+                  "week": 2,
+                  "workouts": {
+                    "overall_duration": "30 minutes",
+                    "exercises": [
+                      {
+                        "name": "Burpee tuck jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "High knees with weights",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Plyo lunges",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Sprint with resistance bands",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Mountain climbers with sliders",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "6 times"
+                    }
+                    ]
+                  }
+                },
+                {
+                  "week": 3,
+                  "workouts": {
+                    "overall_duration": "30 minutes",
+                    "exercises": [
+                      {
+                        "name": "Jump rope",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Tuck jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Plank jacks",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Sprint intervals",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Side-to-side jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "6 times"
+                    }
+                    ]
+                  }
+                },
+                {
+                  "week": 4,
+                  "workouts":{
+                    "overall_duration": "30 minutes",
+                    "exercises": [
+                      {
+                        "name": "Burpee tuck jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Jumping lunges with weights",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Plyo lunges",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Sprint with weighted vest",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Mountain climbers with medicine ball",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "6 times"
+                    }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Intermediate",
+              "workouts": [
+                {
+                  "week": 1,
+                  "workouts": {
+                    "overall_duration": "35 minutes",
+                    "exercises": [
+                      {
+                        "name": "Sprint",
+                        "duration": "30 secs"
+                      },
+                      {
+                        "name": "Rest",
+                        "duration": "30 secs"
+                      },
+                      {
+                        "name": "Jump lunges",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Bicycle crunches",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Box jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Plank jacks",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "7 times"
+                    }
+                    ]
+                  }
+                },
+                {
+                  "week": 2,
+                  "workouts": {
+
+                    "overall_duration": "35 minutes",
+                    "exercises": [
+                      {
+                        "name": "Burpee tuck jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "High knees with weights",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Plyo lunges",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Sprint with resistance bands",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Mountain climbers with sliders",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "7 times"
+                    }
+                    ]
+                  }
+                },
+                {
+                  "week": 3,
+                  "workouts": {
+
+                    "overall_duration": "35 minutes",
+                    "exercises": [
+                      {
+                        "name": "Jump rope",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Tuck jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Plank jacks",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Sprint intervals",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Side-to-side jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "7 times"
+                    }
+                    ]
+                  }
+                },
+                {
+                  "week": 4,
+                  "workouts": {
+
+
+                    "overall_duration":"35 minutes",
+                    "exercises": [
+                      {
+                        "name": "Burpee tuck jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Jumping lunges with weights",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Plyo lunges",
+                        "duration":"1 minute"
+                      },
+                      {
+                        "name": "Sprint with weighted vest",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Mountain climbers with medicine ball",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "7 times"
+                    }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Advanced",
+              "workouts": [
+                {
+                  "week": 1,
+                  "workouts": {
+
+                    "overall_duration": "40 minutes",
+                    "exercises": [
+                      {
+                        "name": "Sprint",
+                        "duration": "30 sec"
+                      },
+                      {
+                        "name": "Rest",
+                        "duration": "30 sec"
+                      },
+                      {
+                        "name": "Jump lunges",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Bicycle crunches",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Box jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Plank jacks",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "8 times"
+                    }
+
+                    ]
+                  }
+                },
+                {
+                  "week": 2,
+                  "workouts": {
+
+
+                    "overall_duration":"40 minutes",
+                    "exercises": [
+                      {
+                        "name": "Burpee tuck jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "High knees with weights",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Plyo lunges",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Sprint with resistance bands",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Mountain climbers with sliders",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "8 times"
+                    }
+                    ]
+                  }
+                },
+                {
+                  "week": 3,
+                  "workouts": {
+                    "overall_duration": "40 minutes",
+                    "exercises": [
+                      {
+                        "name": "Jump rope",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Tuck jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Plank jacks",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Sprint intervals",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Side-to-side jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "8 times"
+                    }
+
+                    ]
+                  }
+                },
+                {
+                  "week": 4,
+                  "workouts": {
+
+                    "overall_duration": "40 minutes",
+                    "exercises": [
+                      {
+                        "name": "Burpee tuck jumps",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Jumping lunges with weights",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Plyo lunges",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Sprint with weighted vest",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name": "Mountain climbers with medicine ball",
+                        "duration": "1 minute"
+                      },
+                      {
+                        "name":"Repeat",
+                      "duration": "8 times"
+                    }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "goal": "Improve Balance",
+      "challenges": [
+        {
+          "name": "Yoga Basics",
+          "level": [
+            {
+              "name": "Beginner",
+              "workouts": [
+                {
+                  "week": 1,
+                  "overall_duration": "10 minutes",
+                  "exercises": [
+                    {
+                      "name": "Mountain Pose",
+                      "duration": "20-30 seconds"
+                    },
+                    {
+                      "name": "Tree Pose",
+                      "duration": "20-30 seconds"
+                    },
+                    {
+                      "name": "Warrior I",
+                      "duration": "20-30 seconds"
+                    },
+                    {
+                      "name": "Chair Pose",
+                      "duration": "20-30 seconds"
+                    },
+                    {
+                      "name": "Triangle Pose",
+                      "duration": "20-30 seconds"
+                    }
+                  ]
+                },
+                {
+                  "week": 2,
+                  "overall_duration": "10 minutes",
+                  "exercises": [
+                    {
+                      "name": "Tree Pose",
+                      "duration": "30-40 seconds"
+                    },
+                    {
+                      "name": "Warrior II",
+                      "duration": "30-40 seconds"
+                    },
+                    {
+                      "name": "Extended Side Angle",
+                      "duration": "30-40 seconds"
+                    },
+                    {
+                      "name": "Standing Forward Bend",
+                      "duration": "30-40 seconds"
+                    },
+                    {
+                      "name": "Half Moon Pose",
+                      "duration": "30-40 seconds"
+                    }
+                  ]
+                },
+                {
+                  "week": 3,
+                  "overall_duration": "10 minutes",
+                  "exercises": [
+                    {
+                      "name": "Revolved Triangle Pose",
+                      "duration": "40-50 seconds"
+                    },
+                    {
+                      "name": "Warrior III",
+                      "duration": "40-50 seconds"
+                    },
+                    {
+                      "name": "Extended Hand-to-Big-Toe",
+                      "duration": "40-50 seconds"
+                    },
+                    {
+                      "name": "Garland Pose",
+                      "duration": "40-50 seconds"
+                    },
+                    {
+                      "name": "Tree Pose with eyes closed",
+                      "duration": "40-50 seconds"
+                    }
+                  ]
+                },
+                {
+                  "week": 4,
+
+                  "overall_duration": "10 minutes",
+                  "exercises": [
+                    {
+                      "name": "Extended Triangle Pose",
+                      "duration": "50-60 seconds"
+                    },
+                    {
+                      "name": "Half Moon Pose",
+                      "duration": "50-60 seconds"
+                    },
+                    {
+                      "name": "Revolved Half Moon Pose",
+                      "duration": "50-60 seconds"
+                    },
+                    {
+                      "name": "Revolved Side Angle Pose",
+                      "duration": "50-60 seconds"
+                    },
+                    {
+                      "name": "Handstand",
+                      "duration": "as long as comfortable"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Intermediate",
+              "workouts": [
+                {
+                  "week": 1,
+
+                  "overall_duration": "30-40 minutes",
+                  "exercises": [
+                    {
+                      "name": "Tree Pose",
+                      "duration": "40-50 seconds"
+                    },
+                    {
+                      "name": "Warrior II",
+                      "duration": "40-50 seconds"
+                    },
+                    {
+                      "name": "Extended Side Angle Pose",
+                      "duration": "40-50 seconds"
+                    },
+                    {
+                      "name": "Half Moon",
+                      "duration": "40-50 seconds"
+                    },
+                    {
+                      "name": "Revolved Triangle Pose",
+                      "duration": "40-50 seconds"
+                    },
+                    {
+                      "name":"Repeat",
+                    "duration": "2 times"
+                  }
+                  ]
+                },
+                {
+                  "week": 2,
+                  "overall_duration": "15 minutes",
+                  "exercises": [
+                    {
+                      "name": "Eagle Pose",
+                      "duration": "50-60 seconds"
+                    },
+                    {
+                      "name": "Revolved Chair Pose",
+                      "duration": "50-60 seconds"
+                    },
+                    {
+                      "name": "Warrior III",
+                      "duration": "50-60 seconds"
+                    },
+                    {
+                      "name": "Side Plank Pose",
+                      "duration": "50-60 seconds"
+                    },
+                    {
+                      "name": "Handstand ",
+                      "duration": "as long as comfortable"
+                    },
+                    {
+                      "name":"Repeat",
+                    "duration": "2 times"
+                  }
+                  ]
+                },
+                {
+                  "week": 3,
+                  "overall_duration": "15 minutes",
+                  "exercises": [
+                    {
+                      "name": "Extended Hand-to-Big-Toe",
+                      "duration": "60-70 seconds"
+                    },
+                    {
+                      "name": "Garland Pose",
+                      "duration": "60-70 seconds"
+                    },
+                    {
+                      "name": "Revolved Half Moon Pose",
+                      "duration": "60-70 seconds"
+                    },
+                    {
+                      "name": "Side Crow Pose",
+                      "duration": "60-70 seconds"
+                    },
+                    {
+                      "name": "Bird of Paradise",
+                      "duration": "as long as comfortable"
+                    },
+                    {
+                      "name":"Repeat",
+                    "duration": "2 times"
+                  }
+
+                  ]
+                },
+                {
+                  "week": 4,
+                  "overall_duration": "10 minutes",
+                  "exercises": [
+                    {
+                      "name": "Firefly Pose",
+                      "duration": "70-80 seconds"
+                    },
+                    {
+                      "name": "Compass Pose",
+                      "duration": "70-80 seconds"
+                    },
+                    {
+                      "name": "Eight-Angle Pose",
+                      "duration": "70-80 seconds"
+                    },
+                    {
+                      "name": "Crow Pose",
+                      "duration": "70-80 seconds"
+                    },
+                    {
+                      "name": "Handstand Scorpion",
+                      "duration": "as long as comfortable"
+                    },
+                    {
+                      "name":"Repeat",
+                    "duration": "2 times"
+                  }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Advanced",
+              "workouts": [
+                {
+                  "week": 1,
+                  "overall_duration": "15 minutes",
+                  "exercises": [
+                    {
+                      "name": "Peacock Pose",
+                      "duration": "60-70 seconds"
+                    },
+                    {
+                      "name": "One-Legged Wheel Pose",
+                      "duration": "60-70 seconds"
+                    },
+                    {
+                      "name": "Flying Pigeon Pose",
+                      "duration": "60-70 seconds"
+                    },
+                    {
+                      "name": "Handstand Press",
+                      "duration": "as long as comfortable"
+                    },
+                    {
+                      "name":"Repeat",
+                    "duration": "3 times"
+                  }
+                  ]
+                },
+                {
+                  "week": 2,
+                  "overall_duration": "15 minutes",
+                  "exercises": [
+                    {
+                      "name": "Scorpion Pose",
+                      "duration": "70-80 seconds"
+                    },
+                    {
+                      "name": "Grasshopper Pose",
+                      "duration": "70-80 seconds"
+                    },
+                    {
+                      "name": "Koundinyasana I",
+                      "duration": "70-80 seconds"
+                    },
+                    {
+                      "name": "Handstand Press to Crow Pose",
+                      "duration": "as long as comfortable"
+                    },
+                    {
+                      "name":"Repeat",
+                    "duration": "3 times"
+                  }
+
+                  ]
+                },
+                {
+                  "week": 3,
+                  "overall_duration": "20 minutes",
+                  "exercises": [
+                    {
+                      "name": "One-Legged King Pigeon Pose",
+                      "duration": "80-90 seconds"
+                    },
+                    {
+                      "name": "Firefly Pose",
+                      "duration": "80-90 seconds"
+                    },
+                    {
+                      "name": "Eight-Angle Pose",
+                      "duration": "80-90 seconds"
+                    },
+                    {
+                      "name": "Handstand to Scorpion Pose",
+                      "duration": "as long as comfortable"
+                    },
+                    {
+                      "name":"Repeat",
+                    "duration": "3 times"
+                  }
+                  ]
+                },
+                {
+                  "week": 4,
+                  "overall_duration": "25 minutes",
+                  "exercises": [
+                    {
+                      "name": "Flying Dragon Pose",
+                      "duration": "90-100 seconds"
+                    },
+                    {
+                      "name": "Handstand to Forearm",
+                      "duration": "90-100 seconds"
+                    },
+                    {
+                      "name": "One-Legged Handstand",
+                      "duration": "90-100 seconds"
+                    },
+                    {
+                      "name": "Handstand to Handstand Scorpion",
+                      "duration": "as long as comfortable"
+                    },
+                    {
+                      "name":"Repeat",
+                    "duration": "3 times"
+                  }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Stability Ball Exercises",
+          "level": [
+            {
+              "name": "Beginner",
+              "workouts": [
+                {
+                  "week": 1,
+                  "overall_duration": "20-30 minutes",
+                  "exercises": [
+                    {
+                      "name": "Seated Balance on Stability Ball",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Stability Ball Squats",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Stability Ball Leg Curls",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Stability Ball Bridge",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Stability Ball Plank",
+                      "duration": "1 minute"
+                    }
+                  ]
+                },
+                {
+                  "week": 2,
+                  "overall_duration": "25-35 minutes",
+                  "exercises": [
+                    {
+                      "name": "Stability Ball Rollouts",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Stability Ball Russian Twists",
+                      "duration": "2 sets of 15 reps"
+                    },
+                    {
+                      "name": "Stability Ball Pike",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Stability Ball Superman",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Stability Ball Knee Tucks",
+                      "duration": "2 sets of 10 reps"
+                    }
+                  ]
+                },
+                {
+                  "week": 3,
+                  "overall_duration": "30-40 minutes",
+                  "exercises": [
+                    {
+                      "name": "Stability Ball Single-Leg Bridge",
+                      "duration": "2 sets of 10 reps each leg"
+                    },
+                    {
+                      "name": "Stability Ball Hamstring Curls",
+                      "duration": "2 sets of 12 reps"
+                    },
+                    {
+                      "name": "Stability Ball Side Crunches",
+                      "duration": "2 sets of 15 reps each side"
+                    },
+                    {
+                      "name": "Stability Ball Wall Squats",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Stability Ball Push-Ups",
+                      "duration": "2 sets of 10 reps"
+                    }
+                  ]
+                },
+                {
+                  "week": 4,
+                  "overall_duration": "35-45 minutes",
+                  "exercises": [
+                    {
+                      "name": "Stability Ball Plank to Pike",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Stability Ball V-Sit",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Stability Ball Reverse Crunches",
+                      "duration": "2 sets of 15 reps"
+                    },
+                    {
+                      "name": "Stability Ball Wall Squats with Overhead Press",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Stability Ball Rollouts to Push-Ups",
+                      "duration": "2 sets of 10 reps"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Intermediate",
+              "workouts": [
+                {
+                  "week": 1,
+                  "overall_duration": "30-40 minutes",
+                  "exercises": [
+                    {
+                      "name": "Stability Ball Plank with Leg Lift",
+                      "duration": "2 sets of 1 minute"
+                    },
+                    {
+                      "name": "Stability Ball Squat to Overhead Press",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Stability Ball Hamstring Curls with Hip Bridge",
+                      "duration": "2 sets of 12 reps"
+                    },
+                    {
+                      "name": "Stability Ball Russian Twists with Dumbbell",
+                      "duration": "2 sets of 15 reps"
+                    },
+                    {
+                      "name": "Stability Ball Rollouts",
+                      "duration": "2 sets of 10 reps"
+                    }
+                  ]
+                },
+                {
+                  "week": 2,
+                  "overall_duration": "35-45 minutes",
+                  "exercises": [
+                    {
+                      "name": "Stability Ball Pike to Plank",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Stability Ball Side Crunches with Dumbbell",
+                      "duration": "2 sets of 15 reps each side"
+                    },
+                    {
+                      "name": "Stability Ball Push-Ups with Feet on Ball",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Stability Ball Wall Squats with Medicine Ball",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Stability Ball Superman with Dumbbell",
+                      "duration": "2 sets of 10 reps"
+                    }
+                  ]
+                },
+                {
+                  "week": 3,
+                  "overall_duration": "40-50 minutes",
+                  "exercises": [
+                    {
+                      "name": "Stability Ball Single-Leg Squats",
+                      "duration": "2 sets of 8 reps each leg"
+                    },
+                    {
+                      "name": "Stability Ball Pike with Knee Tuck",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Stability Ball Lateral Plank Walks",
+                      "duration": "2 sets of 10 reps each side"
+                    },
+                    {
+                      "name": "Stability Ball Overhead Triceps Extension",
+                      "duration": "2 sets of 12 reps"
+                    },
+                    {
+                      "name": "Stability Ball Reverse Hyperextensions",
+                      "duration": "2 sets of 15 reps"
+                    }
+                  ]
+                },
+                {
+                  "week": 4,
+                  "overall_duration": "45-55 minutes",
+                  "exercises": [
+                    {
+                      "name": "Stability Ball Pike to Handstand",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Stability Ball Around the World",
+                      "duration": "2 sets of 10 reps each direction"
+                    },
+                    {
+                      "name": "Stability Ball Single-Leg Deadlift with Dumbbell",
+                      "duration": "2 sets of 10 reps each leg"
+                    },
+                    {
+                      "name": "Stability Ball Mountain Climbers",
+                      "duration": "2 sets of 20 reps"
+                    },
+                    {
+                      "name": "Stability Ball Plank with Arm Reach",
+                      "duration": "2 sets of 10 reps each side"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Advanced",
+              "workouts": [
+                {
+                  "week": 1,
+                  "overall_duration": "40-50 minutes",
+                  "exercises": [
+                    {
+                      "name": "Stability Ball Pike Press",
+                      "duration": "2 sets of 8 reps"
+                    },
+                    {
+                      "name": "Stability Ball Rollouts to Pike",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Stability Ball Single-Leg Bridge with Leg Extension",
+                      "duration": "2 sets of 10 reps each leg"
+                    },
+                    {
+                      "name": "Stability Ball Swiss Ball Plank with Knee Tuck",
+                      "duration": "2 sets of 12 reps"
+                    },
+                    {
+                      "name": "Stability Ball Ab Rollouts",
+                      "duration": "2 sets of 10 reps"
+                    }
+                  ]
+                },
+                {
+                  "week": 2,
+                  "overall_duration": "45-55 minutes",
+                  "exercises": [
+                    {
+                      "name": "Stability Ball Handstand Push-Ups",
+                      "duration": "2 sets of 6-8 reps"
+                    },
+                    {
+                      "name": "Stability Ball V-Ups",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Stability Ball Bulgarian Split Squats",
+                      "duration": "2 sets of 8 reps each leg"
+                    },
+                    {
+                      "name": "Stability Ball Russian Twists with Medicine Ball",
+                      "duration": "2 sets of 15 reps each side"
+                    },
+                    {
+                      "name": "Stability Ball Reverse Crunches to Pike",
+                      "duration": "2 sets of 10 reps"
+                    }
+                  ]
+                },
+                {
+                  "week": 3,
+                  "overall_duration": "50-60 minutes",
+                  "exercises": [
+                    {
+                      "name": "Stability Ball Push-Ups with Bosu Ball",
+                      "duration": "2 sets of 8 reps"
+                    },
+                    {
+                      "name": "Stability Ball Pike to Handstand",
+                      "duration": "2 sets of 6-8 reps"
+                    },
+                    {
+                      "name": "Stability Ball Squat Jumps",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Stability Ball Side Plank with Leg Raise",
+                      "duration": "2 sets of 10 reps each side"
+                    },
+                    {
+                      "name": "Stability Ball Overhead Squats",
+                      "duration": "2 sets of 8 reps"
+                    }
+                  ]
+                },
+                {
+                  "week": 4,
+                  "overall_duration": "55-65 minutes",
+                  "exercises": [
+                    {
+                      "name": "Stability Ball Handstand",
+                      "duration": "as long as comfortable"
+                    },
+                    {
+                      "name": "Stability Ball Rollouts to Handstand",
+                      "duration": "2 sets of 6-8 reps"
+                    },
+                    {
+                      "name": "Stability Ball Pistols",
+                      "duration": "2 sets of 6 reps each leg"
+                    },
+                    {
+                      "name": "Stability Ball Plank with Alternating Leg Lift",
+                      "duration": "2 sets of 10 reps each side"
+                    },
+                    {
+                      "name": "Stability Ball Mountain Climbers with Twist",
+                      "duration": "2 sets of 20 reps each side"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "goal": "Build Lower Body",
+      "challenges": [
+        {
+          "name": "Squat Mastery",
+          "level": [
+            {
+              "name": "Beginner",
+              "workouts": [
+                {
+                  "week": 1,
+                  "overall_duration": "20-30 minutes",
+                  "exercises": [
+                    {
+                      "name": "Bodyweight Squats",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Goblet Squats",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Wall Squats",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Chair Squats",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Pulse Squats",
+                      "duration": "2 sets of 10 reps"
+                    }
+                  ]
+                },
+                {
+                  "week": 2,
+                  "overall_duration": "25-35 minutes",
+                  "exercises": [
+                    {
+                      "name": "Dumbbell Squats",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Sumo Squats",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Split Squats",
+                      "duration": "2 sets of 10 reps each leg"
+                    },
+                    {
+                      "name": "Box Squats",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Squat Holds",
+                      "duration": "2 sets of 30 seconds"
+                    }
+                  ]
+                },
+                {
+                  "week": 3,
+                  "overall_duration": "30-40 minutes",
+                  "exercises": [
+                    {
+                      "name": "Front Squats",
+                      "duration": "2 sets of 8 reps"
+                    },
+                    {
+                      "name": "Bulgarian Split Squats",
+                      "duration": "2 sets of 10 reps each leg"
+                    },
+                    {
+                      "name": "Overhead Squats",
+                      "duration": "2 sets of 8 reps"
+                    },
+                    {
+                      "name": "Squat to Press",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Single-Leg Squats",
+                      "duration": "2 sets of 6 reps each leg"
+                    }
+                  ]
+                },
+                {
+                  "week": 4,
+                  "overall_duration": "35-45 minutes",
+                  "exercises": [
+                    {
+                      "name": "Barbell Back Squats",
+                      "duration": "2 sets of 8 reps"
+                    },
+                    {
+                      "name": "Hack Squats",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Pistol Squats",
+                      "duration": "2 sets of 6 reps each leg"
+                    },
+                    {
+                      "name": "Jump Squats",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Squat Jumps",
+                      "duration": "2 sets of 10 reps"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Intermediate",
+              "workouts": [
+                {
+                  "week": 1,
+                  "overall_duration": "30-40 minutes",
+                  "exercises": [
+                    {
+                      "name": "Paused Squats",
+                      "duration": "3 sets of 8 reps"
+                    },
+                    {
+                      "name": "Squat Variations with Resistance Bands",
+                      "duration": "3 sets of 10 reps"
+                    },
+                    {
+                      "name": "Squat to Lunge",
+                      "duration": "3 sets of 10 reps each leg"
+                    },
+                    {
+                      "name": "Barbell Front Squats",
+                      "duration": "3 sets of 8 reps"
+                    },
+                    {
+                      "name": "Squat with Overhead Medicine Ball Throws",
+                      "duration": "3 sets of 10 reps"
+                    }
+                  ]
+                },
+                {
+                  "week": 2,
+                  "overall_duration": "35-45 minutes",
+                  "exercises": [
+                    {
+                      "name": "Tempo Squats (3-1-3)",
+                      "duration": "3 sets of 8 reps"
+                    },
+                    {
+                      "name": "Dumbbell Bulgarian Split Squats",
+                      "duration": "3 sets of 10 reps each leg"
+                    },
+                    {
+                      "name": "Squat Jumps with Dumbbell",
+                      "duration": "3 sets of 10 reps"
+                    },
+                    {
+                      "name": "Barbell Box Squats",
+                      "duration": "3 sets of 8 reps"
+                    },
+                    {
+                      "name": "Elevated Pistol Squats",
+                      "duration": "3 sets of 6 reps each leg"
+                    }
+                  ]
+                },
+                {
+                  "week": 3,
+                  "overall_duration": "40-50 minutes",
+                  "exercises": [
+                    {
+                      "name": "Barbell Pause Squats",
+                      "duration": "3 sets of 6 reps"
+                    },
+                    {
+                      "name": "Squat to Deadlift",
+                      "duration": "3 sets of 8 reps"
+                    },
+                    {
+                      "name": "Jump Squats with Barbell",
+                      "duration": "3 sets of 10 reps"
+                    },
+                    {
+                      "name": "Barbell Overhead Squats",
+                      "duration": "3 sets of 6 reps"
+                    },
+                    {
+                      "name": "Bulgarian Split Squats with Barbell",
+                      "duration": "3 sets of 8 reps each leg"
+                    }
+                  ]
+                },
+                {
+                  "week": 4,
+                  "overall_duration": "45-55 minutes",
+                  "exercises": [
+                    {
+                      "name": "Front Squats with Chains",
+                      "duration": "3 sets of 6 reps"
+                    },
+                    {
+                      "name": "Squat Jumps with Barbell and Chains",
+                      "duration": "3 sets of 8 reps"
+                    },
+                    {
+                      "name": "Depth Jumps",
+                      "duration": "3 sets of 6 reps"
+                    },
+                    {
+                      "name": "Barbell Hack Squats",
+                      "duration": "3 sets of 8 reps"
+                    },
+                    {
+                      "name": "Pistol Squats with Weight Vest",
+                      "duration": "3 sets of 6 reps each leg"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Advanced",
+              "workouts": [
+                {
+                  "week": 1,
+                  "overall_duration": "40-50 minutes",
+                  "exercises": [
+                    {
+                      "name": "Overhead Squats with Chains",
+                      "duration": "4 sets of 6 reps"
+                    },
+                    {
+                      "name": "Barbell Front Squats with Bands",
+                      "duration": "4 sets of 6 reps"
+                    },
+                    {
+                      "name": "Depth Jumps from Box",
+                      "duration": "4 sets of 6 reps"
+                    },
+                    {
+                      "name": "Pistol Squats with Barbell",
+                      "duration": "4 sets of 6 reps each leg"
+                    },
+                    {
+                      "name": "Squat Jumps with Weighted Vest",
+                      "duration": "4 sets of 8 reps"
+                    }
+                  ]
+                },
+                {
+                  "week": 2,
+                  "overall_duration": "45-55 minutes",
+                  "exercises": [
+                    {
+                      "name": "Squat Cleans",
+                      "duration": "4 sets of 5 reps"
+                    },
+                    {
+                      "name": "Barbell Box Squats with Chains",
+                      "duration": "4 sets of 6 reps"
+                    },
+                    {
+                      "name": "Box Jump Squats",
+                      "duration": "4 sets of 8 reps"
+                    },
+                    {
+                      "name": "Barbell Overhead Squats with Chains",
+                      "duration": "4 sets of 5 reps"
+                    },
+                    {
+                      "name": "Plyometric Pistol Squats",
+                      "duration": "4 sets of 6 reps each leg"
+                    }
+                  ]
+                },
+                {
+                  "week": 3,
+
+                  "overall_duration": "50-60 minutes",
+                  "exercises": [
+                    {
+                      "name": "Barbell Back Squats with Bands",
+                      "duration": "4 sets of 6 reps"
+                    },
+                    {
+                      "name": "Snatch Grip Overhead Squats",
+                      "duration": "4 sets of 5 reps"
+                    },
+                    {
+                      "name": "Depth Jumps onto Box",
+                      "duration": "4 sets of 6 reps"
+                    },
+                    {
+                      "name": "Pistol Squats with Barbell Overhead",
+                      "duration": "4 sets of 6 reps each leg"
+                    },
+                    {
+                      "name": "Barbell Hack Squats with Chains",
+                      "duration": "4 sets of 6 reps"
+                    }
+                  ]
+                },
+                {
+                  "week": 4,
+
+                  "overall_duration": "55-65 minutes",
+                  "exercises": [
+                    {
+                      "name": "Clean and Jerk",
+                      "duration": "4 sets of 5 reps"
+                    },
+                    {
+                      "name": "Barbell Front Squats with Weight Vest",
+                      "duration": "4 sets of 6 reps"
+                    },
+                    {
+                      "name": "Depth Jumps with Barbell",
+                      "duration": "4 sets of 6 reps"
+                    },
+                    {
+                      "name": "Pistol Squats with Barbell and Chains",
+                      "duration": "4 sets of 6 reps each leg"
+                    },
+                    {
+                      "name": "Squat Jumps with Barbell and Weight Vest",
+                      "duration": "4 sets of 8 reps"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Glute Gains",
+          "level": [
+            {
+              "name": "Beginner",
+              "workouts": [
+                {
+                  "week": 1,
+                  "overall_duration": "20-30 minutes",
+                  "exercises": [
+                    {
+                      "name": "Bodyweight Glute Bridges",
+                      "duration": "2 sets of 12 reps"
+                    },
+                    {
+                      "name": "Bodyweight Hip Thrusts",
+                      "duration": "2 sets of 12 reps"
+                    },
+                    {
+                      "name": "Clamshells",
+                      "duration": "2 sets of 12 reps each side"
+                    },
+                    {
+                      "name": "Side-Lying Leg Lifts",
+                      "duration": "2 sets of 12 reps each side"
+                    },
+                    {
+                      "name": "Fire Hydrants",
+                      "duration": "2 sets of 12 reps each side"
+                    }
+                  ]
+                },
+                {
+                  "week": 2,
+                  "overall_duration": "25-35 minutes",
+                  "exercises": [
+                    {
+                      "name": "Dumbbell Glute Bridges",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Dumbbell Hip Thrusts",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Banded Clamshells",
+                      "duration": "2 sets of 12 reps each side"
+                    },
+                    {
+                      "name": "Banded Side-Lying Leg Lifts",
+                      "duration": "2 sets of 12 reps each side"
+                    },
+                    {
+                      "name": "Banded Fire Hydrants",
+                      "duration": "2 sets of 12 reps each side"
+                    }
+                  ]
+                },
+                {
+                  "week": 3,
+                  "overall_duration": "30-40 minutes",
+                  "exercises": [
+                    {
+                      "name": "Barbell Glute Bridges",
+                      "duration": "2 sets of 8 reps"
+                    },
+                    {
+                      "name": "Barbell Hip Thrusts",
+                      "duration": "2 sets of 8 reps"
+                    },
+                    {
+                      "name": "Weighted Clamshells",
+                      "duration": "2 sets of 10 reps each side"
+                    },
+                    {
+                      "name": "Weighted Side-Lying Leg Lifts",
+                      "duration": "2 sets of 10 reps each side"
+                    },
+                    {
+                      "name": "Weighted Fire Hydrants",
+                      "duration": "2 sets of 10 reps each side"
+                    }
+                  ]
+                },
+                {
+                  "week": 4,
+                  "overall_duration": "35-45 minutes",
+                  "exercises": [
+                    {
+                      "name": "Barbell Glute Bridge Walkouts",
+                      "duration": "2 sets of 8 reps"
+                    },
+                    {
+                      "name": "Barbell Hip Thrust Holds",
+                      "duration": "2 sets of 10 reps"
+                    },
+                    {
+                      "name": "Resistance Band Glute Bridge Pulses",
+                      "duration": "2 sets of 12 reps"
+                    },
+                    {
+                      "name": "Resistance Band Hip Thrusts",
+                      "duration": "2 sets of 12 reps"
+                    },
+                    {
+                      "name": "Single-Leg Glute Bridges",
+                      "duration": "2 sets of 10 reps each leg"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Intermediate",
+              "workouts": [
+                {
+                  "week": 1,
+                  "overall_duration": "30-40 minutes",
+                  "exercises": [
+                {
+                  "name": "Elevated Barbell Glute Bridges",
+                  "duration": "3 sets of 8 reps"
+                },
+                {
+                  "name": "Single-Leg Hip Thrusts",
+                  "duration": "3 sets of 8 reps each leg"
+                },
+                {
+                  "name": "Banded Squats with Glute Activation",
+                  "duration": "3 sets of 10 reps"
+                },
+                {
+                  "name": "Weighted Clamshells with Resistance Band",
+                  "duration": "3 sets of 10 reps each side"
+                },
+                {
+                  "name": "Weighted Fire Hydrants with Resistance Band",
+                  "duration": "3 sets of 10 reps each side"
+                }
+              ]
+            },
+            {
+              "week": 2,
+
+              "overall_duration": "35-45 minutes",
+              "exercises": [
+                {
+                  "name": "Single-Leg Barbell Glute Bridges",
+                  "duration": "3 sets of 6 reps each leg"
+                },
+                {
+                  "name": "Dumbbell Romanian Deadlifts",
+                  "duration": "3 sets of 10 reps"
+                },
+                {
+                  "name": "Curtsy Lunges with Dumbbells",
+                  "duration": "3 sets of 10 reps each leg"
+                },
+                {
+                  "name": "Bulgarian Split Squats with Dumbbells",
+                  "duration": "3 sets of 8 reps each leg"
+                },
+                {
+                  "name": "Pulsing Squats with Resistance Band",
+                  "duration": "3 sets of 12 reps"
+                }
+              ]
+            },
+            {
+              "week": 3,
+
+              "overall_duration": "40-50 minutes",
+              "exercises": [
+                {
+                  "name": "Deficit Barbell Hip Thrusts",
+                  "duration": "3 sets of 8 reps"
+                },
+                {
+                  "name": "Weighted Bulgarian Split Squats",
+                  "duration": "3 sets of 8 reps each leg"
+                },
+                {
+                  "name": "Barbell Sumo Deadlifts",
+                  "duration": "3 sets of 8 reps"
+                },
+                {
+                  "name": "Single-Leg Romanian Deadlifts with Dumbbells",
+                  "duration": "3 sets of 10 reps each leg"
+                },
+                {
+                  "name": "Jump Squats with Resistance Band",
+                  "duration": "3 sets of 10 reps"
+                }
+              ]
+            },
+            {
+              "week": 4,
+              "overall_duration": "45-55 minutes",
+              "exercises": [
+                {
+                  "name": "Barbell Hip Thrusts with Chains",
+                  "duration": "3 sets of 6 reps"
+                },
+                {
+                  "name": "Walking Lunges with Dumbbells",
+                  "duration": "3 sets of 12 reps each leg"
+                },
+                {
+                  "name": "Glute-Ham Raises",
+                  "duration": "3 sets of 8 reps"
+                },
+                {
+                  "name": "Kettlebell Swings",
+                  "duration": "3 sets of 15 reps"
+                },
+                {
+                  "name": "Barbell Bulgarian Split Squats",
+                  "duration": "3 sets of 8 reps each leg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Advanced",
+          "workouts": [
+            {
+              "week": 1,
+              "overall_duration": "40-50 minutes",
+              "exercises": [
+                {
+                  "name": "Barbell Hip Thrusts with Bands",
+                  "duration": "4 sets of 6 reps"
+                },
+                {
+                  "name": "Barbell Romanian Deadlifts",
+                  "duration": "4 sets of 6 reps"
+                },
+                {
+                  "name": "Banded Jump Squats",
+                  "duration": "4 sets of 8 reps"
+                },
+                {
+                  "name": "Weighted Step-Ups",
+                  "duration": "4 sets of 8 reps each leg"
+                },
+                {
+                  "name": "Barbell Sumo Squats",
+                  "duration": "4 sets of 8 reps"
+                }
+              ]
+            },
+            {
+              "week": 2,
+              "overall_duration": "45-55 minutes",
+              "exercises": [
+                {
+                  "name": "Barbell Hip Thrusts with Box",
+                  "duration": "4 sets of 6 reps"
+                },
+                {
+                  "name": "Jump Squats with Barbell",
+                  "duration": "4 sets of 8 reps"
+                },
+                {
+                  "name": "Kettlebell Swings with Resistance Band",
+                  "duration": "4 sets of 15 reps"
+                },
+                {
+                  "name": "Walking Lunges with Barbell",
+                  "duration": "4 sets of 12 reps each leg"
+                },
+                {
+                  "name": "Depth Jumps",
+                  "duration": "4 sets of 6 reps"
+                }
+              ]
+            },
+            {
+              "week": 3,
+
+              "overall_duration": "50-60 minutes",
+              "exercises": [
+            {
+              "name": "Single-Leg Box Squats with Dumbbells",
+              "duration": "4 sets of 6 reps each leg"
+            },
+            {
+              "name": "Barbell Deadlifts",
+              "duration": "4 sets of 6 reps"
+            },
+            {
+              "name": "Pistol Squats with Barbell",
+              "duration": "4 sets of 6 reps each leg"
+            },
+            {
+              "name": "Box Jumps with Weight Vest",
+              "duration": "4 sets of 8 reps"
+            },
+            {
+              "name": "Barbell Bulgarian Split Squats with Chains",
+              "duration": "4 sets of 6 reps each leg"
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "overall_duration": "55-65 minutes",
+          "exercises": [
+            {
+              "name": "Barbell Hip Thrusts with Chains",
+              "duration": "4 sets of 6 reps"
+            },
+            {
+              "name": "Sprint Intervals with Weighted Vest",
+              "duration": "4 sets of 30 seconds"
+            },
+            {
+              "name": "Barbell Walking Lunges",
+              "duration": "4 sets of 12 reps each leg"
+            },
+            {
+              "name": "Broad Jumps",
+              "duration": "4 sets of 6 reps"
+            },
+            {
+              "name": "Glute-Ham Raises with Weighted Ball",
+              "duration": "4 sets of 8 reps"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+]
+},
+{
+"goal": "Build Stamina",
+"challenges": [
+{
+"name": "Endurance Runs",
+"level": [
+{
+"name": "Beginner",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "1.5 miles",
+"exercises": [
+{
+"name": "Brisk Walk",
+"duration":"5 minutes"
+},
+{
+"name": "Lightly jog",
+"duration":"1.5 miles"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "2 miles",
+"exercises": [
+{
+"name": "Brisk Walk",
+"duration":"5 minutes"
+},
+{
+"name": "Lightly jog",
+"duration":"2.0 miles"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "2.5 miles",
+"exercises": [
+{
+"name": "Brisk Walk",
+"duration":"5 minutes"
+},
+{
+"name": "Lightly jog",
+"duration":"2.5 miles"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "3 miles",
+"exercises": [
+{
+"name": "Brisk Walk",
+"duration":"5 minutes"
+},
+{
+"name": "Lightly jog",
+"duration":"3 miles"
+}
+
+]
+}
+]
+},
+{
+"name": "Intermediate",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "4 miles",
+"exercises": [
+{
+"name": "Brisk Walk",
+"duration":"5 minutes"
+},
+{
+"name": "Lightly jog",
+"duration":"4 miles"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "35 minutes",
+"exercises": [
+{
+"name": "Moderate Pace",
+"duration": "5 minutes"
+},
+{
+"name": "Sprint",
+"duration":"2 minutes"
+},
+{
+"name": "Repeat",
+"duration":"5 times"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "5 miles",
+"exercises": [
+{
+"name": "Brisk Walk",
+"duration":"5 minutes"
+},
+{
+"name": "Lightly jog",
+"duration":"5 miles"
+}
+
+]
+},
+{
+"week": 4,
+"overall_duration": "Varied intervals",
+"exercises": [
+
+{
+"name": "Sprint",
+"duration":"1 minute"
+},
+{
+"name": "Rest",
+"duration":"1 minute"
+},
+
+
+{
+"name": "Repeat",
+"duration":"5 times"
+},
+{
+"name": "Run at moderate pace",
+"duration":"30 minutes"
+}
+]
+}
+]
+},
+{
+"name": "Advanced",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "7 miles",
+"exercises": [
+{
+"name": "Warm up",
+"duration":"10 minutes"
+},
+{
+"name": "Run at steady pace",
+"duration":"7 miles"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "60 minutes",
+"exercises": [
+{
+"name": "Warm up",
+"duration":"15 minutes"
+},
+{
+"name": "Hill Sprints",
+"duration": "1-2 minutes"
+},
+{
+"name": "Jog recoveries in between",
+"duration": "1-2 minutes"
+},
+{
+"name": "Repeat",
+"duration": "6 times"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "8 miles",
+"exercises": [
+{
+"name": "Run at steady pace",
+"duration":"8 miles"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "Varied intervals",
+"exercises": [
+{
+"name": "Warm-up",
+"duration": "15 minutes"
+},
+{
+"name": "Tempo pace",
+"duration": "10 minutes"
+},
+{
+"name": "Faster speed",
+"duration": "5 minutes"
+},
+{
+"name":"repeat",
+"duration":"6 times"
+}
+]
+}
+]
+}
+]
+},
+{
+"name": " Stair Climbing",
+"level": [
+{
+"name": "Beginner",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "20 minutes",
+"exercises": [
+{
+"name": "Stretching",
+"duration": "5 minutes"
+},
+{
+"name": "Climb stairs at a fast pace",
+"duration": "20 minutes"
+},
+{
+"name": "Cool down with light walking",
+"duration": "5 minutes"
+}                    ]
+},
+{
+"week": 2,
+"overall_duration": "25 minutes",
+"exercises": [
+{
+"name": "Stretching",
+"duration": "5 minutes"
+},
+{
+"name": "Climb stairs at a fast pace",
+"duration": "25 minutes"
+},
+{
+"name": "Cool down with light walking",
+"duration": "5 minutes"
+}                    ]
+},
+{
+"week": 3,
+"overall_duration": "30 minutes",
+"exercises": [
+{
+"name": "Stretching",
+"duration": "5 minutes"
+},
+{
+"name": "Climb stairs at a fast pace",
+"duration": "30 minutes"
+},
+{
+"name": "Cool down with light walking",
+"duration": "5 minutes"
+}                    ]
+},
+{
+"week": 4,
+"overall_duration": "35 minutes",
+"exercises": [
+{
+"name": "Stretching",
+"duration": "5 minutes"
+},
+{
+"name": "Climb stairs at a fast pace",
+"duration": "35 minutes"
+},
+{
+"name": "Cool down with light walking",
+"duration": "5 minutes"
+}
+]
+}
+]
+},
+{
+"name": "Intermediate",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "30 minutes",
+"exercises": [
+{
+"name": "Stretching",
+"duration": "10 minutes"
+},
+{
+"name": "Climb stairs at a fast pace",
+"duration": "30 minutes"
+},
+{
+"name": "Cool down with light walking",
+"duration": "5 minutes"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "35 minutes",
+"exercises": [
+{
+"name": "Stretching",
+"duration": "10 minutes"
+},
+{
+"name": "Climb stairs at a fast pace",
+"duration": "35 minutes"
+},
+{
+"name": "Cool down with light walking",
+"duration": "5 minutes"
+}                    ]
+},
+{
+"week": 3,
+"overall_duration": "40 minutes",
+"exercises": [
+{
+"name": "Stretching",
+"duration": "10 minutes"
+},
+{
+"name": "Climb stairs at a fast pace",
+"duration": "40 minutes"
+},
+{
+"name": "Cool down with light walking",
+"duration": "5 minutes"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "45 minutes",
+"exercises": [
+{
+"name": "Stretching",
+"duration": "10 minutes"
+},
+{
+"name": "Climb stairs at a fast pace",
+"duration": "45 minutes"
+},
+{
+"name": "Cool down with light walking",
+"duration": "5 minutes"
+}
+]
+}
+]
+},
+{
+"name": "Advanced",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "40 minutes",
+"exercises": [
+{
+"name": "Stretching",
+"duration": "15 minutes"
+},
+{
+"name": "Climb stairs at a fast pace",
+"duration": "40 minutes"
+},
+{
+"name": "Cool down with light walking",
+"duration": "5 minutes"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "45 minutes",
+"exercises": [
+{
+"name": "Warm up with stretching",
+"duration": "15 minutes"
+},
+{
+"name": "Climb stairs at a fast pace",
+"duration": "45 minutes"
+},
+{
+"name": "Cool down with light walking",
+"duration": "5 minutes"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "50 minutes",
+"exercises": [
+{
+"name": "Warm up with stretching",
+"duration": "15 minutes"
+},
+{
+"name": "Climb stairs at a fast pace",
+"duration": "50 minutes"
+},
+{
+"name": "Cool down with light walking",
+"duration": "5 minutes"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "60 minutes",
+"exercises": [
+{
+"name": "Stretching",
+"duration": "15 minutes"
+},
+{
+"name": "Climb stairs at a fast pace",
+"duration": "60 minutes"
+},
+{
+"name": "Cool down with light walking",
+"duration": "5 minutes"
+}                ]
+}
+]
+}
+]
+}
+]
+},
+{
+"goal": "Flatten Stomach",
+"challenges": [
+{
+"name": "Core Conditioning",
+"level": [
+{
+"name": "Beginner",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "20-30 minutes",
+"exercises": [
+{
+"name": "Plank",
+"duration": "2 sets of 30 seconds"
+},
+{
+"name": "Crunches",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Leg Raises",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Russian Twists",
+"duration": "2 sets of 10 reps each side"
+},
+{
+"name": "Bicycle Crunches",
+"duration": "2 sets of 10 reps each side"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "20-30 minutes",
+"exercises": [
+{
+"name": "Plank",
+"duration": "2 sets of 45 seconds"
+},
+{
+"name": "Reverse Crunches",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Mountain Climbers",
+"duration": "2 sets of 20 reps"
+},
+{
+"name": "Flutter Kicks",
+"duration": "2 sets of 20 reps"
+},
+{
+"name": "Side Planks",
+"duration": "2 sets of 20 seconds each side"
+}
+]
+},
+{
+"week": 3,
+
+"overall_duration": "20-30 minutes",
+"exercises": [
+{
+"name": "Plank with Leg Lift",
+"duration": "2 sets of 10 reps each side"
+},
+{
+"name": "Sit-ups",
+"duration": "2 sets of 15 reps"
+},
+{
+"name": "Dead Bug",
+"duration": "2 sets of 10 reps each side"
+},
+{
+"name": "Hollow Body Hold",
+"duration": "2 sets of 20 seconds"
+},
+{
+"name": "Bridge",
+"duration": "2 sets of 15 reps"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "20-30 minutes",
+"exercises": [
+{
+"name": "Plank with Arm Reach",
+"duration": "2 sets of 10 reps each side"
+},
+{
+"name": "V-ups",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Russian Twists with Medicine Ball",
+"duration": "2 sets of 15 reps each side"
+},
+{
+"name": "Scissor Kicks",
+"duration": "2 sets of 20 reps"
+},
+{
+"name": "Windshield Wipers",
+"duration": "2 sets of 10 reps each side"
+}
+]
+}
+]
+},
+{
+"name": "Intermediate",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "25-35 minutes",
+"exercises": [
+{
+"name": "Plank with Shoulder Taps",
+"duration": "2 sets of 12 reps each side"
+},
+{
+"name": "Bicycle Crunches",
+"duration": "2 sets of 15 reps each side"
+},
+{
+"name": "Russian Twists with Dumbbell",
+"duration": "2 sets of 12 reps each side"
+},
+{
+"name": "Leg Raises with Hip Raise",
+"duration": "2 sets of 12 reps"
+},
+{
+"name": "Mountain Climbers",
+"duration": "2 sets of 20 reps"
+}
+]
+},
+{
+"week": 2,
+
+"overall_duration": "25-35 minutes",
+"exercises": [
+{
+"name": "Side Plank with Leg Lift",
+"duration": "2 sets of 10 reps each side"
+},
+{
+"name": "V-ups",
+"duration": "2 sets of 12 reps"
+},
+{
+"name": "Plank Jacks",
+"duration": "2 sets of 20 reps"
+},
+{
+"name": "Flutter Kicks with Resistance Band",
+"duration": "2 sets of 20 reps"
+},
+{
+"name": "Hanging Leg Raises",
+"duration": "2 sets of 10 reps"
+}
+]
+},
+{
+"week": 3,
+
+"overall_duration": "25-35 minutes",
+"exercises": [
+{
+"name": "Plank with Knee to Elbow",
+"duration": "2 sets of 12 reps each side"
+},
+{
+"name": "Russian Twists with Medicine Ball",
+"duration": "2 sets of 15 reps each side"
+},
+{
+"name": "Hollow Hold",
+"duration": "2 sets of 30 seconds"
+},
+{
+"name": "Reverse Crunches with Stability Ball",
+"duration": "2 sets of 12 reps"
+},
+{
+"name": "Toe Touches",
+"duration": "2 sets of 15 reps"
+}
+]
+},
+{
+"week": 4,
+
+"overall_duration": "25-35 minutes",
+"exercises": [
+{
+"name": "Plank with Arm Reach and Leg Lift",
+"duration": "2 sets of 10 reps each side"
+},
+{
+"name": "Dragon Flags",
+"duration": "2 sets of 8 reps"
+},
+{
+"name": "Russian Twist to Press",
+"duration": "2 sets of 12 reps each side"
+},
+{
+"name": "Scissor Kicks with Resistance Band",
+"duration": "2 sets of 20 reps"
+},
+{
+"name": "Cable Crunches",
+"duration": "2 sets of 15 reps"
+}
+]
+}
+]
+},
+{
+"name": "Advanced",
+"workouts": [
+{
+"week": 1,
+
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Hanging Windshield Wipers",
+"duration": "3 sets of 8 reps each side"
+},
+{
+"name": "Dragon Flags",
+"duration": "3 sets of 6 reps"
+},
+{
+"name": "Plank with Knee to Opposite Elbow",
+"duration": "3 sets of 12 reps each side"
+},
+{
+"name": "Russian Twists with Weight Plate",
+"duration": "3 sets of 15 reps each side"
+},
+{
+"name": "Leg Raises to L-sit",
+"duration": "3 sets of 10 reps"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Hanging Leg Raises to Horizontal Bar",
+"duration": "3 sets of 10 reps"
+},
+{
+"name": "Dragon Flag Progressions",
+"duration": "3 sets of 6 reps"
+},
+{
+"name": "Plank with Arm and Leg Lift",
+"duration": "3 sets of 12 reps each side"
+},
+{
+"name": "Weighted Russian Twists on Decline Bench",
+"duration": "3 sets of 15 reps each side"
+},
+{
+"name": "Toes to Bar",
+"duration": "3 sets of 10 reps"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Front Lever Progressions",
+"duration": "3 sets of 8 reps"
+},
+{
+"name": "Hanging Pike Leg Raises",
+"duration": "3 sets of 10 reps"
+},
+{
+"name": "Plank with Weighted Reach",
+"duration": "3 sets of 12 reps each side"
+},
+{
+"name": "Russian Twists with Medicine Ball Slams",
+"duration": "3 sets of 15 reps each side"
+},
+{
+"name": "V-sit Hold",
+"duration": "3 sets of 20 seconds"
+}
+]
+},
+{
+"week": 4,
+
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Dragon Flag Variations",
+"duration": "3 sets of 6 reps"
+},
+{
+"name": "Front Lever Hold",
+"duration": "3 sets of 15 seconds"
+},
+{
+"name": "Plank with Renegade Rows",
+"duration": "3 sets of 10 reps each side"
+},
+{
+"name": "Weighted Russian Twists on Stability Ball",
+"duration": "3 sets of 15 reps each side"
+},
+{
+"name": "Hanging Leg Raises with Twist",
+"duration": "3 sets of 10 reps each side"
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "Ab Blast",
+"level": [
+{
+"name": "Beginner",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "20-30 minutes",
+"exercises": [
+{
+"name": "Crunches",
+"duration": "3 sets of 15 reps"
+},
+{
+"name": "Plank",
+"duration": "3 sets of 30 seconds"
+},
+{
+"name": "Russian Twists",
+"duration": "3 sets of 12 reps each side"
+},
+{
+"name": "Mountain Climbers",
+"duration": "3 sets of 20 reps"
+},
+{
+"name": "Bicycle Crunches",
+"duration": "3 sets of 15 reps each side"
+}
+]
+},
+{
+"week": 2,
+
+"overall_duration": "25-35 minutes",
+"exercises": [
+{
+"name": "Leg Raises",
+"duration": "3 sets of 12 reps"
+},
+{
+"name": "Side Plank",
+"duration": "3 sets of 20 seconds each side"
+},
+{
+"name": "Flutter Kicks",
+"duration": "3 sets of 20 reps"
+},
+{
+"name": "Toe Touches",
+"duration": "3 sets of 15 reps"
+},
+{
+"name": "Reverse Crunches",
+"duration": "3 sets of 12 reps"
+}
+]
+},
+{
+"week": 3,
+
+"overall_duration": "30-40 minutes",
+"exercises": [
+{
+"name": "V-ups",
+"duration": "3 sets of 10 reps"
+},
+{
+"name": "Plank with Shoulder Taps",
+"duration": "3 sets of 12 reps each side"
+},
+{
+"name": "Russian Twists with Medicine Ball",
+"duration": "3 sets of 15 reps each side"
+},
+{
+"name": "Mountain Climbers with Twist",
+"duration": "3 sets of 20 reps"
+},
+{
+"name": "Hollow Body Hold",
+"duration": "3 sets of 20 seconds"
+}
+]
+},
+{
+"week": 4,
+
+"overall_duration": "35-45 minutes",
+"exercises": [
+{
+"name": "Jackknife Sit-ups",
+"duration": "3 sets of 12 reps"
+},
+{
+"name": "Side Plank with Hip Dips",
+"duration": "3 sets of 12 reps each side"
+},
+{
+"name": "Russian Twists with Weight Plate",
+"duration": "3 sets of 15 reps each side"
+},
+{
+"name": "Spiderman Plank",
+"duration": "3 sets of 12 reps each side"
+},
+{
+"name": "Lying Windshield Wipers",
+"duration": "3 sets of 12 reps each side"
+}
+]
+}
+]
+},
+{
+"name": "Intermediate",
+"workouts": [
+{
+"week": 1,
+
+"overall_duration": "30-40 minutes",
+"exercises": [
+{
+"name": "Toe-to-Bar",
+"duration": "3 sets of 10 reps"
+},
+{
+"name": "Plank with Knee to Elbow",
+"duration": "3 sets of 15 reps each side"
+},
+{
+"name": "Russian Twists with Medicine Ball Slams",
+"duration": "3 sets of 20 reps each side"
+},
+{
+"name": "Mountain Climbers with Twist",
+"duration": "3 sets of 25 reps"
+},
+{
+"name": "Hanging Leg Raises",
+"duration": "3 sets of 10 reps"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "35-45 minutes",
+"exercises": [
+{
+"name": "Dragon Flags",
+"duration": "3 sets of 8 reps"
+},
+{
+"name": "Side Plank with Leg Lift",
+"duration": "3 sets of 12 reps each side"
+},
+{
+"name": "Russian Twists with Weight Plate",
+"duration": "3 sets of 20 reps each side"
+},
+{
+"name": "Mountain Climbers with Twist",
+"duration": "3 sets of 30 reps"
+},
+{
+"name": "L-sit",
+"duration": "3 sets of 20 seconds"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Dragon Flag Variations",
+"duration": "3 sets of 6 reps"
+},
+{
+"name": "Plank with Knee to Opposite Elbow and Leg Extension",
+"duration": "3 sets of 12 reps each side"
+},
+{
+"name": "Weighted Russian Twists",
+"duration": "3 sets of 20 reps each side"
+},
+{
+"name": "Mountain Climbers with Twist and Push-Up",
+"duration": "3 sets of 20 reps each side"
+},
+{
+"name": "Toes to Bar",
+"duration": "3 sets of 10 reps"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "45-55 minutes",
+"exercises": [
+{
+"name": "Dragon Flag Progressions",
+"duration": "3 sets of 6 reps"
+},
+{
+"name": "Side Plank with Leg Lift and Twist",
+"duration": "3 sets of 12 reps each side"
+},
+{
+"name": "Weighted Russian Twists on Decline Bench",
+"duration": "3 sets of 20 reps each side"
+},
+{
+"name": "Mountain Climbers with Twist and Knee Tuck",
+"duration": "3 sets of 20 reps each side"
+},
+{
+"name": "Hanging Leg Raises with Twist",
+"duration": "3 sets of 10 reps each side"
+}
+]
+}
+]
+},
+{
+"name": "Advanced",
+"workouts": [
+{
+"week": 1,
+
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Hanging Windshield Wipers",
+"duration": "3 sets of 8 reps each side"
+},
+{
+"name": "Dragon Flags",
+"duration": "3 sets of 6 reps"
+},
+{
+"name": "Plank with Knee to Opposite Elbow",
+"duration": "3 sets of 12 reps each side"
+},
+{
+"name": "Russian Twists with Weight Plate",
+"duration": "3 sets of 15 reps each side"
+},
+{
+"name": "Leg Raises to L-sit",
+"duration": "3 sets of 10 reps"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Hanging Leg Raises to Horizontal Bar",
+"duration": "3 sets of 10 reps"
+},
+{
+"name": "Dragon Flag Progressions",
+"duration": "3 sets of 6 reps"
+},
+{
+"name": "Plank with Arm and Leg Lift",
+"duration": "3 sets of 12 reps each side"
+},
+{
+"name": "Weighted Russian Twists on Decline Bench",
+"duration": "3 sets of 15 reps each side"
+},
+{
+"name": "Toes to Bar",
+"duration": "3 sets of 10 reps"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Front Lever Progressions",
+"duration": "3 sets of 8 reps"
+},
+{
+"name": "Hanging Pike Leg Raises",
+"duration": "3 sets of 10 reps"
+},
+{
+"name": "Plank with Weighted Reach",
+"duration": "3 sets of 12 reps each side"
+},
+{
+"name": "Russian Twists with Medicine Ball Slams",
+"duration": "3 sets of 15 reps each side"
+},
+{
+"name": "V-sit Hold",
+"duration": "3 sets of 20 seconds"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Dragon Flag Variations",
+"duration": "3 sets of 6 reps"
+},
+{
+"name": "Front Lever Hold",
+"duration": "3 sets of 15 seconds"
+},
+{
+"name": "Plank with Renegade Rows",
+"duration": "3 sets of 10 reps each side"
+},
+{
+"name": "Weighted Russian Twists on Stability Ball",
+"duration": "3 sets of 15 reps each side"
+},
+{
+"name": "Hanging Leg Raises with Twist",
+"duration": "3 sets of 10 reps each side"
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"goal": "Increase Speed",
+"challenges": [
+{
+"name": "Sprint Intervals",
+"level": [
+{
+"name": "Beginner",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "20-30 minutes",
+"exercises": [
+{
+"name": "Warm-up Jog",
+"duration": "5 minutes"
+},
+{
+"name": "Sprint",
+"duration": "20 seconds"
+},
+{
+"name": "In between Rest or Light Jog",
+"duration": "40 seconds"
+},
+{
+"name": "Repeat",
+"duration": "5 times"
+},
+{
+"name": "Cooldown Walk",
+"duration": "5 minutes"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "25-35 minutes",
+"exercises": [
+{
+"name": "Warm-up Jog",
+"duration": "5 minutes"
+},
+{
+"name": "Sprint",
+"duration": "30 seconds"
+},
+{
+"name": "In between Rest or Light Jog",
+"duration": "30 seconds"
+},
+{
+"name": "Repeat",
+"duration": "6 times"
+},
+{
+"name": "Cooldown Walk",
+"duration": "5 minutes"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "30-40 minutes",
+"exercises": [
+{
+"name": "Warm-up Jog",
+"duration": "5 minutes"
+},
+{
+"name": "Sprint",
+"duration": "40 seconds"
+},
+{
+"name": "In between Rest or Light Jog",
+"duration": "20 seconds"
+},
+{
+"name": "Repeat",
+"duration": "8 times"
+},
+{
+"name": "Cooldown Walk",
+"duration": "5 minutes"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "35-45 minutes",
+"exercises": [
+{
+"name": "Warm-up Jog",
+"duration": "5 minutes"
+},
+{
+"name": "Sprint",
+"duration": "45 seconds"
+},
+{
+"name": "In between Rest or Light Jog",
+"duration": "15 seconds"
+},
+{
+"name": "Repeat",
+"duration": "10 times"
+},
+{
+"name": "Cooldown Walk",
+"duration": "5 minutes"
+}
+]
+}
+]
+},
+{
+"name": "Intermediate",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "25-35 minutes",
+"exercises": [
+{
+"name": "Warm-up Jog",
+"duration": "5 minutes"
+},
+{
+"name": "Sprint",
+"duration": "45 seconds"
+},
+{
+"name": "In between Rest or Light Jog",
+"duration": "15 seconds"
+},
+{
+"name": "Repeat",
+"duration": "8 times"
+},
+{
+"name": "Cooldown Walk",
+"duration": "5 minutes"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "30-40 minutes",
+"exercises": [
+{
+"name": "Warm-up Jog",
+"duration": "5 minutes"
+},
+{
+"name": "Sprint",
+"duration": "50 seconds"
+},
+{
+"name": "In between Rest or Light Jog",
+"duration": "10 seconds"
+},
+{
+"name": "Repeat",
+"duration": "10 times"
+},
+{
+"name": "Cooldown Walk",
+"duration": "5 minutes"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "35-45 minutes",
+"exercises": [
+{
+"name": "Warm-up Jog",
+"duration": "5 minutes"
+},
+{
+"name": "Sprint",
+"duration": "55 seconds"
+},
+{
+"name": "In between Rest or Light Jog",
+"duration": "5 seconds"
+},
+{
+"name": "Repeat",
+"duration": "12 times"
+},
+{
+"name": "Cooldown Walk",
+"duration": "5 minutes"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Warm-up Jog",
+"duration": "5 minutes"
+},
+{
+"name": "Sprint",
+"duration": "60 seconds"
+},
+{
+"name": "In between Rest or Light Jog",
+"duration": "5 seconds"
+},
+{
+"name": "Repeat",
+"duration": "15 times"
+},
+{
+"name": "Cooldown Walk",
+"duration": "5 minutes"
+}
+]
+}
+]
+},
+{
+"name": "Advanced",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "30-40 minutes",
+"exercises": [
+{
+"name": "Warm-up Jog",
+"duration": "5 minutes"
+},
+{
+"name": "Sprint",
+"duration": "60 seconds"
+},
+{
+"name": "In between Rest or Light Jog",
+"duration": "30 seconds"
+},
+{
+"name": "Repeat",
+"duration": "10 times"
+},
+{
+"name": "Cooldown Walk",
+"duration": "5 minutes"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "35-45 minutes",
+"exercises": [
+{
+"name": "Warm-up Jog",
+"duration": "5 minutes"
+},
+{
+"name": "Sprint",
+"duration": "70 seconds"
+},
+{
+"name": "In between Rest or Light Jog",
+"duration": "30 seconds"
+},
+{
+"name": "Repeat",
+"duration": "12 times"
+},
+{
+"name": "Cooldown Walk",
+"duration": "5 minutes"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Warm-up Jog",
+"duration": "5 minutes"
+},
+{
+"name": "Sprint",
+"duration": "75 seconds"
+},
+{
+"name": " In between Rest or Light Jog",
+"duration": "30 seconds"
+},
+{
+"name": "Repeat",
+"duration": "15 times"
+},
+{
+"name": "Cooldown Walk",
+"duration": "5 minutes"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "45-55 minutes",
+"exercises": [
+{
+"name": "Warm-up Jog",
+"duration": "5 minutes"
+},
+{
+"name": "Sprint",
+"duration": "90 seconds"
+},
+{
+"name": "In between Rest or Light Jog",
+"duration": "30 seconds"
+},
+{
+"name": "Repeat",
+"duration": "20 times"
+},
+{
+"name": "Cooldown Walk",
+"duration": "5 minutes"
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "Resistance Running",
+"level": [
+{
+"name": "Beginner",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "20-30 minutes",
+"exercises": [
+{
+"name": "Warm-up Jog",
+"duration": "5 minutes"
+},
+{
+"name": "Resistance Band Running",
+"duration": "4 sets of 30 seconds"
+
+},
+{
+"name": "In between Rest or Light Jog",
+"duration": "1 minute"
+},
+{
+"name": "Cooldown Walk",
+"duration": "5 minutes"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "25-35 minutes",
+"exercises": [
+{
+"name": "Warm-up Jog",
+"duration": "5 minutes"
+},
+{
+"name": "Resistance Band Running",
+"duration": "5 sets of 30 seconds"
+},
+{
+"name": "In between Rest or Light Jog",
+"duration": "1 minute"
+},
+{
+"name": "Cooldown Walk",
+"duration": "5 minutes"
+}
+]
+}
+]
+},
+{
+"name": "Intermediate",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "25-35 minutes",
+"exercises": [
+{
+"name": "Warm-up Jog",
+"duration": "5 minutes"
+},
+{
+"name": "Resistance Band Running",
+"duration": "6 sets of 40 seconds"
+
+},
+{
+"name": "In between Rest or Light Jog",
+"duration": "45 seconds"
+},
+{
+"name": "Cooldown Walk",
+"duration": "5 minutes"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "30-40 minutes",
+"exercises": [
+{
+"name": "Warm-up Jog",
+"duration": "5 minutes"
+},
+{
+"name": "Resistance Band Running",
+"duration": "7 sets of 45 seconds"
+},
+{
+"name": "In between Rest or Light Jog",
+"duration": "45 seconds"
+},
+{
+"name": "Cooldown Walk",
+"duration": "5 minutes"
+}
+]
+}
+]
+},
+{
+"name": "Advanced",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "30-40 minutes",
+"exercises": [
+{
+"name": "Warm-up Jog",
+"duration": "5 minutes"
+},
+{
+"name": "Resistance Band Running",
+"duration": "8 sets of 60 seconds",
+"equipment": "Resistance band"
+},
+{
+"name": "In between Rest or Light Jog",
+"duration": "30 seconds"
+},
+{
+"name": "Cooldown Walk",
+"duration": "5 minutes"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "35-45 minutes",
+"exercises": [
+{
+"name": "Warm-up Jog",
+"duration": "5 minutes"
+},
+{
+"name": "Resistance Band Running",
+"duration": "9 sets of 60 seconds"
+},
+{
+"name": "In between Rest or Light Jog",
+"duration": "30 seconds"
+},
+{
+"name": "Cooldown Walk",
+"duration": "5 minutes"
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"goal": "Increase Strength",
+"challenges": [
+{
+"name": "Bodyweight Mastery",
+"level": [
+{
+"name": "Beginner",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "20-30 minutes",
+"exercises": [
+{
+"name": "Assisted Pull-ups",
+"duration": "2 sets of 8-10 reps"
+},
+{
+"name": "Assisted Dips",
+"duration": "2 sets of 8-10 reps"
+},
+{
+"name": "Bodyweight Squats",
+"duration": "2 sets of 10-12 reps"
+},
+{
+"name": "Incline Push-ups",
+"duration": "2 sets of 10-12 reps"
+},
+{
+"name": "Plank",
+"duration": "2 sets of 30-45 seconds"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "25-35 minutes",
+"exercises": [
+{
+"name": "Negative Pull-ups",
+"duration": "2 sets of 5-8 reps"
+},
+{
+"name": "Negative Dips",
+"duration": "2 sets of 5-8 reps"
+},
+{
+"name": "Walking Lunges",
+"duration": "2 sets of 10-12 reps each leg"
+},
+{
+"name": "Knee Push-ups",
+"duration": "2 sets of 10-12 reps"
+},
+{
+"name": "Side Planks",
+"duration": "2 sets of 20-30 seconds each side"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "25-35 minutes",
+"exercises": [
+{
+"name": "Assisted Pull-ups",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Assisted Dips",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Bodyweight Squats",
+"duration": "3 sets of 10-12 reps"
+},
+{
+"name": "Incline Push-ups",
+"duration": "3 sets of 10-12 reps"
+},
+{
+"name": "Plank",
+"duration": "3 sets of 30-45 seconds"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "30-40 minutes",
+"exercises": [
+{
+"name": "Negative Pull-ups",
+"duration": "3 sets of 5-8 reps"
+},
+{
+"name": "Negative Dips",
+"duration": "3 sets of 5-8 reps"
+},
+{
+"name": "Walking Lunges",
+"duration": "3 sets of 10-12 reps each leg"
+},
+{
+"name": "Knee Push-ups",
+"duration": "3 sets of 10-12 reps"
+},
+{
+"name": "Side Planks",
+"duration": "3 sets of 20-30 seconds each side"
+}
+]
+}
+]
+},
+{
+"name": "Intermediate",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "30-40 minutes",
+"exercises": [
+{
+"name": "Wide-Grip Pull-ups",
+"duration": "2 sets of 8-10 reps"
+},
+{
+"name": "Parallel Bar Dips",
+"duration": "2 sets of 8-10 reps"
+},
+{
+"name": "Pistol Squats",
+"duration": "2 sets of 6-8 reps each leg"
+},
+{
+"name": "Diamond Push-ups",
+"duration": "2 sets of 8-10 reps"
+},
+{
+"name": "Russian Twists",
+"duration": "2 sets of 12-15 reps each side"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "35-45 minutes",
+"exercises": [
+{
+"name": "Chin-ups",
+"duration": "2 sets of 8-10 reps"
+},
+{
+"name": "Tricep Dips",
+"duration": "2 sets of 8-10 reps"
+},
+{
+"name": "Box Jumps",
+"duration": "2 sets of 8-10 reps"
+},
+{
+"name": "Decline Push-ups",
+"duration": "2 sets of 8-10 reps"
+},
+{
+"name": "Leg Raises",
+"duration": "2 sets of 12-15 reps"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "35-45 minutes",
+"exercises": [
+{
+"name": "Wide-Grip Pull-ups",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Parallel Bar Dips",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Pistol Squats",
+"duration": "3 sets of 6-8 reps each leg"
+},
+{
+"name": "Diamond Push-ups",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Russian Twists",
+"duration": "3 sets of 12-15 reps each side"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Chin-ups",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Tricep Dips",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Box Jumps",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Decline Push-ups",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Leg Raises",
+"duration": "3 sets of 12-15 reps"
+}
+]
+}
+]
+},
+{
+"name": "Advanced",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Muscle-ups",
+"duration": "2 sets of 5-7 reps"
+},
+{
+"name": "Handstand Push-ups",
+"duration": "2 sets of 8-10 reps"
+},
+{
+"name": "Plyometric Squats",
+"duration": "2 sets of 8-10 reps"
+},
+{
+"name": "Planche Push-ups",
+"duration": "2 sets of 6-8 reps"
+},
+{
+"name": "Dragon Flags",
+"duration": "2 sets of 8-10 reps"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "45-55 minutes",
+"exercises": [
+{
+"name": "One-Arm Pull-ups",
+"duration": "2 sets of 3-5 reps each arm"
+},
+{
+"name": "Ring Dips",
+"duration": "2 sets of 8-10 reps"
+},
+{
+"name": "Pistol Squats with Weight",
+"duration": "2 sets of 6-8 reps each leg"
+},
+{
+"name": "Planche Holds",
+"duration": "2 sets of 20-30 seconds"
+},
+{
+"name": "Front Lever Raises",
+"duration": "2 sets of 8-10 reps"
+}
+]
+},
+{
+"week": 3,
+
+"overall_duration": "45-55 minutes",
+"exercises": [
+{
+"name": "Muscle-ups",
+"duration": "3 sets of 5-7 reps"
+},
+{
+"name": "Handstand Push-ups",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Plyometric Squats",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Planche Push-ups",
+"duration": "3 sets of 6-8 reps"
+},
+{
+"name": "Dragon Flags",
+"duration": "3 sets of 8-10 reps"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "50-60 minutes",
+"exercises": [
+{
+"name": "One-Arm Pull-ups",
+"duration": "3 sets of 3-5 reps each arm"
+},
+{
+"name": "Ring Dips",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Pistol Squats with Weight",
+"duration": "3 sets of 6-8 reps each leg"
+},
+{
+"name": "Planche Holds",
+"duration": "3 sets of 20-30 seconds"
+},
+{
+"name": "Front Lever Raises",
+"duration": "3 sets of 8-10 reps"
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "Weightlifting Power",
+"level": [
+{
+"name": "Beginner",
+"workouts": [
+{
+"week": 1,
+
+"overall_duration": "30-40 minutes",
+"exercises": [
+{
+"name": "Barbell Squats",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Barbell Deadlifts",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Bench Press",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Bent Over Rows",
+"duration": "3 sets of 8-10 reps"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "35-45 minutes",
+"exercises": [
+{
+"name": "Front Squats",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Romanian Deadlifts",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Incline Bench Press",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Pull-ups",
+"duration": "3 sets of 8-10 reps"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "35-45 minutes",
+"exercises": [
+{
+"name": "Barbell Lunges",
+"duration": "3 sets of 8-10 reps each leg"
+},
+{
+"name": "Sumo Deadlifts",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Close Grip Bench Press",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "T-Bar Rows",
+"duration": "3 sets of 8-10 reps"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Split Squats",
+"duration": "3 sets of 8-10 reps each leg"
+},
+{
+"name": "Trap Bar Deadlifts",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Decline Bench Press",
+"duration": "3 sets of 8-10 reps"
+},
+{
+"name": "Bent Over Dumbbell Rows",
+"duration": "3 sets of 8-10 reps"
+}
+]
+}
+]
+},
+{
+"name": "Intermediate",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Back Squats",
+"duration": "3 sets of 6-8 reps"
+},
+{
+"name": "Deadlifts",
+"duration": "3 sets of 6-8 reps"
+},
+{
+"name": "Incline Bench Press",
+"duration": "3 sets of 6-8 reps"
+},
+{
+"name": "Pull-ups",
+"duration": "3 sets of 6-8 reps"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "45-55 minutes",
+"exercises": [
+{
+"name": "Front Squats",
+"duration": "3 sets of 6-8 reps"
+},
+{
+"name": "Romanian Deadlifts",
+"duration": "3 sets of 6-8 reps"
+},
+{
+"name": "Decline Bench Press",
+"duration": "3 sets of 6-8 reps"
+},
+{
+"name": "Barbell Rows",
+"duration": "3 sets of 6-8 reps"
+}
+]
+},
+{
+"week": 3,
+
+"overall_duration": "45-55 minutes",
+"exercises": [
+{
+"name": "Split Squats",
+"duration": "3 sets of 6-8 reps each leg"
+},
+{
+"name": "Sumo Deadlifts",
+"duration": "3 sets of 6-8 reps"
+},
+{
+"name": "Close Grip Bench Press",
+"duration": "3 sets of 6-8 reps"
+},
+{
+"name": "T-Bar Rows",
+"duration": "3 sets of 6-8 reps"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "50-60 minutes",
+"exercises": [
+{
+"name": "Lunges",
+"duration": "3 sets of 6-8 reps each leg"
+},
+{
+"name": "Trap Bar Deadlifts",
+"duration": "3 sets of 6-8 reps"
+},
+{
+"name": "Incline Dumbbell Press",
+"duration": "3 sets of 6-8 reps"
+},
+{
+"name": "Seated Cable Rows",
+"duration": "3 sets of 6-8 reps"
+}
+]
+}
+]
+},
+{
+"name": "Advanced",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "45-55 minutes",
+"exercises": [
+{
+"name": "Back Squats",
+"duration": "3 sets of 4-6 reps"
+},
+{
+"name": "Deadlifts",
+"duration": "3 sets of 4-6 reps"
+},
+{
+"name": "Incline Bench Press",
+"duration": "3 sets of 4-6 reps"
+},
+{
+"name": "Pull-ups",
+"duration": "3 sets of 4-6 reps"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "50-60 minutes",
+"exercises": [
+{
+"name": "Front Squats",
+"duration": "3 sets of 4-6 reps"
+},
+{
+"name": "Romanian Deadlifts",
+"duration": "3 sets of 4-6 reps"
+},
+{
+"name": "Decline Bench Press",
+"duration": "3 sets of 4-6 reps"
+},
+{
+"name": "Barbell Rows",
+"duration": "3 sets of 4-6 reps"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "50-60 minutes",
+"exercises": [
+{
+"name": "Split Squats",
+"duration": "3 sets of 4-6 reps each leg"
+},
+{
+"name": "Sumo Deadlifts",
+"duration": "3 sets of 4-6 reps"
+},
+{
+"name": "Close Grip Bench Press",
+"duration": "3 sets of 4-6 reps"
+},
+{
+"name": "T-Bar Rows",
+"duration": "3 sets of 4-6 reps"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "55-65 minutes",
+"exercises": [
+{
+"name": "Lunges",
+"duration": "3 sets of 4-6 reps each leg"
+},
+{
+"name": "Trap Bar Deadlifts",
+"duration": "3 sets of 4-6 reps"
+},
+{
+"name": "Incline Dumbbell Press",
+"duration": "3 sets of 4-6 reps"
+},
+{
+"name": "Seated Cable Rows",
+"duration": "3 sets of 4-6 reps"
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"goal": "Tone Up",
+"challenges": [
+{
+"name": "Circuit Training",
+"level": [
+{
+"name": "Beginner",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "20-30 minutes",
+"exercises": [
+{
+"name": "Jumping Jacks",
+"duration": "1 minute"
+},
+{
+"name": "Bodyweight Squats",
+"duration": "1 minute"
+},
+{
+"name": "Push-ups",
+"duration": "1 minute"
+},
+{
+"name": "Plank",
+"duration": "1 minute"
+},
+{
+"name": "Mountain Climbers",
+"duration": "1 minute"
+},
+{
+"name": "Repeat",
+"duration": "5 times"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "25-35 minutes",
+"exercises": [
+{
+"name": "Jump Rope",
+"duration": "1 minute"
+},
+{
+"name": "Lunges",
+"duration": "1 minute"
+},
+{
+"name": "Dumbbell Rows",
+"duration": "1 minute"
+},
+{
+"name": "Russian Twists",
+"duration": "1 minute"
+},
+{
+"name": "Burpees",
+"duration": "1 minute"
+},
+{
+"name": "Repeat",
+"duration": "6 times"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "30-40 minutes",
+"exercises": [
+{
+"name": "High Knees",
+"duration": "1 minute"
+},
+{
+"name": "Dumbbell Squat Press",
+"duration": "1 minute"
+},
+{
+"name": "Tricep Dips",
+"duration": "1 minute"
+},
+{
+"name": "Leg Raises",
+"duration": "1 minute"
+},
+{
+"name": "Box Jumps",
+"duration": "1 minute"
+},
+{
+"name": "Repeat",
+"duration": "7 times"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "35-45 minutes",
+"exercises": [
+{
+"name": "Jump Squats",
+"duration": "1 minute"
+},
+{
+"name": "Bicep Curls",
+"duration": "1 minute"
+},
+{
+"name": "Bicycle Crunches",
+"duration": "1 minute"
+},
+{
+"name": "Side Plank",
+"duration": "1 minute each side"
+},
+{
+"name": "Boxing",
+"duration": "1 minute"
+},
+{
+"name": "Repeat",
+"duration": "8 times"
+}
+]
+}
+]
+},
+{
+"name": "Intermediate",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "30-40 minutes",
+"exercises": [
+{
+"name": "Jumping Jacks",
+"duration": "1 minute"
+},
+{
+"name": "Dumbbell Squats",
+"duration": "1 minute"
+},
+{
+"name": "Push-ups",
+"duration": "1 minute"
+},
+{
+"name": "Plank",
+"duration": "1 minute"
+},
+{
+"name": "Mountain Climbers",
+"duration": "1 minute"
+},
+{
+"name": "Repeat",
+"duration": "5 times"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "35-45 minutes",
+"exercises": [
+{
+"name": "Jump Rope",
+"duration": "1 minute"
+},
+{
+"name": "Walking Lunges",
+"duration": "1 minute"
+},
+{
+"name": "Dumbbell Rows",
+"duration": "1 minute"
+},
+{
+"name": "Russian Twists with Medicine Ball",
+"duration": "1 minute"
+},
+{
+"name": "Burpees",
+"duration": "1 minute"
+},
+{
+"name": "Repeat",
+"duration": "6 times"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "High Knees",
+"duration": "1 minute"
+},
+{
+"name": "Dumbbell Squat Press",
+"duration": "1 minute"
+},
+{
+"name": "Tricep Dips",
+"duration": "1 minute"
+},
+{
+"name": "Leg Raises",
+"duration": "1 minute"
+},
+{
+"name": "Box Jumps",
+"duration": "1 minute"
+},
+{
+"name": "Repeat",
+"duration": "7 times"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "45-55 minutes",
+"exercises": [
+{
+"name": "Jump Squats",
+"duration": "1 minute"
+},
+{
+"name": "Bicep Curls",
+"duration": "1 minute"
+},
+{
+"name": "Bicycle Crunches",
+"duration": "1 minute"
+},
+{
+"name": "Side Plank",
+"duration": "1 minute each side"
+},
+{
+"name": "Boxing",
+"duration": "1 minute"
+},
+{
+"name": "Repeat",
+"duration": "8 times"
+}
+]
+}
+]
+},
+{
+"name": "Advanced",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Jumping Jacks with Dumbbell Shoulder Press",
+"duration": "1 minute"
+},
+{
+"name": "Front Squats",
+"duration": "1 minute"
+},
+{
+"name": "Push-ups with Renegade Rows",
+"duration": "1 minute"
+},
+{
+"name": "Plank with Knee to Elbow",
+"duration": "1 minute"
+},
+{
+"name": "Mountain Climbers with Cross-body Twist",
+"duration": "1 minute"
+},
+{
+"name": "Repeat",
+"duration": "7 times"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "45-55 minutes",
+"exercises": [
+{
+"name": "Box Jumps with Medicine Ball Slam",
+"duration": "1 minute"
+},
+{
+"name": "Walking Lunges with Overhead Dumbbell Press",
+"duration": "1 minute"
+},
+{
+"name": "Pull-ups",
+"duration": "1 minute"
+},
+{
+"name": "Russian Twists with Weight Plate",
+"duration": "1 minute"
+},
+{
+"name": "Burpees with Tuck Jump",
+"duration": "1 minute"
+},
+{
+"name": "Repeat",
+"duration": "8 times"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "50-60 minutes",
+"exercises": [
+{
+"name": "Jump Rope Double-unders",
+"duration": "1 minute"
+},
+{
+"name": "Dumbbell Thrusters",
+"duration": "1 minute"
+},
+{
+"name": "Ring Dips",
+"duration": "1 minute"
+},
+{
+"name": "Toes-to-Bar",
+"duration": "1 minute"
+},
+{
+"name": "Box Jumps over Barbell",
+"duration": "1 minute"
+},
+{
+"name": "Repeat",
+"duration": "9 times"
+}
+]
+},
+{
+"week": 4,
+
+"overall_duration": "55-65 minutes",
+"exercises": [
+{
+"name": "Plyometric Push-ups",
+"duration": "1 minute"
+},
+{
+"name": "Kettlebell Swings",
+"duration": "1 minute"
+},
+{
+"name": "Hanging Leg Raises",
+"duration": "1 minute"
+},
+{
+"name": "Lateral Box Jumps",
+"duration": "1 minute"
+},
+{
+"name": "Battle Rope Waves",
+"duration": "1 minute"
+},
+{
+"name": "Repeat",
+"duration": "10 times"
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "Pilates Core and More",
+"level": [
+{
+"name": "Beginner",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "20-30 minutes",
+"exercises": [
+{
+"name": "Pelvic Tilts",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Leg Circles",
+"duration": "2 sets of 10 reps each leg"
+},
+{
+"name": "Single Leg Stretch",
+"duration": "2 sets of 10 reps each leg"
+},
+{
+"name": "Plank",
+"duration": "2 sets of 15-30 seconds"
+},
+{
+"name": "Side Leg Lifts",
+"duration": "2 sets of 10 reps each leg"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "25-35 minutes",
+"exercises": [
+{
+"name": "Bridges",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Double Leg Stretch",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Side Plank",
+"duration": "2 sets of 15-30 seconds each side"
+},
+{
+"name": "Scissors",
+"duration": "2 sets of 10 reps each leg"
+},
+{
+"name": "Rolling Like a Ball",
+"duration": "2 sets of 10 reps"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "30-40 minutes",
+"exercises": [
+{
+"name": "Hundreds",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Teaser",
+"duration": "2 sets of 5 reps"
+},
+{
+"name": "Swimming",
+"duration": "2 sets of 30-60 seconds"
+},
+{
+"name": "Leg Pull Front",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Corkscrew",
+"duration": "2 sets of 5 reps each direction"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "35-45 minutes",
+"exercises": [
+{
+"name": "Roll Up",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Criss Cross",
+"duration": "2 sets of 10 reps each side"
+},
+{
+"name": "Side Plank with Rotation",
+"duration": "2 sets of 10 reps each side"
+},
+{
+"name": "Swan Dive",
+"duration": "2 sets of 5 reps"
+},
+{
+"name": "Single Leg Teaser",
+"duration": "2 sets of 5 reps each leg"
+}
+]
+}
+]
+},
+{
+"name": "Intermediate",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "30-40 minutes",
+"exercises": [
+{
+"name": "Rolling Like a Ball",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Single Leg Stretch",
+"duration": "2 sets of 10 reps each leg"
+},
+{
+"name": "Double Leg Stretch",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Side Plank",
+"duration": "2 sets of 30-45 seconds each side"
+},
+{
+"name": "Scissors",
+"duration": "2 sets of 10 reps each leg"
+}
+]
+},
+{
+"week": 2,
+
+"overall_duration": "35-45 minutes",
+"exercises": [
+{
+"name": "Criss Cross",
+"duration": "2 sets of 15 reps each side"
+},
+{
+"name": "Roll Up",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Swimming",
+"duration": "2 sets of 45-60 seconds"
+},
+{
+"name": "Side Plank with Rotation",
+"duration": "2 sets of 12 reps each side"
+},
+{
+"name": "Teaser",
+"duration": "2 sets of 8 reps"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Corkscrew",
+"duration": "2 sets of 8 reps each direction"
+},
+{
+"name": "Leg Pull Front",
+"duration": "2 sets of 12 reps"
+},
+{
+"name": "Single Leg Teaser",
+"duration": "2 sets of 8 reps each leg"
+},
+{
+"name": "Swan Dive",
+"duration": "2 sets of 6 reps"
+},
+{
+"name": "Hundreds",
+"duration": "2 sets of 15 reps"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "45-55 minutes",
+"exercises": [
+{
+"name": "Control Balance",
+"duration": "2 sets of 6 reps each leg"
+},
+{
+"name": "Seal",
+"duration": "2 sets of 12 reps"
+},
+{
+"name": "Snake Twist",
+"duration": "2 sets of 10 reps each side"
+},
+{
+"name": "Star",
+"duration": "2 sets of 8 reps"
+},
+{
+"name": "Jackknife",
+"duration": "2 sets of 6 reps"
+}
+]
+}
+]
+},
+{
+"name": "Advanced",
+"workouts": [
+{
+"week": 1,
+
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "The Boomerang",
+"duration": "2 sets of 8 reps"
+},
+{
+"name": "Control Balance with Twist",
+"duration": "2 sets of 6 reps each side"
+},
+{
+"name": "High Scissors",
+"duration": "2 sets of 10 reps each side"
+},
+{
+"name": "Control Balance to Teaser",
+"duration": "2 sets of 6 reps"
+},
+{
+"name": "Swimming with Arms and Legs",
+"duration": "2 sets of 1 minute"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "45-55 minutes",
+"exercises": [
+{
+"name": "Control Balance to Hip Circles",
+"duration": "2 sets of 8 reps each direction"
+},
+{
+"name": "Tendon Stretch",
+"duration": "2 sets of 8 reps"
+},
+{
+"name": "High Frog",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Corkscrew",
+"duration": "2 sets of 8 reps each direction"
+},
+{
+"name": "Control Balance to Side Kick",
+"duration": "2 sets of 8 reps each leg"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "50-60 minutes",
+"exercises": [
+{
+"name": "Control Balance to Scissors",
+"duration": "2 sets of 10 reps each leg"
+},
+{
+"name": "High Teaser",
+"duration": "2 sets of 6 reps"
+},
+{
+"name": "Star to Up Stretch",
+"duration": "2 sets of 8 reps"
+},
+{
+"name": "Control Balance to Twist and Teaser",
+"duration": "2 sets of 6 reps"
+},
+{
+"name": "Control Balance to Double Leg Stretch",
+"duration": "2 sets of 8 reps"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "55-65 minutes",
+"exercises": [
+{
+"name": "High Scissors to Twist",
+"duration": "2 sets of 8 reps each side"
+},
+{
+"name": "Control Balance to Twist",
+"duration": "2 sets of 8 reps each side"
+},
+{
+"name": "Control Balance to Star",
+"duration": "2 sets of 8 reps"
+},
+{
+"name": "Control Balance to Twist and Star",
+"duration": "2 sets of 6 reps"
+},
+{
+"name": "Control Balance to Twist and Hip Circles",
+"duration": "2 sets of 8 reps each side"
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"goal": "Bulk Up",
+"challenges": [
+{
+"name": "Progressive Overload",
+"level": [
+{
+"name": "Beginner",
+"workouts": [
+{
+"week": 1,
+"description": "Introduction to progressive overload with basic exercises.",
+"overall_duration": "30-40 minutes",
+"movements": [
+{
+"name": "Dumbbell Squats",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Dumbbell Bench Press",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Dumbbell Bent Over Rows",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Dumbbell Shoulder Press",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Dumbbell Bicep Curls",
+"duration": "2 sets of 10 reps"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "35-45 minutes",
+"exercises": [
+{
+"name": "Dumbbell Lunges",
+"duration": "2 sets of 10 reps each leg"
+},
+{
+"name": "Dumbbell Chest Flyes",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Dumbbell Renegade Rows",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Dumbbell Lateral Raises",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Dumbbell Tricep Extensions",
+"duration": "2 sets of 10 reps"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Dumbbell Step-Ups",
+"duration": "2 sets of 10 reps each leg"
+},
+{
+"name": "Dumbbell Pullovers",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Dumbbell Deadlifts",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Dumbbell Arnold Press",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Dumbbell Hammer Curls",
+"duration": "2 sets of 10 reps"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "45-55 minutes",
+"exercises": [
+{
+"name": "Dumbbell Bulgarian Split Squats",
+"duration": "2 sets of 10 reps each leg"
+},
+{
+"name": "Dumbbell Incline Bench Press",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Dumbbell Single Arm Rows",
+"duration": "2 sets of 10 reps each arm"
+},
+{
+"name": "Dumbbell Front Raises",
+"duration": "2 sets of 10 reps"
+},
+{
+"name": "Dumbbell Concentration Curls",
+"duration": "2 sets of 10 reps each arm"
+}
+]
+}
+]
+},
+{
+"name": "Intermediate",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Barbell Squats",
+"duration": "3 sets of 8 reps"
+},
+{
+"name": "Barbell Bench Press",
+"duration": "3 sets of 8 reps"
+},
+{
+"name": "Barbell Bent Over Rows",
+"duration": "3 sets of 8 reps"
+},
+{
+"name": "Barbell Shoulder Press",
+"duration": "3 sets of 8 reps"
+},
+{
+"name": "Barbell Bicep Curls",
+"duration": "3 sets of 8 reps"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "45-55 minutes",
+"exercises": [
+{
+"name": "Barbell Lunges",
+"duration": "3 sets of 8 reps each leg"
+},
+{
+"name": "Barbell Chest Press",
+"duration": "3 sets of 8 reps"
+},
+{
+"name": "Barbell Rows",
+"duration": "3 sets of 8 reps"
+},
+{
+"name": "Barbell Lateral Raises",
+"duration": "3 sets of 8 reps"
+},
+{
+"name": "Barbell Tricep Extensions",
+"duration": "3 sets of 8 reps"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "50-60 minutes",
+"exercises": [
+{
+"name": "Barbell Step-Ups",
+"duration": "3 sets of 8 reps each leg"
+},
+{
+"name": "Barbell Pullovers",
+"duration": "3 sets of 8 reps"
+},
+{
+"name": "Barbell Deadlifts",
+"duration": "3 sets of 8 reps"
+},
+{
+"name": "Barbell Arnold Press",
+"duration": "3 sets of 8 reps"
+},
+{
+"name": "Barbell Hammer Curls",
+"duration": "3 sets of 8 reps"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "55-65 minutes",
+"exercises": [
+{
+"name": "Barbell Bulgarian Split Squats",
+"duration": "3 sets of 8 reps each leg"
+},
+{
+"name": "Barbell Incline Bench Press",
+"duration": "3 sets of 8 reps"
+},
+{
+"name": "Barbell Single Arm Rows",
+"duration": "3 sets of 8 reps each arm"
+},
+{
+"name": "Barbell Front Raises",
+"duration": "3 sets of 8 reps"
+},
+{
+"name": "Barbell Concentration Curls",
+"duration": "3 sets of 8 reps each arm"
+}
+]
+}
+]
+},
+{
+"name": "Advanced",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "50-60 minutes",
+"exercises": [
+{
+"name": "Heavy Squats",
+"duration": "4 sets of 6 reps"
+},
+{
+"name": "Heavy Bench Press",
+"duration": "4 sets of 6 reps"
+},
+{
+"name": "Heavy Bent Over Rows",
+"duration": "4 sets of 6 reps"
+},
+{
+"name": "Heavy Shoulder Press",
+"duration": "4 sets of 6 reps"
+},
+{
+"name": "Heavy Bicep Curls",
+"duration": "4 sets of 6 reps"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "55-65 minutes",
+"exercises": [
+{
+"name": "Heavy Lunges",
+"duration": "4 sets of 6 reps each leg"
+},
+{
+"name": "Heavy Chest Press",
+"duration": "4 sets of 6 reps"
+},
+{
+"name": "Heavy Rows",
+"duration": "4 sets of 6 reps"
+},
+{
+"name": "Heavy Lateral Raises",
+"duration": "4 sets of 6 reps"
+},
+{
+"name": "Heavy Tricep Extensions",
+"duration": "4 sets of 6 reps"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "60-70 minutes",
+"exercises": [
+{
+"name": "Heavy Step-Ups",
+"duration": "4 sets of 6 reps each leg"
+},
+{
+"name": "Heavy Pullovers",
+"duration": "4 sets of 6 reps"
+},
+{
+"name": "Heavy Deadlifts",
+"duration": "4 sets of 6 reps"
+},
+{
+"name": "Heavy Arnold Press",
+"duration": "4 sets of 6 reps"
+},
+{
+"name": "Heavy Hammer Curls",
+"duration": "4 sets of 6 reps"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "65-75 minutes",
+"exercises": [
+{
+"name": "Heavy Bulgarian Split Squats",
+"duration": "4 sets of 6 reps each leg"
+},
+{
+"name": "Heavy Incline Bench Press",
+"duration": "4 sets of 6 reps"
+},
+{
+"name": "Heavy Single Arm Rows",
+"duration": "4 sets of 6 reps each arm"
+},
+{
+"name": "Heavy Front Raises",
+"duration": "4 sets of 6 reps"
+},
+{
+"name": "Heavy Concentration Curls",
+"duration": "4 sets of 6 reps each arm"
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "Hypertrophy-Specific Training",
+"level": [
+{
+"name": "Beginner",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "30-40 minutes",
+"exercises": [
+{
+"name": "Dumbbell Chest Press",
+"duration": "3 sets of 10 reps"
+},
+{
+"name": "Dumbbell Rows",
+"duration": "3 sets of 10 reps"
+},
+{
+"name": "Dumbbell Shoulder Press",
+"duration": "3 sets of 10 reps"
+},
+{
+"name": "Dumbbell Lunges",
+"duration": "3 sets of 10 reps each leg"
+},
+{
+"name": "Dumbbell Bicep Curls",
+"duration": "3 sets of 10 reps"
+}
+]
+},
+{
+"week": 2,
+"overall_duration": "35-45 minutes",
+"exercises": [
+{
+"name": "Dumbbell Incline Press",
+"duration": "3 sets of 10 reps"
+},
+{
+"name": "Dumbbell Deadlifts",
+"duration": "3 sets of 10 reps"
+},
+{
+"name": "Dumbbell Lateral Raises",
+"duration": "3 sets of 10 reps"
+},
+{
+"name": "Dumbbell Step-Ups",
+"duration": "3 sets of 10 reps each leg"
+},
+{
+"name": "Dumbbell Hammer Curls",
+"duration": "3 sets of 10 reps"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Dumbbell Decline Press",
+"duration": "3 sets of 10 reps"
+},
+{
+"name": "Dumbbell Romanian Deadlifts",
+"duration": "3 sets of 10 reps"
+},
+{
+"name": "Dumbbell Front Raises",
+"duration": "3 sets of 10 reps"
+},
+{
+"name": "Dumbbell Split Squats",
+"duration": "3 sets of 10 reps each leg"
+},
+{
+"name": "Dumbbell Concentration Curls",
+"duration": "3 sets of 10 reps"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "45-55 minutes",
+"exercises": [
+{
+"name": "Dumbbell Chest Flyes",
+"duration": "3 sets of 10 reps"
+},
+{
+"name": "Dumbbell Renegade Rows",
+"duration": "3 sets of 10 reps"
+},
+{
+"name": "Dumbbell Arnold Press",
+"duration": "3 sets of 10 reps"
+},
+{
+"name": "Dumbbell Bulgarian Split Squats",
+"duration": "3 sets of 10 reps each leg"
+},
+{
+"name": "Dumbbell Preacher Curls",
+"duration": "3 sets of 10 reps"
+}
+]
+}
+]
+},
+{
+"name": "Intermediate",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "40-50 minutes",
+"exercises": [
+{
+"name": "Barbell Bench Press",
+"duration": "4 sets of 8 reps"
+},
+{
+"name": "Barbell Rows",
+"duration": "4 sets of 8 reps"
+},
+{
+"name": "Barbell Shoulder Press",
+"duration": "4 sets of 8 reps"
+},
+{
+"name": "Barbell Lunges",
+"duration": "4 sets of 8 reps each leg"
+},
+{
+"name": "Barbell Bicep Curls",
+"duration": "4 sets of 8 reps"
+}
+]
+},
+{
+"week": 2,
+
+"overall_duration": "45-55 minutes",
+"exercises": [
+{
+"name": "Barbell Incline Press",
+"duration": "4 sets of 8 reps"
+},
+{
+"name": "Barbell Deadlifts",
+"duration": "4 sets of 8 reps"
+},
+{
+"name": "Barbell Lateral Raises",
+"duration": "4 sets of 8 reps"
+},
+{
+"name": "Barbell Step-Ups",
+"duration": "4 sets of 8 reps each leg"
+},
+{
+"name": "Barbell Hammer Curls",
+"duration": "4 sets of 8 reps"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "50-60 minutes",
+"exercises": [
+{
+"name": "Barbell Decline Press",
+"duration": "4 sets of 8 reps"
+},
+{
+"name": "Barbell Romanian Deadlifts",
+"duration": "4 sets of 8 reps"
+},
+{
+"name": "Barbell Front Raises",
+"duration": "4 sets of 8 reps"
+},
+{
+"name": "Barbell Split Squats",
+"duration": "4 sets of 8 reps each leg"
+},
+{
+"name": "Barbell Concentration Curls",
+"duration": "4 sets of 8 reps"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "55-65 minutes",
+"exercises": [
+{
+"name": "Barbell Chest Flyers",
+"duration": "4 sets of 8 reps"
+},
+{
+"name": "Barbell Renegade Rows",
+"duration": "4 sets of 8 reps"
+},
+{
+"name": "Barbell Arnold Press",
+"duration": "4 sets of 8 reps"
+},
+{
+"name": "Barbell Bulgarian Split Squats",
+"duration": "4 sets of 8 reps each leg"
+},
+{
+"name": "Barbell Preacher Curls",
+"duration": "4 sets of 8 reps"
+}
+]
+}
+]
+},
+{
+"name": "Advanced",
+"workouts": [
+{
+"week": 1,
+"overall_duration": "50-60 minutes",
+"exercises": [
+{
+"name": "Heavy Bench Press",
+"duration": "5 sets of 6 reps"
+},
+{
+"name": "Heavy Rows",
+"duration": "5 sets of 6 reps"
+},
+{
+"name": "Heavy Shoulder Press",
+"duration": "5 sets of 6 reps"
+},
+{
+"name": "Heavy Lunges",
+"duration": "5 sets of 6 reps each leg"
+},
+{
+"name": "Heavy Bicep Curls",
+"duration": "5 sets of 6 reps"
+}
+]
+},
+{
+"week": 2,
+
+"overall_duration": "55-65 minutes",
+"exercises": [
+{
+"name": "Heavy Incline Press",
+"duration": "5 sets of 6 reps"
+},
+{
+"name": "Heavy Deadlifts",
+"duration": "5 sets of 6 reps"
+},
+{
+"name": "Heavy Lateral Raises",
+"duration": "5 sets of 6 reps"
+},
+{
+"name": "Heavy Step-Ups",
+"duration": "5 sets of 6 reps each leg"
+},
+{
+"name": "Heavy Hammer Curls",
+"duration": "5 sets of 6 reps"
+}
+]
+},
+{
+"week": 3,
+"overall_duration": "60-70 minutes",
+"exercises": [
+{
+"name": "Heavy Decline Press",
+"duration": "5 sets of 6 reps"
+},
+{
+"name": "Heavy Romanian Deadlifts",
+"duration": "5 sets of 6 reps"
+},
+{
+"name": "Heavy Front Raises",
+"duration": "5 sets of 6 reps"
+},
+{
+"name": "Heavy Split Squats",
+"duration": "5 sets of 6 reps each leg"
+},
+{
+"name": "Heavy Concentration Curls",
+"duration": "5 sets of 6 reps"
+}
+]
+},
+{
+"week": 4,
+"overall_duration": "65-75 minutes",
+"exercises": [
+{
+"name": "Heavy Chest Flyers",
+"duration": "5 sets of 6 reps"
+},
+{
+"name": "Heavy Renegade Rows",
+"duration": "5 sets of 6 reps"
+},
+{
+"name": "Heavy Arnold Press",
+"duration": "5 sets of 6 reps"
+},
+{
+"name": "Heavy Bulgarian Split Squats",
+"duration": "5 sets of 6 reps each leg"
+},
+{
+"name": "Heavy Preacher Curls",
+"duration": "5 sets of 6 reps"
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
