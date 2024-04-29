@@ -4,8 +4,8 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 public class FitnessGoal implements Parcelable {
-    private int imageResId;
-    private String name;
+    private final int imageResId;
+    private final String name;
     private boolean isSelected;
 
     public FitnessGoal(int imageResId, String name) {

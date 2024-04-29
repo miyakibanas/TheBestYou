@@ -6,8 +6,8 @@ import android.os.Parcelable;
 import java.util.List;
 
 public class UserPreferences implements Parcelable {
-    private List<String> fitnessGoals;
-    private String fitnessLevel;
+    private final List<String> fitnessGoals;
+    private final String fitnessLevel;
 
     public UserPreferences(List<String> fitnessGoals, String fitnessLevel) {
         this.fitnessGoals = fitnessGoals;

@@ -16,9 +16,9 @@ import java.util.List;
 import edu.utsa.cs3773.thebestyou.R;
 
 public class ChallengeAdapter extends RecyclerView.Adapter<ChallengeAdapter.ChallengeViewHolder> {
-    private List<Challenge> challengeList;
-    private Context context;
-    private OnChallengeClickListener onChallengeClickListener;
+    private final List<Challenge> challengeList;
+    private final Context context;
+    private final OnChallengeClickListener onChallengeClickListener;
 
     public interface OnChallengeClickListener {
         void onChallengeClick(Challenge challenge);

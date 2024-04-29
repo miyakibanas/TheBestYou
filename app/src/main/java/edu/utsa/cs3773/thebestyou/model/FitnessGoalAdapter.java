@@ -17,8 +17,8 @@ import java.util.List;
 import edu.utsa.cs3773.thebestyou.R;
 
 public class FitnessGoalAdapter extends BaseAdapter {
-    private Context context;
-    private List<FitnessGoal> fitnessGoals;
+    private final Context context;
+    private final List<FitnessGoal> fitnessGoals;
 
     public FitnessGoalAdapter(Context context, List<FitnessGoal> fitnessGoals) {
         this.context = context;

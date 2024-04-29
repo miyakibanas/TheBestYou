@@ -8,8 +8,8 @@ import java.util.List;
 import edu.utsa.cs3773.thebestyou.R;
 
 public class ChallengeGenerator {
-    private Context context;
-    private WorkoutTemplateLoader loader;
+    private final Context context;
+    private final WorkoutTemplateLoader loader;
 
     public ChallengeGenerator(Context context) {
         this.context = context;

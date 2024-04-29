@@ -5,9 +5,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ChallengeDetail {
-    private String challengeName;
-    private String goalName;
-    private Level level;
+    private final String challengeName;
+    private final String goalName;
+    private final Level level;
 
     public ChallengeDetail(String challengeName, String goalName, Level level) {
         this.challengeName = challengeName;
@@ -28,8 +28,8 @@ public class ChallengeDetail {
     }
 
     public static class Level {
-        private String levelName;
-        private List<Week> weeks;
+        private final String levelName;
+        private final List<Week> weeks;
 
         public Level(String levelName, List<Week> weeks) {
             this.levelName = levelName;
@@ -46,8 +46,8 @@ public class ChallengeDetail {
     }
 
     public static class Week {
-        private int weekNumber;
-        private Workout workout;
+        private final int weekNumber;
+        private final Workout workout;
 
         public Week(int weekNumber, Workout workout) {
             this.weekNumber = weekNumber;
@@ -69,10 +69,10 @@ public class ChallengeDetail {
     }
 
     public static class Workout {
-        private String workoutName;
-        private String workoutDescription;
-        private String overallDuration;
-        private List<Exercise> exercises;
+        private final String workoutName;
+        private final String workoutDescription;
+        private final String overallDuration;
+        private final List<Exercise> exercises;
 
         public Workout(String workoutName, String workoutDescription, String overallDuration, List<Exercise> exercises) {
             this.workoutName = workoutName;
@@ -99,12 +99,15 @@ public class ChallengeDetail {
     }
 
     public static class Exercise {
-        private String exerciseName;
-        private String exerciseDuration;
+        private final String exerciseName;
+        private final String exerciseDuration;
+        private boolean completed; // New field to track completion status
 
         public Exercise(String exerciseName, String exerciseDuration) {
             this.exerciseName = exerciseName;
             this.exerciseDuration = exerciseDuration;
+            this.completed = false; // By default, exercise is not completed
+
         }
 
         public String getExerciseName() {
@@ -113,6 +116,14 @@ public class ChallengeDetail {
 
         public String getExerciseDuration() {
             return exerciseDuration;
+        }
+
+        public boolean isCompleted() {
+            return completed;
+        }
+
+        public void setCompleted(boolean completed) {
+            this.completed = completed;
         }
     }
 

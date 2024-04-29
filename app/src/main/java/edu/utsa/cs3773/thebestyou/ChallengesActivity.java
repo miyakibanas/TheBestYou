@@ -1,15 +1,18 @@
 package edu.utsa.cs3773.thebestyou;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
 import android.widget.Toast;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -45,10 +48,14 @@ public class ChallengesActivity extends AppCompatActivity {
         btnProceed.setOnClickListener(v -> proceedToDashboard());
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
     private void proceedToDashboard() {
         ArrayList<Challenge> selectedChallenges = new ArrayList<>();
         for (Challenge challenge : adapter.getAllChallenges()) {
             if (challenge.isSelected()) {
+                challenge.setStartDate(LocalDate.now());
+                Log.d("ChallengesActivity", "Start date set for challenge " + challenge.getTitle() + ": " + challenge.getStartDate());
+
                 selectedChallenges.add(challenge);
             }
         }

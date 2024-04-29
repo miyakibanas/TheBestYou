@@ -14,7 +14,7 @@ import edu.utsa.cs3773.thebestyou.R;
 
 public class WorkoutDetailsAdapter extends RecyclerView.Adapter<WorkoutDetailsAdapter.ViewHolder> {
 
-    private List<ChallengeDetail.Exercise> exercises;
+    private final List<ChallengeDetail.Exercise> exercises;
 
     public WorkoutDetailsAdapter(List<ChallengeDetail.Exercise> exercises) {
         this.exercises = exercises;

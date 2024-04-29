@@ -15,7 +15,7 @@ import edu.utsa.cs3773.thebestyou.model.UserProfile;
 
 public class PreferenceManager {
     private static final String PREF_NAME = "FitnessAppPreferences";
-    private SharedPreferences sharedPreferences;
+    private final SharedPreferences sharedPreferences;
 
     public PreferenceManager(Context context) {
         this.sharedPreferences = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);

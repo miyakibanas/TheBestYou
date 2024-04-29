@@ -31,7 +31,7 @@ public class UserProfileAPI {
                     response.append(inputLine);
                 }
                 in.close();
-                System.out.println("Response: " + response.toString());
+                System.out.println("Response: " + response);
             } else {
                 System.out.println("Failed to create user profile. Response code: " + responseCode);
             }

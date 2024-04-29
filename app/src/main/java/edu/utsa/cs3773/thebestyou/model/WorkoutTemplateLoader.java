@@ -7,6 +7,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.lang.reflect.Type;
 import java.util.List;
@@ -31,7 +32,7 @@ public class WorkoutTemplateLoader {
             byte[] buffer = new byte[size];
             is.read(buffer);
             is.close();
-            String json = new String(buffer, "UTF-8");
+            String json = new String(buffer, StandardCharsets.UTF_8);
             return parseTemplates(json);
         } catch (IOException ex) {
             ex.printStackTrace();

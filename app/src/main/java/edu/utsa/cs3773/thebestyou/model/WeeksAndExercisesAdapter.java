@@ -16,8 +16,8 @@ import edu.utsa.cs3773.thebestyou.model.ChallengeDetail;
 
 public class WeeksAndExercisesAdapter extends RecyclerView.Adapter<WeeksAndExercisesAdapter.ViewHolder> {
 
-    private List<ChallengeDetail.Week> weeks;
-    private Context context;
+    private final List<ChallengeDetail.Week> weeks;
+    private final Context context;
 
     public WeeksAndExercisesAdapter(List<ChallengeDetail.Week> weeks, Context context) {
         this.weeks = weeks;

@@ -13,8 +13,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class FitnessGoalController {
-    private List<FitnessGoal> fitnessGoals;
-    private PreferenceManager preferenceManager;
+    private final List<FitnessGoal> fitnessGoals;
+    private final PreferenceManager preferenceManager;
     private boolean isLoaded = false;
 
     public FitnessGoalController(Context context) {

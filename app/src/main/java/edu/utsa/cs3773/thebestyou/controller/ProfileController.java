@@ -11,7 +11,7 @@ import edu.utsa.cs3773.thebestyou.model.UserProfile;
 import edu.utsa.cs3773.thebestyou.utils.PreferenceManager;
 
 public class ProfileController {
-    private PreferenceManager preferenceManager;
+    private final PreferenceManager preferenceManager;
 
     public ProfileController(Context context) {
         this.preferenceManager = new PreferenceManager(context);

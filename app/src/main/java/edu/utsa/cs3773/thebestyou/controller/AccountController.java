@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AccountController {
-    private List<CreateAccount> accountsList;
+    private final List<CreateAccount> accountsList;
 
     public AccountController() {
         this.accountsList = new ArrayList<>();

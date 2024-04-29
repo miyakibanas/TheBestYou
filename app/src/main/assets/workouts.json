@@ -81,7 +81,7 @@
       ]
     },
     {
-      "goal": "Increase Speed",
+      "goal":"Increase Speed",
       "level": ["Beginner", "Intermediate", "Advanced"],
       "exercises": [
         {
@@ -90,7 +90,7 @@
           "imageResId": "sprint_intervals"
         },
         {
-          "name": "Resistance Running",
+          "name":"Resistance Running",
           "description": "Use resistance bands or parachutes to increase running resistance, improving stride power and speed.",
           "imageResId": "resistance_running"
         }
@@ -101,12 +101,12 @@
       "level": ["Beginner", "Intermediate", "Advanced"],
       "exercises": [
         {
-          "name": "Bodyweight Mastery",
+          "name":"Bodyweight Mastery",
           "description": "Advance through progressively challenging bodyweight exercises such as pull-ups, push-ups, and dips to increase muscle strength.",
           "imageResId": "bodyweight_mastery"
         },
         {
-          "name": "Weightlifting Power",
+          "name":"Weightlifting Power",
           "description": "Master weightlifting with exercises like squats, deadlifts, and bench presses to build foundational strength.",
           "imageResId": "weightlifting_power"
         }
