@@ -25,16 +25,7 @@
         android:src="@drawable/ic_checkmark"
         android:visibility="gone" /> <!-- Initially hidden -->
 
-    <!-- Challenge title TextView -->
-    <TextView
-        android:id="@+id/challengeTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/dayTextView"
-        android:layout_centerHorizontal="true"
-        android:textSize="14sp"
-        android:textColor="@android:color/darker_gray"
-        android:visibility="gone" /> <!-- Initially hidden -->
+
 
     <!-- Additional views or decorations can be added here -->
 

@@ -7,11 +7,12 @@
         android:id="@+id/titleBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SELECTED CHALLENGES"
-        android:textSize="24sp"
-        android:gravity="center_horizontal"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/gugi"
+        android:gravity="center_horizontal"
+        android:text="SELECTED CHALLENGES"
+        android:textSize="34sp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/challengesRecyclerView"

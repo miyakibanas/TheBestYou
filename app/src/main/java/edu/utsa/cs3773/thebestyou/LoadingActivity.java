@@ -13,7 +13,7 @@ import edu.utsa.cs3773.thebestyou.model.FitnessGoal;
 import edu.utsa.cs3773.thebestyou.model.UserPreferences;
 
 
-public class LoadingActivity extends AppCompatActivity {
+public class LoadingActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

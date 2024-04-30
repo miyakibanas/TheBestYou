@@ -9,7 +9,11 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
+
+import java.util.Locale;
+
 import edu.utsa.cs3773.thebestyou.controller.ProfileController;
+import edu.utsa.cs3773.thebestyou.model.UserProfile;
 import edu.utsa.cs3773.thebestyou.utils.PreferenceManager;
 
 public class ProfileActivity extends AppCompatActivity {
@@ -73,4 +77,3 @@ public class ProfileActivity extends AppCompatActivity {
         spinner.setAdapter(adapter);
     }
 }
-

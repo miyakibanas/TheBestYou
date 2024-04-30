@@ -12,7 +12,7 @@ import edu.utsa.cs3773.thebestyou.model.ChallengeAdapter;
 import edu.utsa.cs3773.thebestyou.model.UserPreferences;
 import edu.utsa.cs3773.thebestyou.utils.PreferenceManager;
 
-public class SelectedChallengesActivity extends AppCompatActivity {
+public class SelectedChallengesActivity extends BaseActivity {
 
     private ChallengeAdapter challengeAdapter;
     private List<Challenge> selectedChallenges;
@@ -27,7 +27,12 @@ public class SelectedChallengesActivity extends AppCompatActivity {
 
         preferenceManager = new PreferenceManager(this);
 
-        selectedChallenges = getIntent().getParcelableArrayListExtra("selectedChallenges");
+        List<Challenge> challengesFromIntent = getIntent().getParcelableArrayListExtra("selectedChallenges");
+        if (challengesFromIntent != null && !challengesFromIntent.isEmpty()) {
+            selectedChallenges = challengesFromIntent;
+        } else {
+            selectedChallenges = preferenceManager.loadSelectedChallenges();
+        }
 
         setupChallengesRecyclerView();
     }

@@ -20,9 +20,6 @@ public class ExercisesAdapter extends RecyclerView.Adapter<ExercisesAdapter.Exer
 
     private List<ChallengeDetail.Exercise> exercises;
     private Context context;
-    public List<ChallengeDetail.Exercise> getExercises() {
-        return exercises;
-    }
 
     public ExercisesAdapter(List<ChallengeDetail.Exercise> exercises, Context context) {
         this.exercises = exercises;
@@ -47,11 +44,19 @@ public class ExercisesAdapter extends RecyclerView.Adapter<ExercisesAdapter.Exer
         return exercises.size();
     }
 
+    public boolean areAllExercisesCompleted() {
+        for (ChallengeDetail.Exercise exercise : exercises) {
+            if (!exercise.isCompleted()) {
+                return false;
+            }
+        }
+        return true;
+    }
+
     class ExerciseViewHolder extends RecyclerView.ViewHolder {
 
         private TextView exerciseTextView;
         private TextView durationTextView;
-
         private CheckBox exerciseCheckBox;
 
         public ExerciseViewHolder(@NonNull View itemView) {
@@ -64,13 +69,10 @@ public class ExercisesAdapter extends RecyclerView.Adapter<ExercisesAdapter.Exer
         public void bind(ChallengeDetail.Exercise exercise) {
             exerciseTextView.setText(exercise.getExerciseName());
             durationTextView.setText(exercise.getExerciseDuration());
-            // Update the checkbox based on the completion status of the exercise
             exerciseCheckBox.setChecked(exercise.isCompleted());
-            // Set an OnCheckedChangeListener to update the completion status of the exercise
             exerciseCheckBox.setOnCheckedChangeListener((buttonView, isChecked) -> {
                 exercise.setCompleted(isChecked);
             });
         }
     }
 }
-

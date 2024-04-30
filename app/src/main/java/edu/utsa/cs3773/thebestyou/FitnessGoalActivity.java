@@ -20,7 +20,7 @@ import edu.utsa.cs3773.thebestyou.model.UserPreferences;
 import edu.utsa.cs3773.thebestyou.model.UserProfile;
 import edu.utsa.cs3773.thebestyou.utils.PreferenceManager;
 
-public class FitnessGoalActivity extends AppCompatActivity {
+public class FitnessGoalActivity extends BaseActivity {
 
     private FitnessGoalController fitnessGoalController;
     private PreferenceManager preferenceManager;

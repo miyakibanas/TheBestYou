@@ -26,7 +26,7 @@ public class ChallengeAdapter extends RecyclerView.Adapter<ChallengeAdapter.Chal
 
     public ChallengeAdapter(Context context, List<Challenge> challengeList, OnChallengeClickListener listener) {
         this.context = context;
-        this.challengeList = challengeList;
+        this.challengeList = (challengeList != null) ? challengeList : new ArrayList<>();
         this.onChallengeClickListener = listener;
     }
 
@@ -41,16 +41,16 @@ public class ChallengeAdapter extends RecyclerView.Adapter<ChallengeAdapter.Chal
         Challenge challenge = challengeList.get(position);
         holder.bind(challenge);
 
-        if (challenge.isSelected()) {
-            holder.itemView.setBackgroundColor(ContextCompat.getColor(context, R.color.selected_item_background));
-        } else {
-            holder.itemView.setBackgroundColor(ContextCompat.getColor(context, R.color.normal_item_background));
-        }
+        updateItemBackground(holder, challenge.isSelected());
 
         holder.itemView.setOnClickListener(view -> {
             toggleItemSelection(position);
             onChallengeClickListener.onChallengeClick(challenge);
         });
+    }
+
+    private void updateItemBackground(ChallengeViewHolder holder, boolean isSelected) {
+        holder.itemView.setBackgroundColor(ContextCompat.getColor(context, isSelected ? R.color.selected_item_background : R.color.normal_item_background));
     }
 
     @Override

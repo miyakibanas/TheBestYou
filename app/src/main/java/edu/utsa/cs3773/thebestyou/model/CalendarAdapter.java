@@ -37,19 +37,13 @@ public class CalendarAdapter extends BaseAdapter {
     }
 
     private int getFirstDayOfWeekOfMonth(Calendar cal) {
-        // Get the first day of the week for the current month
         cal.set(Calendar.DAY_OF_MONTH, 1);
-        return cal.get(Calendar.DAY_OF_WEEK);
+        return cal.get(Calendar.DAY_OF_WEEK) - 1; // Adjust to make Sunday (0), Monday (1), etc.
     }
 
     @Override
     public int getCount() {
-        if (currentDayOfMonth + daysCount > daysInMonth) {
-            // If the challenge spans to the next month, adjust the count
-            return daysInMonth + firstDayOfWeekOfMonth - 1; // Add offset for the first day of the month
-        } else {
-            return daysCount + firstDayOfWeekOfMonth - 1; // Add offset for the first day of the month
-        }
+        return daysInMonth + firstDayOfWeekOfMonth - 1; // Show all days in month plus padding for start of the month
     }
 
     @Override
@@ -69,56 +63,41 @@ public class CalendarAdapter extends BaseAdapter {
         }
 
         TextView dayView = convertView.findViewById(R.id.dayTextView);
-        TextView challengeView = convertView.findViewById(R.id.challengeTextView);
 
-        int dayOfMonth;
-        if (currentDayOfMonth + position < 1) {
-            // If the current day plus position is before the start of the month, adjust day of month accordingly
-            dayOfMonth = currentDayOfMonth + position + daysInMonth - firstDayOfWeekOfMonth + 1;
-        } else if (currentDayOfMonth + position > daysInMonth) {
-            // If the current day plus position is after the end of the month, adjust day of month accordingly
-            dayOfMonth = currentDayOfMonth + position - daysInMonth - firstDayOfWeekOfMonth + 1;
+        int dayOfMonth = position - firstDayOfWeekOfMonth + 1;
+        if (dayOfMonth < 1 || dayOfMonth > daysInMonth) {
+            // Disable days not in the current month
+            convertView.setVisibility(View.INVISIBLE);
         } else {
-            // Otherwise, use the current day plus position as the day of month
-            dayOfMonth = currentDayOfMonth + position - firstDayOfWeekOfMonth + 1;
-        }
+            convertView.setVisibility(View.VISIBLE);
+            dayView.setText(String.valueOf(dayOfMonth));
 
-        dayView.setText(String.valueOf(dayOfMonth));
-
-        int dayIndex = position - (firstDayOfWeekOfMonth - 1); // Adjusted index for the current month
-        if (dayOfMonth == currentDayOfMonth) {
-            convertView.setBackgroundResource(R.drawable.date_today);
-        } else if (dayIndex >= 0 && dayIndex < completionStatusManager.getCompletionStatus().size()) {
-            if (completionStatusManager.getCompletionStatus().get(dayIndex)) {
-                convertView.setBackgroundResource(R.drawable.calendar_item_background_completed);
+            if (dayOfMonth == currentDayOfMonth) {
+                convertView.setBackgroundResource(R.drawable.date_today);
             } else {
                 convertView.setBackgroundResource(R.drawable.calendar_item_background);
             }
-        } else {
-            convertView.setBackgroundResource(R.drawable.calendar_item_background);
-        }
 
-        if (challenges != null && dayIndex >= 0 && dayIndex < challenges.size()) {
-            Challenge challenge = challenges.get(dayIndex);
-            challengeView.setText(challenge.getTitle());
-            challengeView.setVisibility(View.VISIBLE);
-        } else {
-            challengeView.setText("");
-            challengeView.setVisibility(View.GONE);
-        }
-
-        convertView.setOnClickListener(v -> {
-            if (dayIndex >= 0) {
-                completionStatusManager.updateCompletionStatus(dayIndex, true);
-                notifyDataSetChanged();
+            int dayIndex = dayOfMonth - 1; // Zero-based index for days
+            if (dayIndex < completionStatusManager.getCompletionStatus().size()) {
+                if (completionStatusManager.getCompletionStatus().get(dayIndex)) {
+                    convertView.setBackgroundResource(R.drawable.calendar_item_background_completed);
+                }
             }
-        });
+
+            convertView.setOnClickListener(v -> {
+                if (dayIndex >= 0) {
+                    completionStatusManager.updateCompletionStatus(dayIndex, true);
+                    notifyDataSetChanged();
+                }
+            });
+        }
 
         return convertView;
     }
 
     public void setCurrentDayOfMonth(int currentDayOfMonth) {
         this.currentDayOfMonth = currentDayOfMonth;
-        notifyDataSetChanged(); // Refresh adapter to update views
+        notifyDataSetChanged();
     }
 }

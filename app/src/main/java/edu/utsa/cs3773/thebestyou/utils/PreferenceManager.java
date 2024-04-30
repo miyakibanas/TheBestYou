@@ -2,7 +2,12 @@ package edu.utsa.cs3773.thebestyou.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.util.Log;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -10,6 +15,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import edu.utsa.cs3773.thebestyou.model.Challenge;
+import edu.utsa.cs3773.thebestyou.UserSessionManager;
 import edu.utsa.cs3773.thebestyou.model.UserPreferences;
 import edu.utsa.cs3773.thebestyou.model.UserProfile;
 
@@ -18,6 +24,7 @@ public class PreferenceManager {
     private final SharedPreferences sharedPreferences;
 
     public PreferenceManager(Context context) {
+        String userEmail = UserSessionManager.getUserEmail() != null ? UserSessionManager.getUserEmail() : "default";
         this.sharedPreferences = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);
     }
 
@@ -63,6 +70,47 @@ public class PreferenceManager {
         String level = sharedPreferences.getString("level", "Not Specified");
         return new UserProfile(name, age, gender, heightInches, weight, targetWeight, frequency, level);
     }
+
+    public void saveSelectedChallenges(List<Challenge> challenges) {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        Gson gson = new Gson();
+        String jsonChallenges = gson.toJson(challenges);
+        editor.putString("selected_challenges", jsonChallenges);
+        editor.apply();
+    }
+
+    public List<Challenge> loadSelectedChallenges() {
+        String jsonChallenges = sharedPreferences.getString("selected_challenges", null);
+        if (jsonChallenges != null) {
+            Gson gson = new Gson();
+            Type type = new TypeToken<List<Challenge>>(){}.getType();
+            return gson.fromJson(jsonChallenges, type);
+        }
+        return new ArrayList<>();
+    }
+
+    public void clearPreferences() {
+        Log.d("PreferenceManager", "Clearing all preferences.");
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.clear();
+        editor.apply();
+    }
+
+    public void clearUserPreferences() {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.remove("name");
+        editor.remove("age");
+        editor.remove("gender");
+        editor.remove("heightInches");
+        editor.remove("weight");
+        editor.remove("targetWeight");
+        editor.remove("frequency");
+        editor.remove("level");
+        editor.remove("fitness_goals");
+        editor.remove("selected_challenges");
+        editor.apply();
+    }
+
 
 }
 

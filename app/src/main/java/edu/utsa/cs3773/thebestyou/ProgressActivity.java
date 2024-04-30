@@ -26,7 +26,7 @@ import edu.utsa.cs3773.thebestyou.model.ChallengeNameAdapter;
 import edu.utsa.cs3773.thebestyou.model.UserPreferences;
 import edu.utsa.cs3773.thebestyou.utils.PreferenceManager;
 
-public class ProgressActivity extends AppCompatActivity {
+public class ProgressActivity extends BaseActivity {
 
     private GridView calendarGridView;
     private Challenge challenge;
@@ -47,6 +47,8 @@ public class ProgressActivity extends AppCompatActivity {
         completionStatusManager = getIntent().getParcelableExtra("CompletionStatusManager");
 
         preferenceManager = new PreferenceManager(this);
+        selectedChallenges = preferenceManager.loadSelectedChallenges();
+
         initializeCompletionStatusManager();
         setupCalendarGridView();
         setupSelectedChallengesRecyclerView();
@@ -112,7 +114,6 @@ public class ProgressActivity extends AppCompatActivity {
         LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         selectedChallengesRecyclerView.setLayoutManager(layoutManager);
 
-        selectedChallenges = getIntent().getParcelableArrayListExtra("selectedChallenges");
         Log.d("ProgressActivity", "Selected challenges: " + selectedChallenges);
 
         challengeNameAdapter = new ChallengeNameAdapter(selectedChallenges, this::onChallengeClicked);
@@ -157,15 +158,12 @@ public class ProgressActivity extends AppCompatActivity {
         calendarAdapter.notifyDataSetChanged();
 
         // Check for any updated challenges received from WorkoutActivity
-        List<Challenge> updatedChallenges = getIntent().getParcelableArrayListExtra("selectedChallenges");
-        if (updatedChallenges != null) {
-            // Log the updated challenges
-            Log.d("ProgressActivity", "Updated challenges: " + updatedChallenges);
-
-            // Update the adapter with the updated challenges
+        List<Challenge> updatedChallenges = preferenceManager.loadSelectedChallenges();
+        if (!updatedChallenges.equals(selectedChallenges)) {
+            selectedChallenges.clear();
+            selectedChallenges.addAll(updatedChallenges);
             challengeNameAdapter.updateChallenges(updatedChallenges);
             challengeNameAdapter.notifyDataSetChanged();
-            // Log the completion status of the updated challenges
             for (Challenge challenge : updatedChallenges) {
                 List<Boolean> completionStatus = challenge.getCompletionStatusManager().getCompletionStatus();
                 for (int i = 0; i < completionStatus.size(); i++) {

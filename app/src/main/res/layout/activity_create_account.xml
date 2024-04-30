@@ -19,39 +19,43 @@
         android:id="@+id/Email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/CreateNewAccount"
+        android:layout_margin="20dp"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        android:layout_below="@id/CreateNewAccount"
-        android:layout_margin="20dp"/>
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/Password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
-        android:inputType="textPassword"
         android:layout_below="@id/Email"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"/>
+        android:layout_marginRight="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/ReenterPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Reenter Password"
-        android:inputType="textPassword"
         android:layout_below="@id/Password"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"/>
+        android:layout_marginRight="20dp"
+        android:hint="Reenter Password"
+        android:inputType="textPassword"
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/PhoneNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/ReenterPassword"
+        android:layout_margin="20dp"
         android:hint="Phone number"
         android:inputType="phone"
-        android:layout_below="@id/ReenterPassword"
-        android:layout_margin="20dp"/>
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btnCreateAccount"
@@ -61,6 +65,7 @@
         android:layout_margin="20dp"
         android:backgroundTint="#092D5D"
         android:fontFamily="@font/gugi"
-        android:text="Create Account" />
+        android:text="Create Account"
+        android:textSize="20sp" />
 
 </RelativeLayout>

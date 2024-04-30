@@ -23,12 +23,12 @@ public class CreateAccountActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account);
 
+        accountController = TheBestYouApp.getAccountController();
+
         // Initialize UserPointsManager and RewardSystem
         // User earns points for creating an account
         userPointsManager = UserPointsManager.getInstance(this);
         rewardSystem = new RewardSystem(this, userPointsManager);
-
-        accountController = new AccountController();
 
         EditText Email = findViewById(R.id.Email);
         EditText Password = findViewById(R.id.Password);
@@ -39,19 +39,30 @@ public class CreateAccountActivity extends AppCompatActivity {
         btnCreateAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (accountController == null) {
+                    Toast.makeText(CreateAccountActivity.this, "Account creation service is unavailable. Please restart the app.", Toast.LENGTH_LONG).show();
+                    return; // Early exit if accountController is null
+                }
+
                 String email = Email.getText().toString().trim();
                 String password = Password.getText().toString().trim();
                 String reenteredPassword = ReenterPassword.getText().toString().trim();
                 String phoneNumber = PhoneNumber.getText().toString().trim();
 
-                if (!accountController.createAccount(email, password, reenteredPassword, phoneNumber)) {
-                    Toast.makeText(CreateAccountActivity.this, "Please enter all details correctly.", Toast.LENGTH_SHORT).show();
-                } else {
+                if (!password.equals(reenteredPassword)) {
+                    Toast.makeText(CreateAccountActivity.this, "Passwords do not match.", Toast.LENGTH_SHORT).show();
+                    return; // Stop further execution if passwords don't match
+                }
+
+                if (accountController.createAccount(email, password, reenteredPassword, phoneNumber)) {
+                    UserSessionManager.setUserEmail(email);
                     Toast.makeText(CreateAccountActivity.this, "Account created successfully!", Toast.LENGTH_SHORT).show();
                     addPointsForCreatingAccount();
 
                     Intent intent = new Intent(CreateAccountActivity.this, ProfileActivity.class);
                     startActivity(intent);
+                } else {
+                    Toast.makeText(CreateAccountActivity.this, "Please enter all details correctly.", Toast.LENGTH_SHORT).show();
                 }
             }
         });

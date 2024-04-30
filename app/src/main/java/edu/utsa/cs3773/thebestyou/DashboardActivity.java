@@ -3,6 +3,7 @@ package edu.utsa.cs3773.thebestyou;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Button;
 import android.widget.GridView;
 import android.widget.ImageView;
 
@@ -22,13 +23,17 @@ import edu.utsa.cs3773.thebestyou.model.Challenge;
 import edu.utsa.cs3773.thebestyou.model.ChallengeAdapter;
 import edu.utsa.cs3773.thebestyou.model.DashboardAdapter;
 import edu.utsa.cs3773.thebestyou.model.DashboardItem;
+import edu.utsa.cs3773.thebestyou.utils.PreferenceManager;
 
-public class DashboardActivity extends AppCompatActivity {
+public class DashboardActivity extends BaseActivity {
+    private PreferenceManager preferenceManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
+
+        preferenceManager = new PreferenceManager(this);
 
         GridView gridView = findViewById(R.id.gridViewDashboard);
         List<DashboardItem> items = getDashboardItems();
@@ -50,6 +55,11 @@ public class DashboardActivity extends AppCompatActivity {
         } else {
             Log.d("DashboardActivity", "No challenges selected.");
         }
+
+        Button btnLogout = findViewById(R.id.btnLogout);
+        btnLogout.setOnClickListener(v -> {
+            logoutUser();
+        });
     }
 
     private List<DashboardItem> getDashboardItems() {
@@ -89,7 +99,18 @@ public class DashboardActivity extends AppCompatActivity {
 
         } else if (title.equals("PROFILE")) {
             // Navigate to Profile Activity
+            Intent intent = new Intent(this, UserProfileSettingActivity.class);
+            intent.putExtra("isFromDashboard", true);
+            startActivity(intent);
         }
+    }
+    private void logoutUser() {
+        UserSessionManager.clearUserSession();
+
+        Intent intent = new Intent(DashboardActivity.this, MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
+        finish();
     }
 }
 

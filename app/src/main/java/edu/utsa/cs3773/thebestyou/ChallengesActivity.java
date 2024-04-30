@@ -23,7 +23,7 @@ import edu.utsa.cs3773.thebestyou.model.FitnessGoal;
 import edu.utsa.cs3773.thebestyou.model.UserPreferences;
 import edu.utsa.cs3773.thebestyou.utils.PreferenceManager;
 
-public class ChallengesActivity extends AppCompatActivity {
+public class ChallengesActivity extends BaseActivity {
     private ChallengeAdapter adapter;
     private RecyclerView recyclerView;
     private ChallengeGenerator challengeGenerator;
@@ -63,6 +63,7 @@ public class ChallengesActivity extends AppCompatActivity {
         if (selectedChallenges.isEmpty()) {
             Toast.makeText(this, "Please select at least one challenge.", Toast.LENGTH_SHORT).show();
         } else {
+            preferenceManager.saveSelectedChallenges(selectedChallenges);
             Intent intent = new Intent(ChallengesActivity.this, DashboardActivity.class);
             intent.putParcelableArrayListExtra("selectedChallenges", selectedChallenges);
 

@@ -9,7 +9,7 @@ import edu.utsa.cs3773.thebestyou.model.UserPointsManager;
 import edu.utsa.cs3773.thebestyou.model.RewardSystem;
 
 
-public class RewardsActivity extends AppCompatActivity {
+public class RewardsActivity extends BaseActivity {
 
     private UserPointsManager userPointsManager;
     private RewardSystem rewardSystem;

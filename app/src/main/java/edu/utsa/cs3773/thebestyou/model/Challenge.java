@@ -29,7 +29,8 @@ public class Challenge implements Parcelable {
         description = in.readString();
         imageResId = in.readString();
         isSelected = in.readByte() != 0;
-        startDate = LocalDate.ofEpochDay(in.readLong()); // Deserialize LocalDate from parcel
+        long epochDay = in.readLong();
+        startDate = epochDay != -1 ? LocalDate.ofEpochDay(epochDay) : LocalDate.now();  // Default to current day if -1
         completionStatusManager = in.readParcelable(ChallengeCompletionStatusManager.class.getClassLoader());
         numberOfDays = in.readInt(); // Read numberOfDays from Parcel
     }

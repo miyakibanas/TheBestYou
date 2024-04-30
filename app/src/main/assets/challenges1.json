@@ -11,131 +11,123 @@
               "workouts": [
                 {
                   "week": 1,
-                  "workouts": {
-                    "overall_duration": "20 minutes",
-                    "exercises": [
-                      {
-                        "name": "Jumping jacks",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "High knees",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "Burpees",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "Jump squats",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "Mountain climbers",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name":"Repeat",
+                  "overall_duration": "20 minutes",
+                  "exercises": [
+                    {
+                      "name": "Jumping jacks",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "High knees",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Burpees",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Jump squats",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Mountain climbers",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Repeat",
                       "duration": "4 times"
                     }
-                    ]
-                  }
+                  ]
                 },
                 {
                   "week": 2,
-                  "workouts": {
-                    "overall_duration": "25 minutes",
-                    "exercises": [
-                      {
-                        "name": "Jumping lunges",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "High knees with weights",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "Plyo push-ups",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "Sprint with resistance bands",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "Mountain climbers with sliders",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name":"Repeat",
+                  "overall_duration": "25 minutes",
+                  "exercises": [
+                    {
+                      "name": "Jumping lunges",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "High knees with weights",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Plyo push-ups",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Sprint with resistance bands",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Mountain climbers with sliders",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Repeat",
                       "duration": "5 times"
                     }
-                    ]
-                  }
+                  ]
                 },
                 {
                   "week": 3,
-                  "workouts": {
-                    "overall_duration": "30 minutes",
-                    "exercises": [
-                      {
-                        "name": "Jump rope",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "Tuck jumps",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "Plank jacks",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "Sprint intervals",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "Side-to-side jumps",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name":"Repeat",
+                  "overall_duration": "30 minutes",
+                  "exercises": [
+                    {
+                      "name": "Jump rope",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Tuck jumps",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Plank jacks",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Sprint intervals",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Side-to-side jumps",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Repeat",
                       "duration": "6 times"
                     }
-                    ]
-                  }
+                  ]
                 },
                 {
                   "week": 4,
-                  "workouts": {
-                    "overall_duration": "35 minutes",
-                    "exercises": [
-                      {
-                        "name": "Burpee tuck jumps",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "Jumping lunges with weights",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "Plyo lunges",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "Sprint with weighted vest",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "Mountain climbers with medicine ball",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name":"Repeat",
+                  "overall_duration": "35 minutes",
+                  "exercises": [
+                    {
+                      "name": "Burpee tuck jumps",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Jumping lunges with weights",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Plyo lunges",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Sprint with weighted vest",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Mountain climbers with medicine ball",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Repeat",
                       "duration": "7 times"
                     }
-                    ]
-                  }
+                  ]
                 }
               ]
             },
@@ -144,9 +136,8 @@
               "workouts": [
                 {
                   "week": 1,
-                  "workout": {
-                    "overall_duration": "25 minutes",
-                    "exercises": [
+                  "overall_duration": "25 minutes",
+                  "exercises": [
                       {
                         "name": "Jumping jacks",
                         "duration": "1 minute"
@@ -172,46 +163,41 @@
                       "duration": "5 times"
                     }
                     ]
-                  }
-                },
+                  },
                 {
                   "week": 2,
-                  "workouts": {
-                    "overall_duration": "30 minutes",
-                    "exercises": [
-                      {
-                        "name": "Jumping lunges",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "High knees with weights",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "Plyo push-ups",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "Sprint with resistance bands",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name": "Mountain climbers with sliders",
-                        "duration": "1 minute"
-                      },
-                      {
-                        "name":"Repeat",
+                  "overall_duration": "30 minutes",
+                  "exercises": [
+                    {
+                      "name": "Jumping lunges",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "High knees with weights",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Plyo push-ups",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Sprint with resistance bands",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Mountain climbers with sliders",
+                      "duration": "1 minute"
+                    },
+                    {
+                      "name": "Repeat",
                       "duration": "6 times"
                     }
-
-                    ]
-                  }
+                  ]
                 },
                 {
                   "week": 3,
-                  "workouts": {
-                    "overall_duration": "35 minutes",
-                    "exercises": [
+                  "overall_duration": "35 minutes",
+                  "exercises": [
                       {
                         "name": "Jump rope",
                         "duration": "1 minute"
@@ -240,14 +226,11 @@
                       "duration": "7 times"
                     }
                     ]
-                  }
-                },
+                  },
                 {
                   "week": 4,
-                  "workouts": {
-
-                    "overall_duration": "40 minutes",
-                    "exercises": [
+                  "overall_duration": "40 minutes",
+                  "exercises": [
                       {
                         "name": "Burpee tuck jumps",
                         "duration": "1 minute"
@@ -274,7 +257,6 @@
                     }
                     ]
                   }
-                }
               ]
             },
             {
@@ -282,9 +264,8 @@
               "workouts": [
                 {
                   "week": 1,
-                  "workouts": {
-                    "overall_duration": "30 minutes",
-                    "exercises": [
+                  "overall_duration": "30 minutes",
+                  "exercises": [
                       {
                         "name": "Jumping jacks",
                         "duration": "1 minute"
@@ -310,11 +291,9 @@
                       "duration": "6 times"
                     }
                     ]
-                  }
                 },
                 {
                   "week": 2,
-                  "workouts": {
                   "overall_duration": "35 minutes",
                   "exercises": [
                     {
@@ -344,13 +323,11 @@
                     "duration": "7 times"
                   }
                   ]
-                }
               },
                 {
                   "week": 3,
-                  "workouts": {
-                    "overall_duration": "40 minutes",
-                    "exercises": [
+                  "overall_duration": "40 minutes",
+                  "exercises": [
                       {
                         "name": "Jump rope",
                         "duration": "1 minute"
@@ -376,13 +353,11 @@
                       "duration": "8 times"
                     }
                     ]
-                  }
                 },
                 {
                   "week": 4,
-                  "workouts": {
-                    "overall_duration": "45 minutes",
-                    "exercises": [
+                  "overall_duration": "45 minutes",
+                  "exercises": [
                       {
                         "name": "Burpee tuck jumps",
                         "duration": "1 minute"
@@ -407,10 +382,8 @@
                         "name":"Repeat",
                       "duration": "9 times"
                     }
-
                     ]
                   }
-                }
               ]
             }
           ]
@@ -423,9 +396,8 @@
               "workouts": [
                 {
                   "week": 1,
-                  "workouts": {
-                    "overall_duration": "30 minutes",
-                    "exercises": [
+                  "overall_duration": "30 minutes",
+                  "exercises": [
                       {
                         "name": "Sprint",
                         "duration": "30 secs"
@@ -456,13 +428,11 @@
                       "duration": "6 times"
                     }
                     ]
-                  }
                 },
                 {
                   "week": 2,
-                  "workouts": {
-                    "overall_duration": "30 minutes",
-                    "exercises": [
+                  "overall_duration": "30 minutes",
+                  "exercises": [
                       {
                         "name": "Burpee tuck jumps",
                         "duration": "1 minute"
@@ -488,13 +458,11 @@
                       "duration": "6 times"
                     }
                     ]
-                  }
                 },
                 {
                   "week": 3,
-                  "workouts": {
-                    "overall_duration": "30 minutes",
-                    "exercises": [
+                  "overall_duration": "30 minutes",
+                  "exercises": [
                       {
                         "name": "Jump rope",
                         "duration": "1 minute"
@@ -520,13 +488,11 @@
                       "duration": "6 times"
                     }
                     ]
-                  }
                 },
                 {
                   "week": 4,
-                  "workouts":{
-                    "overall_duration": "30 minutes",
-                    "exercises": [
+                  "overall_duration": "30 minutes",
+                  "exercises": [
                       {
                         "name": "Burpee tuck jumps",
                         "duration": "1 minute"
@@ -553,7 +519,6 @@
                     }
                     ]
                   }
-                }
               ]
             },
             {
@@ -561,9 +526,8 @@
               "workouts": [
                 {
                   "week": 1,
-                  "workouts": {
-                    "overall_duration": "35 minutes",
-                    "exercises": [
+                  "overall_duration": "35 minutes",
+                  "exercises": [
                       {
                         "name": "Sprint",
                         "duration": "30 secs"
@@ -593,14 +557,11 @@
                       "duration": "7 times"
                     }
                     ]
-                  }
                 },
                 {
                   "week": 2,
-                  "workouts": {
-
-                    "overall_duration": "35 minutes",
-                    "exercises": [
+                  "overall_duration": "35 minutes",
+                  "exercises": [
                       {
                         "name": "Burpee tuck jumps",
                         "duration": "1 minute"
@@ -626,14 +587,11 @@
                       "duration": "7 times"
                     }
                     ]
-                  }
                 },
                 {
                   "week": 3,
-                  "workouts": {
-
-                    "overall_duration": "35 minutes",
-                    "exercises": [
+                  "overall_duration": "35 minutes",
+                  "exercises": [
                       {
                         "name": "Jump rope",
                         "duration": "1 minute"
@@ -659,15 +617,11 @@
                       "duration": "7 times"
                     }
                     ]
-                  }
                 },
                 {
                   "week": 4,
-                  "workouts": {
-
-
-                    "overall_duration":"35 minutes",
-                    "exercises": [
+                  "overall_duration": "35 minutes",
+                  "exercises": [
                       {
                         "name": "Burpee tuck jumps",
                         "duration": "1 minute"
@@ -694,7 +648,6 @@
                     }
                     ]
                   }
-                }
               ]
             },
             {
@@ -702,10 +655,8 @@
               "workouts": [
                 {
                   "week": 1,
-                  "workouts": {
-
-                    "overall_duration": "40 minutes",
-                    "exercises": [
+                  "overall_duration": "35 minutes",
+                  "exercises": [
                       {
                         "name": "Sprint",
                         "duration": "30 sec"
@@ -734,17 +685,12 @@
                         "name":"Repeat",
                       "duration": "8 times"
                     }
-
                     ]
-                  }
                 },
                 {
-                  "week": 2,
-                  "workouts": {
-
-
-                    "overall_duration":"40 minutes",
-                    "exercises": [
+                  "week": 4,
+                  "overall_duration": "40 minutes",
+                  "exercises": [
                       {
                         "name": "Burpee tuck jumps",
                         "duration": "1 minute"
@@ -770,13 +716,11 @@
                       "duration": "8 times"
                     }
                     ]
-                  }
                 },
                 {
                   "week": 3,
-                  "workouts": {
-                    "overall_duration": "40 minutes",
-                    "exercises": [
+                  "overall_duration": "40 minutes",
+                  "exercises": [
                       {
                         "name": "Jump rope",
                         "duration": "1 minute"
@@ -803,14 +747,11 @@
                     }
 
                     ]
-                  }
                 },
                 {
                   "week": 4,
-                  "workouts": {
-
-                    "overall_duration": "40 minutes",
-                    "exercises": [
+                  "overall_duration": "40 minutes",
+                  "exercises": [
                       {
                         "name": "Burpee tuck jumps",
                         "duration": "1 minute"
@@ -837,7 +778,6 @@
                     }
                     ]
                   }
-                }
               ]
             }
           ]
@@ -933,7 +873,6 @@
                 },
                 {
                   "week": 4,
-
                   "overall_duration": "10 minutes",
                   "exercises": [
                     {
@@ -2723,7 +2662,6 @@
 },
 {
 "week": 3,
-
 "overall_duration": "20-30 minutes",
 "exercises": [
 {
@@ -2807,7 +2745,6 @@
 },
 {
 "week": 2,
-
 "overall_duration": "25-35 minutes",
 "exercises": [
 {
@@ -2834,7 +2771,6 @@
 },
 {
 "week": 3,
-
 "overall_duration": "25-35 minutes",
 "exercises": [
 {
@@ -2861,7 +2797,6 @@
 },
 {
 "week": 4,
-
 "overall_duration": "25-35 minutes",
 "exercises": [
 {
@@ -2893,7 +2828,6 @@
 "workouts": [
 {
 "week": 1,
-
 "overall_duration": "40-50 minutes",
 "exercises": [
 {
@@ -2972,7 +2906,6 @@
 },
 {
 "week": 4,
-
 "overall_duration": "40-50 minutes",
 "exercises": [
 {
@@ -3035,7 +2968,6 @@
 },
 {
 "week": 2,
-
 "overall_duration": "25-35 minutes",
 "exercises": [
 {
@@ -3062,7 +2994,6 @@
 },
 {
 "week": 3,
-
 "overall_duration": "30-40 minutes",
 "exercises": [
 {
@@ -3089,7 +3020,6 @@
 },
 {
 "week": 4,
-
 "overall_duration": "35-45 minutes",
 "exercises": [
 {
@@ -4176,7 +4106,6 @@
 "workouts": [
 {
 "week": 1,
-
 "overall_duration": "30-40 minutes",
 "exercises": [
 {
@@ -4314,7 +4243,6 @@
 },
 {
 "week": 3,
-
 "overall_duration": "45-55 minutes",
 "exercises": [
 {
@@ -5187,9 +5115,8 @@
 "workouts": [
 {
 "week": 1,
-"description": "Introduction to progressive overload with basic exercises.",
 "overall_duration": "30-40 minutes",
-"movements": [
+"exercises": [
 {
 "name": "Dumbbell Squats",
 "duration": "2 sets of 10 reps"

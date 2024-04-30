@@ -35,7 +35,8 @@
         android:layout_marginBottom="20dp"
         android:backgroundTint="#092D5D"
         android:fontFamily="@font/gugi"
-        android:text="Create an account" />
+        android:text="Create an account"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/Login"
@@ -45,6 +46,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/gugi"
-        android:text="Already have an account? Log in" />
+        android:text="Already have an account? Log in"
+        android:clickable="true"
+        android:focusable="true"/>
 
 </RelativeLayout>

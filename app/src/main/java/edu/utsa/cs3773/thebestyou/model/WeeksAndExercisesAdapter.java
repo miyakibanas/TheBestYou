@@ -15,13 +15,18 @@ import edu.utsa.cs3773.thebestyou.R;
 import edu.utsa.cs3773.thebestyou.model.ChallengeDetail;
 
 public class WeeksAndExercisesAdapter extends RecyclerView.Adapter<WeeksAndExercisesAdapter.ViewHolder> {
+    private List<ChallengeDetail.Week> weeks;
+    private Context context;
+    private OnWeekClickListener listener;
 
-    private final List<ChallengeDetail.Week> weeks;
-    private final Context context;
+    public interface OnWeekClickListener {
+        void onWeekClicked(ChallengeDetail.Week week);
+    }
 
-    public WeeksAndExercisesAdapter(List<ChallengeDetail.Week> weeks, Context context) {
+    public WeeksAndExercisesAdapter(List<ChallengeDetail.Week> weeks, Context context, OnWeekClickListener listener) {
         this.weeks = weeks;
         this.context = context;
+        this.listener = listener;
     }
 
     @NonNull
@@ -33,16 +38,14 @@ public class WeeksAndExercisesAdapter extends RecyclerView.Adapter<WeeksAndExerc
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        if (weeks == null || weeks.isEmpty()) {
-            return;
-        }
-
         ChallengeDetail.Week week = weeks.get(position);
-        if (week == null) {
-            return;
-        }
-
         holder.weekNumberTextView.setText("Week " + week.getWeekNumber());
+
+        holder.itemView.setOnClickListener(v -> {
+            if (listener != null) {
+                listener.onWeekClicked(weeks.get(position));
+            }
+        });
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(context);
         holder.exercisesRecyclerView.setLayoutManager(layoutManager);
